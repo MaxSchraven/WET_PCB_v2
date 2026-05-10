@@ -539,6 +539,86 @@
 		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 116.84 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ad9938-3cfc-41b0-a1ef-2db970cc3611")
+		(property "Reference" "R30"
+			(at 116.84 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 116.84 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2cb4bd7-a06f-42ad-8073-59e82e0ee265")
+		)
+		(pin "1"
+			(uuid "c8f457b9-7d33-4569-876f-62228e6bb425")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 92.71 58.42 0)
 		(unit 1)
@@ -622,7 +702,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 77.47 90)
+		(at 116.84 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -631,9 +711,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "392fb08c-67c2-4536-8eaa-032c95845702")
+		(uuid "630119c3-90d7-4ed3-a848-fcdb7fcb360f")
 		(property "Reference" "R29"
-			(at 101.6 71.12 90)
+			(at 116.84 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -643,7 +723,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 101.6 73.66 90)
+			(at 116.84 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -653,7 +733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 79.248 90)
+			(at 116.84 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -664,7 +744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 77.47 0)
+			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -675,7 +755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 77.47 0)
+			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -686,10 +766,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "db8fa8c4-554e-42d5-88ff-9d4721446fc4")
+			(uuid "abd45c92-66db-4c78-9774-ea0fa9a5e811")
 		)
 		(pin "1"
-			(uuid "e1954c96-c6e0-4a38-a142-fe4f3ea870a8")
+			(uuid "292889a6-78be-47a5-9eff-5c50191d3055")
 		)
 		(instances
 			(project "WET_PCB_v2"
@@ -884,7 +964,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 108.7708 92.5442 0)
+		(at 109.22 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -895,7 +975,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8c5c674-5d09-41bb-b164-cf29cf3c3222")
 		(property "Reference" "D21"
-			(at 107.1833 86.1942 0)
+			(at 107.6325 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -905,7 +985,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.1833 88.7342 0)
+			(at 107.6325 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -915,7 +995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.7708 92.5442 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -926,7 +1006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.7708 92.5442 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -937,7 +1017,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 108.7708 92.5442 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -948,7 +1028,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 108.7708 92.5442 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

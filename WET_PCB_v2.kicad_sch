@@ -7687,6 +7687,7 @@
 		)
 		(property "Sheetfile" "currsense_DCDC.kicad_sch"
 			(at 99.06 61.5446 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8001,6 +8002,7 @@
 		)
 		(property "Sheetfile" "decoration.kicad_sch"
 			(at 13.97 117.4246 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

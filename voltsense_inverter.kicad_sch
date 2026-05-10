@@ -1371,7 +1371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 118.11 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1719,7 +1719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)

@@ -957,16 +957,10 @@
 		(uuid "51bfd055-f805-4530-be78-b322c48c9e39")
 	)
 	(junction
-		(at 170.18 25.4)
+		(at 137.16 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5330b78a-dd2d-4e4b-aa63-31415f5b76c9")
-	)
-	(junction
-		(at 86.36 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cf0469f-be8c-47f0-931a-fe06bc1f4a96")
 	)
 	(junction
 		(at 52.07 50.8)
@@ -985,6 +979,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5f4b5a-9b2a-4d42-8f33-6ed6b69ab8fe")
+	)
+	(junction
+		(at 86.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72c7944-a141-4cd2-8149-356f07cfff64")
 	)
 	(junction
 		(at 86.36 25.4)
@@ -1034,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 25.4) (xy 173.99 25.4)
+			(xy 137.16 25.4) (xy 140.97 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1064,23 +1064,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 137.16 38.1)
+			(xy 110.49 38.1) (xy 114.3 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "283a607e-7b8a-4d74-a2f5-c88d984fce3a")
-	)
-	(wire
-		(pts
-			(xy 86.36 50.8) (xy 170.18 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2959ed87-ba9d-476d-8a37-34ea797f645f")
 	)
 	(wire
 		(pts
@@ -1114,16 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 25.4) (xy 170.18 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697a6be3-68db-4bbc-b6f8-f5fee29a169a")
-	)
-	(wire
-		(pts
 			(xy 35.56 50.8) (xy 49.53 50.8)
 		)
 		(stroke
@@ -1154,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 25.4) (xy 170.18 34.29)
+			(xy 137.16 25.4) (xy 137.16 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 137.16 43.18)
+			(xy 110.49 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 41.91) (xy 170.18 50.8)
+			(xy 137.16 41.91) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1294,13 +1274,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 35.56) (xy 125.73 35.56)
+			(xy 137.16 50.8) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed010e0e-faa0-4428-b3bd-0d2f0be0807e")
+		(uuid "ed9f39fe-25c1-4362-817f-515755f957bc")
 	)
 	(wire
 		(pts
@@ -1314,13 +1294,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 40.64) (xy 137.16 40.64)
+			(xy 110.49 40.64) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2dad19a-62b0-4bd1-a991-350ea72d056a")
+	)
+	(wire
+		(pts
+			(xy 119.38 25.4) (xy 137.16 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e7e3a7-0e86-4aa3-a3ad-0fe914dd7166")
 	)
 	(hierarchical_label "Vin_DCDC_shunt_input_side"
 		(shape output)
@@ -1333,20 +1323,9 @@
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
 	)
-	(hierarchical_label "VCC_Driver"
-		(shape passive)
-		(at 137.16 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
-	)
 	(hierarchical_label "CDC_Driver_Lin"
 		(shape output)
-		(at 137.16 40.64 0)
+		(at 114.3 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,7 +1347,7 @@
 	)
 	(hierarchical_label "DCDC_Driver_Hin"
 		(shape output)
-		(at 137.16 43.18 0)
+		(at 114.3 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1379,7 +1358,7 @@
 	)
 	(hierarchical_label "VoutDCDC"
 		(shape input)
-		(at 173.99 25.4 0)
+		(at 140.97 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1390,7 +1369,7 @@
 	)
 	(hierarchical_label "DCDC_Driver_SD"
 		(shape output)
-		(at 137.16 38.1 0)
+		(at 114.3 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1401,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 170.18 38.1 0)
+		(at 137.16 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1412,7 +1391,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa919b5-17ad-48a8-958d-74ddf42b9a8b")
 		(property "Reference" "C12"
-			(at 173.99 35.9409 0)
+			(at 140.97 35.9409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1423,7 +1402,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 173.99 38.4809 0)
+			(at 140.97 38.4809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1434,7 +1413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.1452 41.91 0)
+			(at 138.1252 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1445,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 38.1 0)
+			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,7 +1435,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 170.18 38.1 0)
+			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,7 +2028,7 @@
 	)
 	(sheet
 		(at 97.79 34.29)
-		(size 27.94 12.7)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2095,7 +2074,7 @@
 			)
 		)
 		(pin "Hin" input
-			(at 125.73 43.18 0)
+			(at 110.49 43.18 0)
 			(uuid "4e0f7804-922f-4493-b913-21fd13b02f21")
 			(effects
 				(font
@@ -2105,7 +2084,7 @@
 			)
 		)
 		(pin "Lin" input
-			(at 125.73 40.64 0)
+			(at 110.49 40.64 0)
 			(uuid "c33d1abd-23e8-44ec-99a9-551a85147ed0")
 			(effects
 				(font
@@ -2115,7 +2094,7 @@
 			)
 		)
 		(pin "SD" input
-			(at 125.73 38.1 0)
+			(at 110.49 38.1 0)
 			(uuid "c023d659-43af-4a89-b779-9883fb505291")
 			(effects
 				(font
@@ -2137,26 +2116,6 @@
 		(pin "Q2_gate" output
 			(at 104.14 34.29 90)
 			(uuid "bd93fc9d-c51c-40b7-8e93-6161d6ab80b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC_Driver" input
-			(at 125.73 35.56 0)
-			(uuid "fc2ca620-6d27-424e-a3f7-dded0a470c4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_Driver" input
-			(at 125.73 45.72 0)
-			(uuid "3e6f5635-6a1b-43ce-871b-4667b4a7ca5d")
 			(effects
 				(font
 					(size 1.27 1.27)

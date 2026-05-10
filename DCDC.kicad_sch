@@ -1194,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 85.09 25.4)
+			(xy 86.36 25.4) (xy 73.66 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1251,16 +1251,6 @@
 			(type default)
 		)
 		(uuid "b8c29643-2c68-40c3-bab1-bc29a33101ff")
-	)
-	(wire
-		(pts
-			(xy 85.09 25.4) (xy 85.09 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c397fd36-e9cc-43ac-bd10-6095bfde3aa5")
 	)
 	(wire
 		(pts
@@ -1337,7 +1327,7 @@
 	)
 	(hierarchical_label "Vin_DCDC_shunt_output_side"
 		(shape input)
-		(at 85.09 22.86 90)
+		(at 73.66 25.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)

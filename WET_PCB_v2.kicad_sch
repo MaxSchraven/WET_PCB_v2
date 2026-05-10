@@ -63,6 +63,36 @@
 				(justify right)
 			)
 		)
+		(pin "DCDC_Driver_Hin" output
+			(at 58.42 83.82 270)
+			(uuid "9ffe3add-926f-4a57-b5d5-9a544383a67a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DCDC_Driver_Lin" output
+			(at 60.96 83.82 270)
+			(uuid "eed3a793-5b6d-47ac-a99a-a2ab341cd77b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DCDC_Driver_SD" output
+			(at 63.5 83.82 270)
+			(uuid "36195b3a-92ff-4f68-99fd-c766ce8ec848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

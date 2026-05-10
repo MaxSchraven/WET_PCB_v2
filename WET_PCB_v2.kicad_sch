@@ -5413,7 +5413,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8d6d31d-cefb-428c-b475-ff49ca5d49d4")
 		(property "Reference" "#PWR026"
 			(at 127 87.63 0)
@@ -5427,7 +5426,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 127 78.74 0)
+			(at 123.952 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6390,7 +6389,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.206 87.376 0)
+			(at 123.444 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

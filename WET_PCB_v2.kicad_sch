@@ -170,7 +170,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" output
-			(at 44.45 85.09 90)
+			(at 38.1 85.09 90)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font

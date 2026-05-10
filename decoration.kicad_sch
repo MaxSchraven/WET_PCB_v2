@@ -540,7 +540,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 88.9 90)
+		(at 116.84 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -551,7 +551,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ad9938-3cfc-41b0-a1ef-2db970cc3611")
 		(property "Reference" "R30"
-			(at 116.84 82.55 90)
+			(at 116.84 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 116.84 85.09 90)
+			(at 116.84 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -571,7 +571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 90.678 90)
+			(at 116.84 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -582,7 +582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 88.9 0)
+			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -593,7 +593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 88.9 0)
+			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1048,6 +1048,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e39aa48d-09ef-424a-a75b-c4b9314c1703")
+		(property "Reference" "R31"
+			(at 116.84 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 116.84 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59e5447e-a580-4d04-a4d7-f453e40bcce3")
+		)
+		(pin "1"
+			(uuid "0340acd6-8b00-414d-8105-3eefa87c289c")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
+					(reference "R31")
 					(unit 1)
 				)
 			)

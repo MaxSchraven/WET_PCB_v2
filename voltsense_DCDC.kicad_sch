@@ -1440,16 +1440,6 @@
 		)
 		(uuid "f9b80b59-0314-4722-9c6b-4ad8277d808f")
 	)
-	(wire
-		(pts
-			(xy 76.2 20.32) (xy 73.66 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde1af37-d331-4192-a6c9-12211e5b69b6")
-	)
 	(label "VDD_OPAMP"
 		(at 128.27 38.1 0)
 		(effects
@@ -1459,27 +1449,6 @@
 			(justify left bottom)
 		)
 		(uuid "226bff90-1381-4b0d-a8e2-74c0cfa24719")
-	)
-	(label "VDD_OPAMP"
-		(at 73.66 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89e327a4-0f3d-414e-9cd3-c7b8952df096")
-	)
-	(hierarchical_label "VDD_OPAMP"
-		(shape output)
-		(at 76.2 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "424ff060-d492-4914-9bdd-acbc07dfba9e")
 	)
 	(hierarchical_label "Vsense_ADC"
 		(shape output)

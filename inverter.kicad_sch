@@ -2855,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 64.77) (xy 257.81 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42610592-6a18-4766-af70-a551e53c67c5")
-	)
-	(wire
-		(pts
 			(xy 44.45 72.39) (xy 44.45 74.93)
 		)
 		(stroke
@@ -3005,16 +2995,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 59.69) (xy 257.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca53688-7a64-4ce1-93f9-b750a418ed7d")
-	)
-	(wire
-		(pts
 			(xy 242.57 64.77) (xy 238.76 64.77)
 		)
 		(stroke
@@ -3032,16 +3012,6 @@
 			(type default)
 		)
 		(uuid "5fbcd064-8bef-4007-a8a9-e7846a9ced44")
-	)
-	(wire
-		(pts
-			(xy 262.89 62.23) (xy 257.81 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6636d0ac-b863-4217-aff5-7543d0c049cd")
 	)
 	(wire
 		(pts
@@ -3805,6 +3775,17 @@
 			(justify right)
 		)
 		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
+	)
+	(hierarchical_label "Inv_Driver_Left_Hin"
+		(shape input)
+		(at 256.54 59.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ab3c9d0-8e5a-466f-966f-e7b0a03b5ff4")
 	)
 	(hierarchical_label "Inv_Driver_Left_SD"
 		(shape input)

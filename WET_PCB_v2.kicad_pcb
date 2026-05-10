@@ -3134,7 +3134,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "271c11bf-3150-4389-881d-ddaf1c92ba37")
-		(at 183.19 87.88)
+		(at 186.88 87.88)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
@@ -3339,7 +3339,7 @@
 			)
 		)
 		(point
-			(at 187 95.5)
+			(at 190.69 95.5)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "dcfa1792-bc42-480a-ab46-4b4fbee54a3f")
@@ -4304,7 +4304,7 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "2d342a03-929d-4fc5-b931-1bd9ecca4a8f")
-		(at 177 110 -90)
+		(at 183 98.5 -90)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C15"
@@ -5027,11 +5027,11 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "33a9d013-7dc9-4222-b908-4dbcc2a9c3f2")
-		(at 217 103.5 180)
+		(at 222 104 180)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C12"
-			(at 2.5 -7.5 0)
+			(at -3 -7.5 0)
 			(layer "F.SilkS")
 			(uuid "195755da-7550-40b8-8184-e84a75cad929")
 			(effects
@@ -5132,7 +5132,7 @@
 			(uuid "63e4d119-f579-473c-b196-a901dfde5933")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 0)
+			(at -3 0 0)
 			(layer "F.Fab")
 			(uuid "3c22e127-8dca-4581-a1ff-fe6e8d7027ce")
 			(effects
@@ -14002,7 +14002,7 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "738c79b7-2f0e-4fb6-a634-82256a6ac395")
-		(at 196.5 104)
+		(at 202 104)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C11"

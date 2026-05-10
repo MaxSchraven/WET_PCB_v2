@@ -1796,10 +1796,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c7c715a-6590-4820-a81f-77e78f6f3dd9")
 		(property "Reference" "J2"
-			(at 46.99 19.0499 90)
+			(at 43.18 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1810,7 +1809,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 46.99 21.5899 90)
+			(at 41.656 16.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

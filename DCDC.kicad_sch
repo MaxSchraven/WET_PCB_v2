@@ -2123,6 +2123,16 @@
 				(justify right)
 			)
 		)
+		(pin "VCC_Driver" input
+			(at 110.49 35.56 0)
+			(uuid "fc2ca620-6d27-424e-a3f7-dded0a470c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"

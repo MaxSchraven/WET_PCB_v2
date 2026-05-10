@@ -94,7 +94,7 @@
 			)
 		)
 		(pin "VCC_Driver_DCDC" passive
-			(at 54.61 43.18 270)
+			(at 23.5585 43.18 270)
 			(uuid "095b3bc5-1cd9-4fe0-97cc-958f047f2c5f")
 			(effects
 				(font

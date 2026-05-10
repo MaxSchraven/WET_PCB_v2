@@ -189,6 +189,16 @@
 				(justify right)
 			)
 		)
+		(pin "Vsense_in" input
+			(at 16.51 107.95 180)
+			(uuid "ace09617-4cc6-4766-8356-7b8484ad133a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

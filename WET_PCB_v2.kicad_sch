@@ -363,6 +363,82 @@
 			)
 		)
 	)
+	(sheet
+		(at 20.32 107.95)
+		(size 38.1 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
+		(property "Sheetname" "voltsense_inverter1"
+			(at 20.32 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltsense_inverter.kicad_sch"
+			(at 20.32 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_OPAMP" input
+			(at 20.32 118.11 180)
+			(uuid "eda746ac-a594-40a9-baf0-dc3cdfca87c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vsense_ADC" output
+			(at 58.42 116.84 0)
+			(uuid "14b3b0e0-8b7b-4dbb-978a-08e5612be825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vsense_in" input
+			(at 20.32 115.57 180)
+			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

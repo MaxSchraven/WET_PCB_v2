@@ -326,7 +326,7 @@
 			)
 		)
 		(pin "Vin_Inverter" input
-			(at 20.32 55.88 180)
+			(at 20.32 52.07 180)
 			(uuid "3b9601ae-9ad0-400f-91c1-3d38ac01bf78")
 			(effects
 				(font

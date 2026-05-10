@@ -169,7 +169,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VDD_OPAMP" output
+		(pin "VDD_OPAMP" input
 			(at 20.32 95.25 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects

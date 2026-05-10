@@ -1086,7 +1086,7 @@
 		(uuid "89e327a4-0f3d-414e-9cd3-c7b8952df096")
 	)
 	(hierarchical_label "VDD_OPAMP"
-		(shape output)
+		(shape input)
 		(at 76.2 20.32 0)
 		(effects
 			(font

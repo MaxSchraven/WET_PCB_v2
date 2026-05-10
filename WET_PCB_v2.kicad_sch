@@ -104,7 +104,7 @@
 			)
 		)
 		(pin "Vin_DCDC+" input
-			(at 20.32 48.26 180)
+			(at 20.32 57.15 180)
 			(uuid "dd12f53c-6a44-404d-9c33-82f8d35dcbd9")
 			(effects
 				(font

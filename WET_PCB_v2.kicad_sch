@@ -2738,6 +2738,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 31.75) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3f67e2-ec80-4471-8398-e02f1213a390")
+	)
+	(wire
+		(pts
+			(xy 156.21 31.75) (xy 156.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f6107c-2898-4b99-94c7-1fe7255b6477")
+	)
+	(wire
+		(pts
 			(xy 383.54 68.58) (xy 393.7 68.58)
 		)
 		(stroke
@@ -2765,16 +2785,6 @@
 			(type default)
 		)
 		(uuid "e7ff4b3b-7492-4099-97f4-95157572cf1e")
-	)
-	(wire
-		(pts
-			(xy 156.21 30.48) (xy 162.56 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e941b59e-76c0-4187-a9dc-ef50c3e8a022")
 	)
 	(wire
 		(pts
@@ -5350,7 +5360,7 @@
 			)
 		)
 		(pin "VCC_Driver_Inverter" input
-			(at 162.56 30.48 180)
+			(at 162.56 31.75 180)
 			(uuid "d4949e3e-61bf-4226-a3fb-dfa4a4fefe44")
 			(effects
 				(font
@@ -5360,7 +5370,7 @@
 			)
 		)
 		(pin "VDD_Driver_Inverter" input
-			(at 162.56 33.02 180)
+			(at 162.56 34.29 180)
 			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
 			(effects
 				(font

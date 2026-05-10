@@ -927,7 +927,7 @@
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
 	)
-	(hierarchical_label "VCC_Driver"
+	(hierarchical_label "VCC_Driver_DCDC"
 		(shape passive)
 		(at 142.24 53.34 0)
 		(effects

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d73056ca-4804-4f5c-a509-adf26a619004")
+	(uuid "6ab0f818-079c-4e13-86e4-f43fc0d4cbeb")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"

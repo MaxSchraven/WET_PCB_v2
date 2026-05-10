@@ -326,8 +326,18 @@
 			)
 		)
 		(pin "Vout_Inverter_+" output
-			(at 76.2 87.63 0)
+			(at 76.2 85.09 0)
 			(uuid "3c8459f3-1a04-483f-a21f-9379766357a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout_Inverter_-" output
+			(at 76.2 90.17 0)
+			(uuid "85b5dd43-2acf-439d-95eb-8a25d6b2144b")
 			(effects
 				(font
 					(size 1.27 1.27)

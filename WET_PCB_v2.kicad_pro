@@ -647,6 +647,14 @@
     [
       "419c9796-b7e1-43c1-b033-dc2479750a67",
       "voltsense_inverter"
+    ],
+    [
+      "04007180-46fe-4cf0-9e6f-a7d321798318",
+      "DCDC"
+    ],
+    [
+      "ed463157-80b7-4a9f-82d4-4d12eed2bec3",
+      "Gatedriver"
     ]
   ],
   "text_variables": {},

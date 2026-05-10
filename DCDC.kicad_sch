@@ -994,16 +994,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 104.14 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a04053-4de1-4b4a-ae6c-593d4f01c0d2")
-	)
-	(wire
-		(pts
 			(xy 52.07 50.8) (xy 86.36 50.8)
 		)
 		(stroke
@@ -1134,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 34.29) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d1983a-5dac-4a79-9b65-2df0cb21297c")
+	)
+	(wire
+		(pts
 			(xy 137.16 25.4) (xy 137.16 34.29)
 		)
 		(stroke
@@ -1161,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "87095e4a-9772-484c-a4a8-5d3899baa481")
-	)
-	(wire
-		(pts
-			(xy 114.3 33.02) (xy 104.14 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0a4335-7c10-4db9-a4eb-2d7802d3be3c")
 	)
 	(wire
 		(pts
@@ -1254,6 +1244,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 34.29) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3091dfb-194f-4231-b568-be56bd17cc5d")
+	)
+	(wire
+		(pts
 			(xy 97.79 45.72) (xy 93.98 45.72)
 		)
 		(stroke
@@ -1312,6 +1312,36 @@
 		)
 		(uuid "f8e7e3a7-0e86-4aa3-a3ad-0fe914dd7166")
 	)
+	(label "Off"
+		(at 114.3 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b4ec36d-c3c5-41e9-9f88-29102d8c42d3")
+	)
+	(label "Hin"
+		(at 114.3 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5672c767-423a-48c4-863e-d44a32ff1be1")
+	)
+	(label "Lin"
+		(at 114.3 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcba1080-7c4b-492b-b4b5-1fe5271d3097")
+	)
 	(hierarchical_label "Vin_DCDC_shunt_input_side"
 		(shape output)
 		(at 58.42 27.94 0)
@@ -1322,17 +1352,6 @@
 			(justify left)
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
-	)
-	(hierarchical_label "CDC_Driver_Lin"
-		(shape output)
-		(at 114.3 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75ed4b46-76f5-4020-8ea3-2c8e5cb13544")
 	)
 	(hierarchical_label "Vin_DCDC_shunt_output_side"
 		(shape input)
@@ -1345,17 +1364,6 @@
 		)
 		(uuid "8282836f-595e-49ee-885c-71b3e1111de3")
 	)
-	(hierarchical_label "DCDC_Driver_Hin"
-		(shape output)
-		(at 114.3 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a445b6e0-166d-4d3c-9e40-b22301df9f9f")
-	)
 	(hierarchical_label "VoutDCDC"
 		(shape input)
 		(at 140.97 25.4 0)
@@ -1366,17 +1374,6 @@
 			(justify left)
 		)
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
-	)
-	(hierarchical_label "DCDC_Driver_SD"
-		(shape output)
-		(at 114.3 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5329385-9bc8-4444-a2c0-c86f76b6076f")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -2033,6 +2030,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2042,7 +2040,7 @@
 		)
 		(uuid "ed463157-80b7-4a9f-82d4-4d12eed2bec3")
 		(property "Sheetname" "Gatedriver"
-			(at 97.282 43.942 90)
+			(at 97.79 33.5784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

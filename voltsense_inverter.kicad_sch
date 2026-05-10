@@ -1096,6 +1096,17 @@
 		)
 		(uuid "424ff060-d492-4914-9bdd-acbc07dfba9e")
 	)
+	(hierarchical_label "Vsense_ADC"
+		(shape output)
+		(at 133.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ae42fd9-c9f7-44be-b783-4b4d96964af0")
+	)
 	(hierarchical_label "Vsense_in"
 		(shape input)
 		(at 53.34 30.48 0)

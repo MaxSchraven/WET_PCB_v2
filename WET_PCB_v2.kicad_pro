@@ -725,6 +725,10 @@
     [
       "6ecc05b2-84d4-404f-84e6-8cc19742ad68",
       "currsense_DCDC1"
+    ],
+    [
+      "79e5e86e-dc26-4d0b-a087-2027a5880c08",
+      "decoration"
     ]
   ],
   "text_variables": {},

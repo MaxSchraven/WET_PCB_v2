@@ -18,7 +18,7 @@
 	)
 	(hierarchical_label "Vout_5V"
 		(shape output)
-		(at 63.5 25.4 0)
+		(at 72.39 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)

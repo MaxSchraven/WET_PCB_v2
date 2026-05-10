@@ -3737,7 +3737,17 @@
 		)
 		(uuid "ff386817-1c21-4963-adc1-ac318f4564f9")
 	)
-	(label "GPIO_A11"
+	(label "TIM1_CH4"
+		(at 168.91 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "019959bc-40a1-4b96-a3ea-31f76e7dedd8")
+	)
+	(label "TIM1_CH4"
 		(at 307.34 81.28 180)
 		(effects
 			(font
@@ -3866,16 +3876,6 @@
 			(justify right bottom)
 		)
 		(uuid "c02cb178-5a32-47ad-a7f4-45f7fde6eb1b")
-	)
-	(label "TIM1_CH1"
-		(at 166.37 50.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c30791d5-c763-4937-a547-9c365cecdbd6")
 	)
 	(label "TIM17_CH1"
 		(at 377.19 83.82 0)

@@ -777,16 +777,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 40.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86415f59-1480-449e-aa2c-5e1e8e6251d1")
-	)
-	(wire
-		(pts
 			(xy 50.8 43.18) (xy 54.61 43.18)
 		)
 		(stroke
@@ -847,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 46.99 43.18)
+			(xy 40.64 43.18) (xy 44.45 43.18)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +974,7 @@
 	)
 	(hierarchical_label "Vin_DCDC_coil_input_side"
 		(shape output)
-		(at 46.99 43.18 90)
+		(at 44.45 43.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,7 +985,7 @@
 	)
 	(hierarchical_label "Vin_DCDC+"
 		(shape input)
-		(at 40.64 50.8 180)
+		(at 40.64 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -275,6 +275,26 @@
 				(justify left)
 			)
 		)
+		(pin "Inv_Driver_Right_Lin" input
+			(at 55.88 109.22 270)
+			(uuid "ce42ce2c-ccd4-430a-a9cd-cb9cf91e4693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Inv_Driver_Right_SD" input
+			(at 58.42 109.22 270)
+			(uuid "7dcc417e-f2a1-42d8-bb11-2514cac7b4ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

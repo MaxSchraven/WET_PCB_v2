@@ -113,6 +113,26 @@
 				(justify left)
 			)
 		)
+		(pin "Vin_DCDC_shunt_input_side" output
+			(at 74.93 43.18 90)
+			(uuid "3d0ab76f-96dd-4605-b1f0-b41bd5e82724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC_shunt_output_side" input
+			(at 80.01 43.18 90)
+			(uuid "7bdbca7e-2b16-47fd-922e-35b0c4b22b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

@@ -5407,6 +5407,52 @@
 		)
 	)
 	(sheet
+		(at 33.02 55.88)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7293ed87-9a5c-4e01-a7da-6a6e465a8771")
+		(property "Sheetname" "12V_to5V"
+			(at 33.02 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12v5V.kicad_sch"
+			(at 33.02 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 162.56 25.4)
 		(size 38.1 30.48)
 		(exclude_from_sim no)

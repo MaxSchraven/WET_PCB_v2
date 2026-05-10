@@ -664,22 +664,12 @@
 		(uuid "a8271f3a-f36a-46cd-ae8b-102cad43b558")
 	)
 	(no_connect
-		(at 87.63 60.96)
+		(at 104.14 66.04)
 		(uuid "a63ef750-8cd6-4122-9411-6a91358b737b")
 	)
 	(no_connect
-		(at 87.63 58.42)
+		(at 104.14 63.5)
 		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
-	)
-	(wire
-		(pts
-			(xy 107.95 77.47) (xy 107.95 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a766472-2192-4a0e-9b17-c903e69f55ba")
 	)
 	(wire
 		(pts
@@ -743,7 +733,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 105.41 87.63)
+			(xy 105.41 77.47) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +743,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 105.41 78.74)
+			(xy 107.95 77.47) (xy 105.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +833,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 92.71 58.42 0)
+		(at 109.22 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -854,7 +844,7 @@
 		(fields_autoplaced yes)
 		(uuid "29046909-95f8-4f0e-b0b4-f88402ebca64")
 		(property "Reference" "J12"
-			(at 93.98 58.4199 0)
+			(at 110.49 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -865,7 +855,7 @@
 			)
 		)
 		(property "Value" "Fuse holder or smth to hold tube"
-			(at 93.98 60.9599 0)
+			(at 110.49 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -876,7 +866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 58.42 0)
+			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -887,7 +877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 58.42 0)
+			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -898,7 +888,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 92.71 58.42 0)
+			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

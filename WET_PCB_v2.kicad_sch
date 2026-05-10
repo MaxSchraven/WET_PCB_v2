@@ -6892,18 +6892,8 @@
 			)
 		)
 		(pin "currsense_ADC" output
-			(at 88.9 40.64 180)
+			(at 127 48.26 0)
 			(uuid "b316dd09-2414-4be4-a74d-9d80777406fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Shunt_from_source" input
-			(at 113.03 34.29 90)
-			(uuid "53049973-aa7b-4eae-bad0-6287628ba096")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,8 +6901,18 @@
 				(justify right)
 			)
 		)
+		(pin "Shunt_from_source" input
+			(at 102.87 54.61 270)
+			(uuid "53049973-aa7b-4eae-bad0-6287628ba096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "Shunt_to_load" input
-			(at 107.95 34.29 90)
+			(at 111.76 34.29 90)
 			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
 			(effects
 				(font
@@ -6922,13 +6922,13 @@
 			)
 		)
 		(pin "VDD_OPAMP" output
-			(at 127 39.37 0)
+			(at 88.9 49.53 180)
 			(uuid "7f9ad886-e1b9-412f-b5e6-02a50fb15426")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

@@ -198,8 +198,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 67.31)
-		(size 59.69 41.91)
+		(at 16.51 81.28)
+		(size 59.69 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -214,7 +214,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 16.51 66.5984 0)
+			(at 16.51 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -336,7 +336,7 @@
 			)
 		)
 		(pin "Vout_Inverter_-" output
-			(at 76.2 90.17 0)
+			(at 76.2 87.63 0)
 			(uuid "85b5dd43-2acf-439d-95eb-8a25d6b2144b")
 			(effects
 				(font

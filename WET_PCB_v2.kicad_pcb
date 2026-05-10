@@ -3134,7 +3134,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "271c11bf-3150-4389-881d-ddaf1c92ba37")
-		(at 189 102.92)
+		(at 183.19 87.88)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
@@ -3339,7 +3339,7 @@
 			)
 		)
 		(point
-			(at 192.81 110.54)
+			(at 187 95.5)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "dcfa1792-bc42-480a-ab46-4b4fbee54a3f")
@@ -5027,7 +5027,7 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "33a9d013-7dc9-4222-b908-4dbcc2a9c3f2")
-		(at 218 92.5)
+		(at 216.5 88.5 180)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C12"
@@ -5143,7 +5143,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5153,7 +5153,7 @@
 			(uuid "a2f262d9-1a30-4fb3-bde0-fe4c79f245ff")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0)
+			(at 5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

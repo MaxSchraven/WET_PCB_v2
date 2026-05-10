@@ -3729,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 50.8) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f439ab25-6e25-4c43-a10e-850eb922b546")
+	)
+	(wire
+		(pts
 			(xy 374.65 68.58) (xy 388.62 68.58)
 		)
 		(stroke
@@ -3906,6 +3916,16 @@
 			(justify right bottom)
 		)
 		(uuid "c02cb178-5a32-47ad-a7f4-45f7fde6eb1b")
+	)
+	(label "TIM1_CH1"
+		(at 166.37 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c30791d5-c763-4937-a547-9c365cecdbd6")
 	)
 	(label "TIM17_CH1"
 		(at 377.19 83.82 0)

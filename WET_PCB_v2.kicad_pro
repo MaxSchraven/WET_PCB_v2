@@ -427,6 +427,10 @@
     [
       "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe",
       "inverter"
+    ],
+    [
+      "419c9796-b7e1-43c1-b033-dc2479750a67",
+      "voltsense_inverter"
     ]
   ],
   "text_variables": {},

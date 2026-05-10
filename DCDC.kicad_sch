@@ -918,7 +918,7 @@
 	)
 	(hierarchical_label "DCDC_LED1"
 		(shape input)
-		(at 80.01 38.1 0)
+		(at 99.06 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)

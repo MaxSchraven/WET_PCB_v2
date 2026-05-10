@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
 			(at 118.11 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -7968,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
 			(at 275.59 28.448 90)
 			(hide yes)
 			(show_name no)

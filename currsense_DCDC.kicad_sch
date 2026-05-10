@@ -873,16 +873,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 74.93) (xy 74.93 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f853b89-4504-40e5-9a1e-3ad4037b5788")
-	)
-	(wire
-		(pts
 			(xy 59.69 74.93) (xy 62.23 74.93)
 		)
 		(stroke
@@ -1572,85 +1562,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f9ced3e-fcae-4e61-8679-258cb0ed6a3c")
-		(property "Reference" "R22"
-			(at 65.786 79.248 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 66.04 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 76.708 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2434648-e52b-4d55-86ae-c1d0d8e6e272")
-		)
-		(pin "1"
-			(uuid "4c4288a6-7c44-4933-9a97-cb0c1223910e")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "R22")
 					(unit 1)
 				)
 			)

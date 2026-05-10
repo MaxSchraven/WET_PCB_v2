@@ -2681,6 +2681,16 @@
 		)
 		(uuid "6091b912-d244-42fb-9f1d-53215e3cd13a")
 	)
+	(text "theres no PWM ch left so might be fun to se it adjusting its dutycycle for the DCDC\n"
+		(exclude_from_sim no)
+		(at 52.832 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87f129f2-5ebc-409f-aab3-7ed425f49429")
+	)
 	(text "do we need this voltage?"
 		(exclude_from_sim no)
 		(at 222.504 72.39 0)

@@ -3664,6 +3664,26 @@
 		)
 		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
 	)
+	(label "VDD_Inverter"
+		(at 30.48 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbf6b0ee-1deb-4bb1-9e3e-5a2fef81fdca")
+	)
+	(label "VCC_Inverter"
+		(at 30.48 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3fdff11-e72a-4c00-bf89-72cd837b59ac")
+	)
 	(hierarchical_label "Inv_Driver_Right_Lin"
 		(shape input)
 		(at 257.81 62.23 0)

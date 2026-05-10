@@ -1375,6 +1375,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580faa52-3263-48b1-b69f-5697c6240275")
+	)
+	(wire
+		(pts
 			(xy 251.46 55.88) (xy 270.51 55.88)
 		)
 		(stroke
@@ -1612,6 +1622,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9ef7a0e-1284-4d79-9e7c-9b876a6b64e4")
+	)
+	(label "ADC1_IN4"
+		(at 60.96 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfc392ca-2058-4ea6-b9e2-4c3f3f8c4594")
 	)
 	(label "TIM1_CH1"
 		(at 184.15 48.26 180)

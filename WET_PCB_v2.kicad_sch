@@ -2156,7 +2156,7 @@
 	)
 	(text "do we want an input protection diode? we can also place it and short it in the final PCB\n"
 		(exclude_from_sim no)
-		(at 80.772 18.288 0)
+		(at 50.038 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,7 +2167,7 @@
 	(text_box "Power input"
 		(exclude_from_sim no)
 		(at 17.78 20.32 0)
-		(size 43.18 45.72)
+		(size 58.42 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

@@ -2339,7 +2339,7 @@
 		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
 	)
 	(sheet
-		(at 20.32 19.05)
+		(at 44.45 25.4)
 		(size 38.1 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2355,7 +2355,7 @@
 		)
 		(uuid "04007180-46fe-4cf0-9e6f-a7d321798318")
 		(property "Sheetname" "DCDC"
-			(at 20.32 18.3384 0)
+			(at 44.45 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2366,7 +2366,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 20.32 43.7646 0)
+			(at 44.45 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2377,7 +2377,7 @@
 			)
 		)
 		(pin "DCDC_coil_circuit_side" input
-			(at 41.91 19.05 90)
+			(at 66.04 25.4 90)
 			(uuid "46d9929f-290e-4077-bb91-dba5001b5e51")
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(pin "DCDC_coil_input_side" output
-			(at 39.37 19.05 90)
+			(at 63.5 25.4 90)
 			(uuid "5b2be358-d6dd-46ad-87f6-8a202afc07c9")
 			(effects
 				(font
@@ -2397,7 +2397,7 @@
 			)
 		)
 		(pin "DCDC_Driver_Hin" input
-			(at 45.72 43.18 270)
+			(at 69.85 49.53 270)
 			(uuid "9ffe3add-926f-4a57-b5d5-9a544383a67a")
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(pin "DCDC_Driver_Lin" input
-			(at 48.26 43.18 270)
+			(at 72.39 49.53 270)
 			(uuid "eed3a793-5b6d-47ac-a99a-a2ab341cd77b")
 			(effects
 				(font
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(pin "DCDC_Driver_SD" input
-			(at 50.8 43.18 270)
+			(at 74.93 49.53 270)
 			(uuid "36195b3a-92ff-4f68-99fd-c766ce8ec848")
 			(effects
 				(font
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(pin "VCC_Driver_DCDC" input
-			(at 20.32 24.13 180)
+			(at 44.45 30.48 180)
 			(uuid "095b3bc5-1cd9-4fe0-97cc-958f047f2c5f")
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 			)
 		)
 		(pin "Vin_DCDC+" input
-			(at 20.32 21.59 180)
+			(at 44.45 27.94 180)
 			(uuid "dd12f53c-6a44-404d-9c33-82f8d35dcbd9")
 			(effects
 				(font
@@ -2447,7 +2447,7 @@
 			)
 		)
 		(pin "VoutDCDC" input
-			(at 58.42 21.59 0)
+			(at 82.55 27.94 0)
 			(uuid "8f6e8858-43f6-47bc-a75b-ddd954246eeb")
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 48.26)
+		(at 115.57 71.12)
 		(size 38.1 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2557,7 +2557,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 20.32 47.5484 0)
+			(at 115.57 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 20.32 79.3246 0)
+			(at 115.57 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Hin" input
-			(at 27.94 78.74 270)
+			(at 123.19 101.6 270)
 			(uuid "9dd5eada-91b8-497f-86e1-2b546b108d82")
 			(effects
 				(font
@@ -2589,7 +2589,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Lin" input
-			(at 30.48 78.74 270)
+			(at 125.73 101.6 270)
 			(uuid "680ebc16-8f30-49c7-96d6-1ea969df31e3")
 			(effects
 				(font
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_SD" input
-			(at 33.02 78.74 270)
+			(at 128.27 101.6 270)
 			(uuid "b532be7c-9221-4f0b-a313-2df34239bf16")
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Hin" input
-			(at 39.37 78.74 270)
+			(at 134.62 101.6 270)
 			(uuid "459d877f-511e-44a7-89f5-abaebefc065d")
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Lin" input
-			(at 41.91 78.74 270)
+			(at 137.16 101.6 270)
 			(uuid "ce42ce2c-ccd4-430a-a9cd-cb9cf91e4693")
 			(effects
 				(font
@@ -2629,7 +2629,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_SD" input
-			(at 44.45 78.74 270)
+			(at 139.7 101.6 270)
 			(uuid "7dcc417e-f2a1-42d8-bb11-2514cac7b4ef")
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(pin "VCC_Driver_Inverter" input
-			(at 20.32 53.34 180)
+			(at 115.57 76.2 180)
 			(uuid "d4949e3e-61bf-4226-a3fb-dfa4a4fefe44")
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 			)
 		)
 		(pin "VDD_Driver_Inverter" input
-			(at 20.32 55.88 180)
+			(at 115.57 78.74 180)
 			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(pin "Vin_Inverter" input
-			(at 20.32 50.8 180)
+			(at 115.57 73.66 180)
 			(uuid "3b9601ae-9ad0-400f-91c1-3d38ac01bf78")
 			(effects
 				(font
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(pin "Vout_Inverter_+" output
-			(at 58.42 49.53 0)
+			(at 153.67 72.39 0)
 			(uuid "3c8459f3-1a04-483f-a21f-9379766357a7")
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(pin "Vout_Inverter_-" output
-			(at 58.42 52.07 0)
+			(at 153.67 74.93 0)
 			(uuid "85b5dd43-2acf-439d-95eb-8a25d6b2144b")
 			(effects
 				(font

@@ -43,6 +43,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DCDC_coil_circuit_side" input
+			(at 49.53 43.18 90)
+			(uuid "46d9929f-290e-4077-bb91-dba5001b5e51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_coil_input_side" output
+			(at 45.72 43.18 90)
+			(uuid "5b2be358-d6dd-46ad-87f6-8a202afc07c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

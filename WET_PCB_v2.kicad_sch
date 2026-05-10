@@ -2296,7 +2296,7 @@
 	)
 	(text "do we want an input protection diode? we can also place it and short it in the final PCB\n"
 		(exclude_from_sim no)
-		(at 50.038 12.446 0)
+		(at 40.386 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)

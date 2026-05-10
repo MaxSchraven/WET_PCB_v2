@@ -948,7 +948,7 @@
 		(at 52.07 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "346387c0-06a4-45f8-9361-616dde82c226")
+		(uuid "4e689960-ffd3-4e74-80ca-615e0fc0e898")
 	)
 	(junction
 		(at 49.53 25.4)
@@ -1074,6 +1074,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 27.94) (xy 57.15 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f7d176-1263-4ab1-b39b-a8fddcaea0d9")
+	)
+	(wire
+		(pts
 			(xy 49.53 50.8) (xy 52.07 50.8)
 		)
 		(stroke
@@ -1121,16 +1131,6 @@
 			(type default)
 		)
 		(uuid "79d1983a-5dac-4a79-9b65-2df0cb21297c")
-	)
-	(wire
-		(pts
-			(xy 58.42 25.4) (xy 58.42 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc20c86-40ea-4d50-952a-1402d272abea")
 	)
 	(wire
 		(pts
@@ -1224,6 +1224,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 25.4) (xy 52.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c29643-2c68-40c3-bab1-bc29a33101ff")
+	)
+	(wire
+		(pts
 			(xy 85.09 25.4) (xy 85.09 22.86)
 		)
 		(stroke
@@ -1274,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 25.4) (xy 52.07 25.4)
+			(xy 57.15 27.94) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1344,7 @@
 	)
 	(hierarchical_label "Vin_DCDC_shunt_input_side"
 		(shape output)
-		(at 58.42 27.94 0)
+		(at 59.69 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1559,10 +1559,10 @@
 		(uuid "7930a203-adc1-46ce-bae3-36edeb0a1163")
 	)
 	(junction
-		(at 124.46 69.85)
+		(at 124.46 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b61cc74-e721-4422-861c-c70638051ddd")
+		(uuid "82ea5d56-6cdb-4c2b-ac5c-e04bce20f85c")
 	)
 	(junction
 		(at 156.21 63.5)
@@ -1672,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 69.85)
+			(xy 124.46 68.58) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1699,16 +1699,6 @@
 			(type default)
 		)
 		(uuid "43225dd8-244c-47f7-acbe-982ab39db975")
-	)
-	(wire
-		(pts
-			(xy 124.46 69.85) (xy 124.46 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a9997b-f56a-448a-90d7-e718f0552d07")
 	)
 	(wire
 		(pts
@@ -1832,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 124.46 69.85)
+			(xy 90.17 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 90.17 66.04)
+			(xy 90.17 68.58) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2686,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 135.128 65.278 0)
+			(at 135.128 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

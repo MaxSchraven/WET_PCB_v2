@@ -915,7 +915,7 @@
 	(footprint "LED_SMD:LED_1W_3W_R8"
 		(layer "F.Cu")
 		(uuid "13b6484d-9a58-47b8-a2cb-21965cb83eff")
-		(at 77.955 45.68503)
+		(at 22.35 39.698024)
 		(descr "https://www.gme.cz/data/attachments/dsh.518-234.1.pdf")
 		(tags "LED 1W 3W 5W")
 		(property "Reference" "D21"
@@ -5083,7 +5083,7 @@
 	(footprint "LED_SMD:LED_1W_3W_R8"
 		(layer "F.Cu")
 		(uuid "382a0f77-e3ec-469f-ad88-d1f00e8b6561")
-		(at 77.955 35.411018)
+		(at 22.35 29.424012)
 		(descr "https://www.gme.cz/data/attachments/dsh.518-234.1.pdf")
 		(tags "LED 1W 3W 5W")
 		(property "Reference" "D20"
@@ -8942,7 +8942,7 @@
 	(footprint "LED_SMD:LED_1W_3W_R8"
 		(layer "F.Cu")
 		(uuid "438bdabd-0eda-489c-8250-0d206db15f66")
-		(at 77.955 25.137006)
+		(at 22.35 19.15)
 		(descr "https://www.gme.cz/data/attachments/dsh.518-234.1.pdf")
 		(tags "LED 1W 3W 5W")
 		(property "Reference" "D19"
@@ -13127,7 +13127,7 @@
 	(footprint "LED_SMD:LED_1W_3W_R8"
 		(layer "F.Cu")
 		(uuid "61e0bfc7-27c8-4a2c-ab2e-f9d87c0a1221")
-		(at 77.955 55.959042)
+		(at 22.35 49.972036)
 		(descr "https://www.gme.cz/data/attachments/dsh.518-234.1.pdf")
 		(tags "LED 1W 3W 5W")
 		(property "Reference" "D22"
@@ -15841,7 +15841,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "80c2f012-6ef3-429b-85b0-eaa00acb81d2")
-		(at 88.605 26.075)
+		(at 33 20.087994)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R30"
@@ -21984,7 +21984,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c0d44b49-1409-4b59-8971-cc033e584308")
-		(at 88.605 22.025)
+		(at 33 16.037994)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R29"
@@ -22521,7 +22521,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c200722b-2367-4db3-b9dc-9830f4f498af")
-		(at 88.605 30.125)
+		(at 33 24.137994)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R31"
@@ -25092,7 +25092,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d457c2b6-f00c-4ed1-b4eb-f2dcdbb69ad8")
-		(at 88.605 34.175)
+		(at 33 28.187994)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R32"

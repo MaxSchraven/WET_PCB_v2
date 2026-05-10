@@ -307,11 +307,11 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "02f2cc05-9ac9-4645-8164-f1a2c413ed92")
-		(at 269.96 123.9)
+		(at 256.55 139.46 -90)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D4"
-			(at 2.54 -4.1 0)
+			(at 2.54 -4.1 90)
 			(layer "F.SilkS")
 			(uuid "02987ccb-1620-42c1-994b-5406500a76ef")
 			(effects
@@ -322,7 +322,7 @@
 			)
 		)
 		(property "Value" "STPS8H100D"
-			(at 2.54 2.2 0)
+			(at 2.54 2.2 90)
 			(layer "F.Fab")
 			(uuid "3bddec1c-33a2-4928-9de2-2f27ea517a21")
 			(effects
@@ -333,7 +333,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stps8h100.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e68aa30-7307-4639-83d4-1ebee39d3144")
@@ -344,7 +344,7 @@
 			)
 		)
 		(property "Description" "Schottky barrier diode,STPS8H100D STMicroelectronics STPS8H100D Schottky Diode, 8A, 100V, 2-Pin TO-220AC"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55e49995-3057-4a15-adf8-83c911a6b972")
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "28502548-e7f7-4ed8-bb43-b7339acf9bf5")
@@ -367,7 +367,7 @@
 			)
 		)
 		(property "Height" "4.6"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -380,7 +380,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -393,7 +393,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -419,7 +419,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STPS8H100D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -443,14 +443,24 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7052934b-eea2-4dfa-b6ff-414a1cbc2364")
+			(uuid "05a3f4e8-873a-4611-8788-7d39e0240bba")
+		)
+		(fp_line
+			(start 7.65 1.36)
+			(end -2.57 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cfe874a1-2c6f-4234-846c-23d8207e1fc8")
 		)
 		(fp_line
 			(start -2.57 -1.88)
@@ -463,14 +473,14 @@
 			(uuid "5bec8dd4-7231-45ae-a9f1-626221e5516b")
 		)
 		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05a3f4e8-873a-4611-8788-7d39e0240bba")
+			(uuid "7052934b-eea2-4dfa-b6ff-414a1cbc2364")
 		)
 		(fp_line
 			(start 0.69 -3.26)
@@ -501,16 +511,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8130627b-5e6f-4a63-bf58-f1f371addfb0")
-		)
-		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfe874a1-2c6f-4234-846c-23d8207e1fc8")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -565,7 +565,7 @@
 			(uuid "d7165b12-c09d-44f6-af03-669a866e7e20")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 0)
+			(at 2.54 -0.95 90)
 			(layer "F.Fab")
 			(uuid "4353846c-ec00-41b2-b355-a7d47d9dd21e")
 			(effects
@@ -576,7 +576,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -587,7 +587,7 @@
 			(uuid "2f3c8244-2938-4fe4-9195-8e5dfa2d4e9b")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -21367,7 +21367,7 @@
 			(uuid "84f2e4e0-4a98-40ae-9ea0-0ceeb5d0bb0b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 0)
+			(at 2.54 -0.95 180)
 			(layer "F.Fab")
 			(uuid "2f157160-1abb-43eb-98a0-082bc34fe98e")
 			(effects

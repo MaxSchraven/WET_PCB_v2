@@ -189,6 +189,36 @@
 				(justify left top)
 			)
 		)
+		(pin "Vsense_ADC" output
+			(at 33.02 113.03 90)
+			(uuid "38226453-c087-4a42-8b65-0f48d6647f5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vsense_in" input
+			(at 34.6393 113.03 90)
+			(uuid "fd9b0d8b-9b27-4505-896e-cd5d49e6f43c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_OPAMP" output
+			(at 36.2586 113.03 90)
+			(uuid "65959f79-82ca-4d7e-b096-143de9cfd32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
@@ -198,7 +228,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 88.9)
+		(at 57.15 40.64)
 		(size 26.67 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -214,7 +244,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 33.02 88.1884 0)
+			(at 57.15 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 33.02 103.4546 0)
+			(at 57.15 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -233,6 +263,116 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Vout_Inverter_+" output
+			(at 57.15 40.64 90)
+			(uuid "bf56b259-6a89-462e-b738-476e7e9b61a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout_Inverter_-" output
+			(at 58.7693 40.64 90)
+			(uuid "343d30e6-5b62-46c8-af8c-5863d94b67d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_Inverter" input
+			(at 60.3886 40.64 90)
+			(uuid "1541bf2b-3b2f-4207-8676-038d01574a88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Right_SD" input
+			(at 62.0079 40.64 90)
+			(uuid "5606a807-8dcf-4f0c-8011-6fac885d815b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Right_Lin" input
+			(at 62.0079 40.64 90)
+			(uuid "e105ac1f-b024-46ed-a1d6-8d1969a79691")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Right_Hin" input
+			(at 62.0079 40.64 90)
+			(uuid "1a99f8e6-c487-49fe-9ecc-9695fd3da34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Left_SD" input
+			(at 63.6272 40.64 90)
+			(uuid "616be9b7-2f90-44de-b216-299a9f02a140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Left_Lin" input
+			(at 63.6272 40.64 90)
+			(uuid "0e6d1910-ff05-4e6a-b7f1-0a44f87bf770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Inv_Driver_Left_Hin" input
+			(at 63.6272 40.64 90)
+			(uuid "4c1fef8d-dfd0-46ee-aa32-b0e3b083e6e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_Driver_Inverter" input
+			(at 63.6272 40.64 90)
+			(uuid "8e3c75a1-8bc4-4fe2-9e02-ea4107f10535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_Driver_Inverter" input
+			(at 63.6272 40.64 90)
+			(uuid "da2cea7b-9717-448d-b02b-82be658fb3b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

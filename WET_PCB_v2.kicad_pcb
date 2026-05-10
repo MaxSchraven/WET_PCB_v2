@@ -9944,7 +9944,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "49776817-f80b-49fe-b9dd-7591f67dba1b")
-		(at 188 114.95)
+		(at 198.5 94)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C14"
@@ -11316,7 +11316,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "540e4452-5e96-46e8-a287-adfeac296aff")
-		(at 197 105.5)
+		(at 202 100.5 180)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C13"
@@ -11376,7 +11376,7 @@
 			)
 		)
 		(property "Height" "6.6"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11389,7 +11389,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11402,7 +11402,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11452,24 +11452,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.23 -1.07)
-			(end 4.77 -1.07)
+			(start 4.77 1.07)
+			(end 0.23 1.07)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff1da932-8bfb-41b0-ba43-a7e2c7ac15d3")
-		)
-		(fp_line
-			(start 0.23 -1.014)
-			(end 0.23 -1.07)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "472f3db8-afbf-4fe5-900f-d27af05e6f08")
+			(uuid "dad84161-3312-4cc9-8fa1-ca9e6960f398")
 		)
 		(fp_line
 			(start 4.77 1.014)
@@ -11482,14 +11472,24 @@
 			(uuid "248c74cb-17c6-4924-bd1c-d631041af410")
 		)
 		(fp_line
-			(start 4.77 1.07)
-			(end 0.23 1.07)
+			(start 0.23 -1.014)
+			(end 0.23 -1.07)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dad84161-3312-4cc9-8fa1-ca9e6960f398")
+			(uuid "472f3db8-afbf-4fe5-900f-d27af05e6f08")
+		)
+		(fp_line
+			(start 0.23 -1.07)
+			(end 4.77 -1.07)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff1da932-8bfb-41b0-ba43-a7e2c7ac15d3")
 		)
 		(fp_rect
 			(start -1.05 -1.2)
@@ -11525,7 +11525,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11536,7 +11536,7 @@
 			(uuid "710cc795-14c8-4439-bed0-e2b6b07d2669")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0)
+			(at 5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

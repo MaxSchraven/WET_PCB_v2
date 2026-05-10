@@ -2778,10 +2778,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "850fc0dd-03df-4365-9c24-23688ecd324e")
 		(property "Reference" "J2"
-			(at 273.685 63.5 0)
+			(at 274.32 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2792,6 +2791,7 @@
 		)
 		(property "Value" "Conn_01x09_Pin"
 			(at 273.685 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

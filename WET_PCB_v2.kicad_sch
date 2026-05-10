@@ -2681,9 +2681,9 @@
 		)
 		(uuid "6091b912-d244-42fb-9f1d-53215e3cd13a")
 	)
-	(text "theres no PWM ch left so might be fun to se it adjusting its dutycycle for the DCDC\n"
+	(text "theres no PWM ch left so might be fun to \nso it adjusting its dutycycle for the DCDC\n"
 		(exclude_from_sim no)
-		(at 52.832 112.268 0)
+		(at 49.784 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)

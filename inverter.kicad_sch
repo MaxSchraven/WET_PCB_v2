@@ -3814,7 +3814,7 @@
 		)
 		(uuid "2695706f-4e10-4515-8025-43531f144645")
 	)
-	(hierarchical_label "DCDC_Driver_Lin"
+	(hierarchical_label "Inv_Driver_Left_Lin"
 		(shape input)
 		(at 31.75 62.23 180)
 		(effects
@@ -3836,7 +3836,7 @@
 		)
 		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
 	)
-	(hierarchical_label "DCDC_Driver_SD"
+	(hierarchical_label "Inv_Driver_Left_SD"
 		(shape input)
 		(at 31.75 64.77 180)
 		(effects

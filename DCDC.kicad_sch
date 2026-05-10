@@ -1336,17 +1336,6 @@
 		)
 		(uuid "8282836f-595e-49ee-885c-71b3e1111de3")
 	)
-	(hierarchical_label "Vin_DCDC_shunt_output_side"
-		(shape input)
-		(at 45.72 25.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "898de5f0-c7ea-4a89-872f-6b6c19d44ff1")
-	)
 	(hierarchical_label "DCDC_Driver_Hin"
 		(shape output)
 		(at 137.16 43.18 0)
@@ -1368,6 +1357,17 @@
 			(justify left)
 		)
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
+	)
+	(hierarchical_label "Vin_DCDC_coil_source_side"
+		(shape input)
+		(at 41.91 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca15df44-422c-4e41-aa86-d0f885c5aba9")
 	)
 	(hierarchical_label "DCDC_Driver_SD"
 		(shape output)

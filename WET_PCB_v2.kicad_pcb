@@ -11602,7 +11602,7 @@
 	(footprint "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5d2bd19e-3f52-4e1b-8e69-cd4d7d0b9982")
-		(at 255.2225 139.305 90)
+		(at 255.2225 139.805 90)
 		(descr "Generic Phoenix Contact connector footprint for: GMSTBA_2,5/2-G-7,62; number of pins: 02; pin pitch: 7.62mm; Angled || order number: 1766233 12A 630V")
 		(tags "phoenix_contact connector GMSTBA_01x02_G_7.62mm")
 		(property "Reference" "J7"
@@ -24651,7 +24651,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d524edf7-6bd7-40a1-8350-d8a895c58e72")
-		(at 242.5 136 -90)
+		(at 246 138 90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
@@ -24711,7 +24711,7 @@
 			)
 		)
 		(property "Height" "6.5"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24724,7 +24724,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24737,7 +24737,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24750,7 +24750,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24763,7 +24763,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24787,24 +24787,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.12 1.37)
-			(end -1.12 -1.37)
+			(start 6.12 -1.37)
+			(end 6.12 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b7473b0-ce26-4429-a68c-27ec6ec54de2")
-		)
-		(fp_line
-			(start 6.12 1.37)
-			(end -1.12 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "60488fd2-bc66-43f7-bbda-25c8645f69ad")
+			(uuid "f56b2eeb-e38d-422e-b20d-236fc4ca4f5f")
 		)
 		(fp_line
 			(start -1.12 -1.37)
@@ -24817,14 +24807,24 @@
 			(uuid "3b89c9ab-783b-463e-ac2c-5318660bc654")
 		)
 		(fp_line
-			(start 6.12 -1.37)
-			(end 6.12 1.37)
+			(start 6.12 1.37)
+			(end -1.12 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f56b2eeb-e38d-422e-b20d-236fc4ca4f5f")
+			(uuid "60488fd2-bc66-43f7-bbda-25c8645f69ad")
+		)
+		(fp_line
+			(start -1.12 1.37)
+			(end -1.12 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b7473b0-ce26-4429-a68c-27ec6ec54de2")
 		)
 		(fp_rect
 			(start -1.25 -1.5)
@@ -24860,7 +24860,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -24871,7 +24871,7 @@
 			(uuid "77c4cdd1-7b60-447b-a03b-021cdcfd3968")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0 270)
+			(at 5 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

@@ -2720,7 +2720,7 @@
 	(text_box "Power input"
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
-		(size 60.96 30.48)
+		(size 58.42 60.96)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

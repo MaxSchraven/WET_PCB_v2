@@ -2726,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 21.59) (xy 30.48 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e8ebd1d-cae6-461c-9142-e2175fdb6b28")
-	)
-	(wire
-		(pts
 			(xy 97.79 64.77) (xy 106.68 64.77)
 		)
 		(stroke
@@ -3476,16 +3466,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 19.05) (xy 33.02 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbb7c0e-84c8-4313-9b94-acf3ae480989")
-	)
-	(wire
-		(pts
 			(xy 236.22 39.37) (xy 217.17 39.37)
 		)
 		(stroke
@@ -3684,26 +3664,6 @@
 		)
 		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
 	)
-	(label "VDD_Inverter"
-		(at 30.48 19.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbf6b0ee-1deb-4bb1-9e3e-5a2fef81fdca")
-	)
-	(label "VCC_Inverter"
-		(at 30.48 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3fdff11-e72a-4c00-bf89-72cd837b59ac")
-	)
 	(hierarchical_label "Inv_Driver_Right_Lin"
 		(shape input)
 		(at 257.81 62.23 0)
@@ -3770,17 +3730,6 @@
 		)
 		(uuid "931740ff-e29a-42cf-86c8-97aff627b770")
 	)
-	(hierarchical_label "VDD_Inverter"
-		(shape input)
-		(at 33.02 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "999614ee-35ab-49da-9949-354d38249ad2")
-	)
 	(hierarchical_label "Vin_Inverter"
 		(shape input)
 		(at 147.32 17.78 180)
@@ -3791,17 +3740,6 @@
 			(justify right)
 		)
 		(uuid "a6b5e33f-a715-4409-b080-f42856521262")
-	)
-	(hierarchical_label "VDD_Inverter"
-		(shape input)
-		(at 33.02 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b906c51a-0c44-454a-8045-fb5da35953f0")
 	)
 	(hierarchical_label "Inv_Driver_Left_SD"
 		(shape input)

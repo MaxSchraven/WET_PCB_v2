@@ -44,7 +44,7 @@
 			)
 		)
 		(pin "DCDC_coil_circuit_side" input
-			(at 38.1 19.05 90)
+			(at 41.91 19.05 90)
 			(uuid "46d9929f-290e-4077-bb91-dba5001b5e51")
 			(effects
 				(font
@@ -54,7 +54,7 @@
 			)
 		)
 		(pin "DCDC_coil_input_side" output
-			(at 35.56 19.05 90)
+			(at 39.37 19.05 90)
 			(uuid "5b2be358-d6dd-46ad-87f6-8a202afc07c9")
 			(effects
 				(font

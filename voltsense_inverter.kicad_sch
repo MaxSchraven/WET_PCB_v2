@@ -5,6 +5,164 @@
 	(uuid "8fcda827-63c8-4da8-811f-84285174f76e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1086,6 +1244,12 @@
 		(color 0 0 0 0)
 		(uuid "81ee21b8-f908-4668-8017-cf5955915c86")
 	)
+	(junction
+		(at 118.11 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0210761-22a8-4ba1-a6c4-6e6d1a4ae824")
+	)
 	(wire
 		(pts
 			(xy 62.23 48.26) (xy 62.23 52.07)
@@ -1095,6 +1259,16 @@
 			(type default)
 		)
 		(uuid "02cc60ff-9a28-4148-a302-d3a2a0888b53")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b403920-85b3-4fe3-86c2-c4306bd872d1")
 	)
 	(wire
 		(pts
@@ -1148,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 128.27 50.8)
+			(xy 114.3 50.8) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 58.42) (xy 118.11 59.69)
+			(xy 118.11 63.5) (xy 118.11 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1328,6 +1502,87 @@
 			(justify left)
 		)
 		(uuid "7b10648f-c694-47f9-81a1-6b547a534383")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 118.11 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "091e338f-7f3c-4e18-b7c7-3ffb0538dd48")
+		(property "Reference" "J17"
+			(at 120.65 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor connector"
+			(at 121.666 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d3cc9a1-c583-4990-9f63-bd5437e0cd66")
+		)
+		(pin "1"
+			(uuid "9da6aeaf-e59d-4f9c-9874-a72ec7e76f14")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2075,7 +2330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 59.69 0)
+		(at 118.11 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2085,7 +2340,7 @@
 		(dnp no)
 		(uuid "db64a78a-683a-49f1-8581-d0c30fd2d145")
 		(property "Reference" "#PWR021"
-			(at 118.11 66.04 0)
+			(at 118.11 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 64.008 0)
+			(at 118.11 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2106,7 +2361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 59.69 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 59.69 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 59.69 0)
+			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

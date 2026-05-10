@@ -1547,6 +1547,12 @@
 		(uuid "680b4aca-2c32-44ab-96e8-f0d2454e96a0")
 	)
 	(junction
+		(at 92.71 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816555f5-7a99-4f08-ba09-a9f13f71f118")
+	)
+	(junction
 		(at 102.87 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1916,6 +1922,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 26.67) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a854f25d-dadf-4a72-8553-8d0e7458b799")
+	)
+	(wire
+		(pts
 			(xy 102.87 48.26) (xy 101.6 48.26)
 		)
 		(stroke
@@ -1983,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "ca556b53-2045-4ef1-a59f-559e523ee2ba")
+	)
+	(wire
+		(pts
+			(xy 93.98 26.67) (xy 92.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d313f191-6331-4a30-ad8c-ef1178495c02")
 	)
 	(wire
 		(pts
@@ -2056,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 24.13) (xy 92.71 27.94)
+			(xy 92.71 24.13) (xy 92.71 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2123,6 +2149,26 @@
 			(type default)
 		)
 		(uuid "fd4ddd3d-35f9-4a70-96e6-b05725e57665")
+	)
+	(label "VCC_Driver"
+		(at 93.98 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00ca6c55-5eef-4e62-9b64-1cf29859c1c1")
+	)
+	(label "VCC_Driver"
+		(at 93.98 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "412583e1-faae-4f07-8942-4d4f6a38c0b3")
 	)
 	(hierarchical_label "Lin"
 		(shape input)

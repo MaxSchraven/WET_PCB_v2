@@ -3763,36 +3763,6 @@
 		)
 		(uuid "fd9785c5-c1ac-4ed0-9749-6676dae62808")
 	)
-	(label "Lin"
-		(at 262.89 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "175a8d85-5a6c-4a36-b96d-59253a1ac01f")
-	)
-	(label "Hin"
-		(at 262.89 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a94dbf60-56fa-4ce5-9e10-59ef83924a36")
-	)
-	(label "Off"
-		(at 262.89 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b67e4af9-47dc-4526-9683-117c1ed4c89c")
-	)
 	(label "Vin"
 		(at 147.32 17.78 0)
 		(effects

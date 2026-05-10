@@ -2351,7 +2351,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 27.94 25.4 0)
+		(at 34.29 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2362,7 +2362,7 @@
 		(fields_autoplaced yes)
 		(uuid "88bf7854-213e-4ac7-af62-8cf31740bf29")
 		(property "Reference" "J4"
-			(at 28.575 20.32 0)
+			(at 34.925 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2372,7 +2372,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 28.575 22.86 0)
+			(at 34.925 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 25.4 0)
+			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 25.4 0)
+			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2404,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 27.94 25.4 0)
+			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

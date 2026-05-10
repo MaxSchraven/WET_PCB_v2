@@ -2056,6 +2056,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 90.17) (xy 54.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ad2308-d729-4bb1-9c42-01fa7eb3068b")
+	)
+	(wire
+		(pts
 			(xy 383.54 68.58) (xy 393.7 68.58)
 		)
 		(stroke
@@ -2931,7 +2941,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 54.61 90.17 0)
+		(at 52.07 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2942,7 +2952,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8d6d31d-cefb-428c-b475-ff49ca5d49d4")
 		(property "Reference" "#PWR026"
-			(at 54.61 93.98 0)
+			(at 52.07 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +2963,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 54.61 85.09 0)
+			(at 52.07 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2963,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 90.17 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2974,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 90.17 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 54.61 90.17 0)
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

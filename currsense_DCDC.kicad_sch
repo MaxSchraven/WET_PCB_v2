@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "5758cc67-8eee-425c-ba3a-0b00e49ce97d")
+	(uuid "9ff7cace-c99a-4d18-84cb-3a8a8c06dc8f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
@@ -1750,14 +1750,13 @@
 		(lib_id "Device:Opamp_Quad")
 		(at 80.01 58.42 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5afffa9e-6b95-4421-ba14-200f66805631")
 		(property "Reference" "U3"
 			(at 78.74 59.6901 0)
@@ -1771,7 +1770,7 @@
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 78.74 57.1501 0)
+			(at 77.724 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1908,10 +1907,10 @@
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
 					(reference "U3")
-					(unit 4)
+					(unit 3)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "U5")
+					(reference "U3")
 					(unit 4)
 				)
 			)

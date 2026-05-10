@@ -21109,11 +21109,11 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "bd04478e-43f3-408b-b91b-33e05711f3fc")
-		(at 269.96 117.95)
+		(at 257 121 -90)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D1"
-			(at 2.54 -4.1 0)
+			(at 2.54 -4.1 90)
 			(layer "F.SilkS")
 			(uuid "c7b509c5-e555-4e96-ab19-1cd33096aacd")
 			(effects
@@ -21124,7 +21124,7 @@
 			)
 		)
 		(property "Value" "STPS8H100D"
-			(at 2.54 2.2 0)
+			(at 2.54 2.2 90)
 			(layer "F.Fab")
 			(uuid "4c54c333-df4d-4dc6-a468-c1f9bfe16891")
 			(effects
@@ -21135,7 +21135,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stps8h100.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9f5636a-1ec4-4045-b273-30541bcc29ae")
@@ -21146,7 +21146,7 @@
 			)
 		)
 		(property "Description" "Schottky barrier diode,STPS8H100D STMicroelectronics STPS8H100D Schottky Diode, 8A, 100V, 2-Pin TO-220AC"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "237bdbdd-63d2-41d6-aece-58adceca061b")
@@ -21157,7 +21157,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2294ecd3-42e7-438e-9f4d-1a67564383e5")
@@ -21169,7 +21169,7 @@
 			)
 		)
 		(property "Height" "4.6"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21182,7 +21182,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21195,7 +21195,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21208,7 +21208,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21221,7 +21221,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STPS8H100D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21245,14 +21245,24 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c36f1231-a74e-4714-9b38-ad6eefd9dca9")
+			(uuid "174102f9-e6fa-4516-a805-29b77cbb5800")
+		)
+		(fp_line
+			(start 7.65 1.36)
+			(end -2.57 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f999fd00-19af-4d3d-818a-721b8088b856")
 		)
 		(fp_line
 			(start -2.57 -1.88)
@@ -21265,14 +21275,14 @@
 			(uuid "384c4eba-20fe-4d7e-bf2d-466f494ad55a")
 		)
 		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "174102f9-e6fa-4516-a805-29b77cbb5800")
+			(uuid "c36f1231-a74e-4714-9b38-ad6eefd9dca9")
 		)
 		(fp_line
 			(start 0.69 -3.26)
@@ -21303,16 +21313,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c013ccf8-3b06-48ca-be98-4e51a82142a5")
-		)
-		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f999fd00-19af-4d3d-818a-721b8088b856")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -21367,7 +21367,7 @@
 			(uuid "84f2e4e0-4a98-40ae-9ea0-0ceeb5d0bb0b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 180)
+			(at 2.54 -0.95 90)
 			(layer "F.Fab")
 			(uuid "2f157160-1abb-43eb-98a0-082bc34fe98e")
 			(effects
@@ -21378,7 +21378,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -21389,7 +21389,7 @@
 			(uuid "93cb35e5-4efd-4085-abcd-857246ee7948")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")

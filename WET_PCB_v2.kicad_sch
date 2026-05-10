@@ -1281,6 +1281,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "12V lower if all ICs can go lower to recuse the LDO's work"
+		(exclude_from_sim no)
+		(at 156.972 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4809b86f-15f6-45d5-b2b7-7f498b20a4c8")
+	)
 	(junction
 		(at 165.1 38.1)
 		(diameter 0)

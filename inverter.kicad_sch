@@ -3753,6 +3753,16 @@
 		)
 		(uuid "790e596a-edee-462d-9951-b56071af1daa")
 	)
+	(label "VDD_Inverter"
+		(at 44.45 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
+	)
 	(label "Vin"
 		(at 147.32 17.78 0)
 		(effects

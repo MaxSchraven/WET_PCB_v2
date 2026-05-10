@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "629f3840-8867-477b-866b-e53a3411a3fe")
+	(uuid "f1a618c6-bd36-4ff8-966e-c7caa5c21a36")
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "Vin_12V"

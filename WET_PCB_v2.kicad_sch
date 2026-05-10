@@ -5180,7 +5180,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "Jumper"
 			(at 60.96 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)

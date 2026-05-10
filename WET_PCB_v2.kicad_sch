@@ -4416,7 +4416,7 @@
 				)
 			)
 		)
-		(property "Value" "Barrel jack"
+		(property "Value" "Pluggable Terminal Block"
 			(at 122.428 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2922,7 +2922,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "26d480c4-ab44-4696-abb2-12fc4d5e6f6e")
-		(at 303.42 161.5)
+		(at 194.89 172.25)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D8"
@@ -19619,7 +19619,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ad6b2c50-bea3-4b46-8b8b-7c054844a9e4")
-		(at 181.23 145.91 90)
+		(at 308.96 168 90)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J19"
@@ -20352,7 +20352,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.809 0)
+			(at 129 25.899 0)
 			(layer "F.Fab")
 			(uuid "b7200676-5289-468f-b210-a379e30976b2")
 			(effects
@@ -29183,7 +29183,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ee6f5dce-8a28-4e97-b774-36d2cafe98dc")
-		(at 303.42 157.25)
+		(at 194.89 168)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D7"
@@ -29867,7 +29867,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f4c8ae01-6153-43ec-bd40-114acbf4570c")
-		(at 181.23 150.5 90)
+		(at 308.96 172.59 90)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J17"

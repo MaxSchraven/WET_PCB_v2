@@ -1035,6 +1035,16 @@
 		)
 		(uuid "f9b80b59-0314-4722-9c6b-4ad8277d808f")
 	)
+	(wire
+		(pts
+			(xy 71.12 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde1af37-d331-4192-a6c9-12211e5b69b6")
+	)
 	(label "VDD_OPAMP"
 		(at 87.63 41.91 0)
 		(effects
@@ -1055,6 +1065,16 @@
 		)
 		(uuid "6d63f519-a827-4782-a1c0-a564545a6056")
 	)
+	(label "VDD_OPAMP"
+		(at 71.12 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89e327a4-0f3d-414e-9cd3-c7b8952df096")
+	)
 	(label "V"
 		(at 53.34 30.48 0)
 		(effects
@@ -1067,12 +1087,12 @@
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape output)
-		(at 69.85 22.86 90)
+		(at 69.85 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "424ff060-d492-4914-9bdd-acbc07dfba9e")
 	)

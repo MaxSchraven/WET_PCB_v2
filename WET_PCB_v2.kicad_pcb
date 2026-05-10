@@ -11602,7 +11602,7 @@
 	(footprint "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5d2bd19e-3f52-4e1b-8e69-cd4d7d0b9982")
-		(at 253.7225 89.805 90)
+		(at 268.2225 90.305 90)
 		(descr "Generic Phoenix Contact connector footprint for: GMSTBA_2,5/2-G-7,62; number of pins: 02; pin pitch: 7.62mm; Angled || order number: 1766233 12A 630V")
 		(tags "phoenix_contact connector GMSTBA_01x02_G_7.62mm")
 		(property "Reference" "J7"

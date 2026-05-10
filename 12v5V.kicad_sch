@@ -16,4 +16,15 @@
 		)
 		(uuid "5542ab0e-9e56-42d9-99e1-dc4f21d79fe7")
 	)
+	(hierarchical_label "Vout_5V"
+		(shape output)
+		(at 63.5 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "631415d2-dd70-4b0f-a3f7-fee6b02baef4")
+	)
 )

@@ -1535,12 +1535,6 @@
 		(uuid "55380ff0-1565-4aa5-b312-8e09cde7f02d")
 	)
 	(junction
-		(at 144.78 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5635e69b-5ce6-46d8-9fd7-54313962aed7")
-	)
-	(junction
 		(at 82.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1583,6 +1577,12 @@
 		(uuid "c3f7e78d-2509-4201-b114-c0264626aa05")
 	)
 	(junction
+		(at 144.78 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e816ec07-292e-4efa-adca-ea5bc224127e")
+	)
+	(junction
 		(at 144.78 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1609,16 +1609,6 @@
 			(type default)
 		)
 		(uuid "005d255c-c8e5-4091-a4dd-42c36fda6785")
-	)
-	(wire
-		(pts
-			(xy 124.46 66.04) (xy 124.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1931de34-5a3b-4f47-98b3-e5937150f471")
 	)
 	(wire
 		(pts
@@ -1762,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 69.85) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5a6915-0ac1-4370-9ea6-e2668767c815")
+	)
+	(wire
+		(pts
 			(xy 92.71 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 144.78 66.04)
+			(xy 143.51 69.85) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1869,16 +1869,6 @@
 			(type default)
 		)
 		(uuid "7a817b69-e3d7-4df8-a5fd-6f2b56861bde")
-	)
-	(wire
-		(pts
-			(xy 144.78 63.5) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ded6c54-46b7-4faa-a76c-6b40b72d7099")
 	)
 	(wire
 		(pts
@@ -2052,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 144.78 78.74)
+			(xy 144.78 63.5) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 66.04) (xy 125.73 66.04)
+			(xy 124.46 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2666,7 @@
 	)
 	(symbol
 		(lib_id "MF25_10K:MF25_10K")
-		(at 125.73 66.04 0)
+		(at 125.73 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2686,7 +2676,7 @@
 		(dnp no)
 		(uuid "2e25a736-83ca-447b-b8cd-14a513e40cfe")
 		(property "Reference" "R18"
-			(at 134.62 59.69 0)
+			(at 134.62 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2696,7 +2686,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 134.874 63.5 0)
+			(at 134.874 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2706,7 +2696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 162.23 0)
+			(at 139.7 166.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +2708,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf"
-			(at 139.7 262.23 0)
+			(at 139.7 266.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2720,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%"
-			(at 125.73 66.04 0)
+			(at 125.73 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2731,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 139.7 462.23 0)
+			(at 139.7 466.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +2743,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 139.7 562.23 0)
+			(at 139.7 566.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2755,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 139.7 662.23 0)
+			(at 139.7 666.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +2767,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 139.7 762.23 0)
+			(at 139.7 766.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2779,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 139.7 862.23 0)
+			(at 139.7 866.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

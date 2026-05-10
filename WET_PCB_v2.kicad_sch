@@ -3135,16 +3135,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 27.94) (xy 130.81 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26cb936-a537-482d-ba42-a4cfcdc1418a")
-	)
-	(wire
-		(pts
 			(xy 364.49 81.28) (xy 383.54 81.28)
 		)
 		(stroke
@@ -3292,6 +3282,16 @@
 			(type default)
 		)
 		(uuid "e7ff4b3b-7492-4099-97f4-95157572cf1e")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a6244a-a15f-4c2d-8d7d-cf3a2a122ca5")
 	)
 	(wire
 		(pts
@@ -6734,7 +6734,7 @@
 			)
 		)
 		(pin "Shunt_to_load" input
-			(at 114.3 34.29 90)
+			(at 111.76 34.29 90)
 			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
 			(effects
 				(font

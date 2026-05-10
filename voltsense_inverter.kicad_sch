@@ -1007,6 +1007,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 38.1) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8581c40-27dd-42fe-b971-663d310490e2")
+	)
+	(wire
+		(pts
 			(xy 87.63 58.42) (xy 87.63 59.69)
 		)
 		(stroke
@@ -1014,16 +1024,6 @@
 			(type default)
 		)
 		(uuid "f1d31a09-1158-4934-a9e4-7c9ad7052431")
-	)
-	(wire
-		(pts
-			(xy 87.63 38.1) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f76783f9-6c3c-4b55-a981-3d6fd5472fed")
 	)
 	(wire
 		(pts
@@ -1046,7 +1046,17 @@
 		(uuid "fde1af37-d331-4192-a6c9-12211e5b69b6")
 	)
 	(label "VDD_OPAMP"
-		(at 87.63 41.91 0)
+		(at 128.27 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "226bff90-1381-4b0d-a8e2-74c0cfa24719")
+	)
+	(label "VDD_OPAMP"
+		(at 87.63 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)

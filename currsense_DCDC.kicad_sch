@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8c11aa90-e7cd-4b8c-8164-f2c2bca6df75")
+	(uuid "232ac9d1-bebd-4705-8332-74acd14524d5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
@@ -1057,376 +1057,281 @@
 	)
 	(text "Shouldnt these be Zener diodes??\n"
 		(exclude_from_sim no)
-		(at 123.444 61.976 0)
+		(at 136.144 63.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cb1b3fbe-367e-4834-a25e-df4cb204cf53")
+		(uuid "3abb07cb-db8e-496d-8d42-29a25dea70be")
 	)
 	(junction
-		(at 55.88 59.69)
+		(at 93.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d3e372d-7247-4739-8112-99ae00176bd2")
+		(uuid "1086f6f7-7ec2-4a0a-9d84-34172733fd6f")
 	)
 	(junction
-		(at 77.47 57.15)
+		(at 90.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72aca0ea-fdf9-4d80-bbaa-a36b97980516")
+		(uuid "4d199823-4463-4553-b7f9-16a9ff62a5b9")
 	)
 	(junction
-		(at 91.44 57.15)
+		(at 69.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7dd9c28e-3c2d-49ea-8545-088bc482ab21")
+		(uuid "8a3ef3bd-4d33-4bc1-8c90-52df99fd1426")
 	)
 	(junction
-		(at 57.15 54.61)
+		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c046f8b-9a95-4cb9-96d3-4f9037036f5c")
+		(uuid "a6a40bcd-0401-4377-b870-1ca51e282312")
 	)
 	(junction
-		(at 81.28 57.15)
+		(at 68.58 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9c59aef-23be-4e1c-9240-43c5c81a031c")
+		(uuid "b32bd6ff-f241-4ed2-800d-4408d6c36b40")
 	)
 	(wire
 		(pts
-			(xy 57.15 54.61) (xy 59.69 54.61)
+			(xy 63.5 60.96) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "262dccdd-6486-4622-ae38-266413537783")
+		(uuid "058b89e8-91bd-4632-a902-0f987b8c48a2")
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 57.15 54.61)
+			(xy 104.14 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36db793b-0c67-404c-bbbe-f2f4d0f29ad4")
+		(uuid "173f9936-5331-4740-a2db-588da332cb04")
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 77.47 57.15)
+			(xy 90.17 58.42) (xy 93.98 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52236fc3-0e31-4621-97a7-d7b660bddbef")
+		(uuid "192d95a2-f67a-4d8f-9201-c1ef62d88894")
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 57.15 54.61)
+			(xy 68.58 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ad6ac32-78b3-42ae-ab19-4f3c44ee37d9")
+		(uuid "325e923a-2d36-483f-8dcd-ae564de18128")
 	)
 	(wire
 		(pts
-			(xy 91.44 44.45) (xy 91.44 48.26)
+			(xy 73.66 40.64) (xy 69.85 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61d0a6fd-ff00-403a-8b11-4b573a6331e2")
+		(uuid "37b430bb-0a9a-4557-8176-672edd749165")
 	)
 	(wire
 		(pts
-			(xy 55.88 59.69) (xy 59.69 59.69)
+			(xy 69.85 40.64) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9799d99f-3873-4011-a2ec-e939010e15cf")
+		(uuid "3cf7fd59-550e-4af6-a571-6411911f8895")
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 91.44 59.69)
+			(xy 104.14 71.12) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9717e2b-4280-40f5-994d-1a04c1ea65f2")
+		(uuid "3ed7f39d-00ce-4c66-8a27-912b40e102cd")
 	)
 	(wire
 		(pts
-			(xy 77.47 39.37) (xy 77.47 57.15)
+			(xy 104.14 57.15) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4265341-4365-4c1d-838d-35d180938471")
+		(uuid "4083d421-7a1d-4212-bae9-0b3dd913014f")
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 91.44 67.31)
+			(xy 87.63 58.42) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c56ad2-dae5-4741-9429-e1774f4fa20e")
+		(uuid "4c8ddd42-9690-4fc2-91bf-5c15a3776083")
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 57.15 39.37)
+			(xy 104.14 58.42) (xy 104.14 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5db488e-a371-409d-a92a-708a5aadaa8d")
+		(uuid "6316b73b-01d6-49ec-a5ed-97c3bb281998")
 	)
 	(wire
 		(pts
-			(xy 77.47 57.15) (xy 81.28 57.15)
+			(xy 93.98 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc93b2a3-9bc2-425f-bda5-4e47ba439070")
+		(uuid "74056e6a-c234-4d3b-8043-e1dfa2ff58cc")
 	)
 	(wire
 		(pts
-			(xy 53.34 26.67) (xy 50.8 26.67)
+			(xy 90.17 40.64) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd827b61-cfbb-48bd-b3f9-8f630bf93456")
+		(uuid "74499cc7-29e2-42f7-9264-4a93d18a60ee")
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 30.48 41.91)
+			(xy 81.28 40.64) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d55fcdb3-714b-445d-b48e-498458f94375")
+		(uuid "8898ccb8-d098-4771-b5c8-2213987d54eb")
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 91.44 57.15)
+			(xy 69.85 55.88) (xy 72.39 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5c72f7a-b97e-446c-8229-e829c693a051")
+		(uuid "94df8eef-d360-4e87-8ccb-7c27101b8abe")
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 91.44 57.15)
+			(xy 63.5 55.88) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea340399-1e80-4599-b66a-e690e4ed8f5b")
+		(uuid "aa3b7443-7979-4a71-a517-3ed7a6623e2d")
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 96.52 57.15)
+			(xy 104.14 45.72) (xy 104.14 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb00b996-0f64-4b71-a718-17e65f7c2300")
+		(uuid "c18af0d7-4a0e-44eb-8c49-55c01848d9dd")
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 55.88 59.69)
+			(xy 66.04 27.94) (xy 63.5 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fadb4b4d-042e-46ac-9b70-b643e927b2ec")
-	)
-	(wire
-		(pts
-			(xy 68.58 39.37) (xy 77.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2851eb-6c54-4743-8943-99944f7779f0")
+		(uuid "dbed5229-4828-4d8f-bbbb-eceba7299a21")
 	)
 	(label "VDD_OPAMP"
-		(at 50.8 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d7d0651-36e2-4a00-b69e-0267b2dc1907")
-	)
-	(label "VDD_OPAMP"
-		(at 91.44 44.45 0)
+		(at 104.14 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "33203cb1-6959-47dc-b45e-abd96a2704ee")
+		(uuid "017b13d7-958f-477a-8161-fa02a6356a82")
 	)
-	(hierarchical_label "Shunt_from_source"
-		(shape input)
-		(at 43.18 59.69 180)
+	(label "VDD_OPAMP"
+		(at 63.5 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "230f2627-4d97-4f59-904f-68d0685c4ff0")
-	)
-	(hierarchical_label "Shunt_to_load"
-		(shape output)
-		(at 43.18 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35cb37bc-3126-49d3-b462-f4cd2d5591b7")
+		(uuid "22e0d48d-bf05-4418-8802-e72ccd367162")
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape input)
-		(at 53.34 26.67 0)
+		(at 66.04 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a20b72b4-5829-4b9e-9c20-f02225a446a8")
+		(uuid "390bbc13-83fd-417f-a383-e6281c3f150e")
 	)
 	(hierarchical_label "currsense_ADC"
 		(shape output)
-		(at 96.52 57.15 0)
+		(at 109.22 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b605f3cf-1264-414e-b87d-eb254c98bcb1")
+		(uuid "af22aa0e-4ef7-4abe-b88d-99bc0703e485")
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 81.28 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e9d4026-4d21-4c9f-8dde-7102c9344207")
-		(property "Reference" "J1"
-			(at 83.82 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(hierarchical_label "Shunt_to_load"
+		(shape output)
+		(at 55.88 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "Capacitor connector"
-			(at 84.836 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "ce34d831-24ed-4eda-b31d-dc46f33c269c")
+	)
+	(hierarchical_label "Shunt_from_source"
+		(shape input)
+		(at 55.88 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 81.28 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b8eaf75-6f5a-4f55-aef2-5f9e3558a575")
-		)
-		(pin "1"
-			(uuid "e92a449a-1d85-418e-947b-9357b2da880d")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "J1")
-					(unit 1)
-				)
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "dcc15fc3-6192-4e48-bd9b-4cd53b2f7659")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 39.37 90)
+		(at 59.69 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1434,10 +1339,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31fffdb9-1e84-40de-873c-eb4a2c1c873a")
-		(property "Reference" "R22"
-			(at 64.77 33.02 90)
+		(uuid "02321397-f231-45b2-8e5b-b18e490b4f9a")
+		(property "Reference" "R23"
+			(at 59.69 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1447,7 +1351,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 64.77 35.56 90)
+			(at 59.69 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1457,7 +1361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 41.148 90)
+			(at 59.69 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 39.37 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1479,7 +1383,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 39.37 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,10 +1394,176 @@
 			)
 		)
 		(pin "2"
-			(uuid "e896e568-be22-4cb7-ade9-086fe2191e5c")
+			(uuid "93b48b3e-73be-4dc6-a7dd-7eea73669826")
 		)
 		(pin "1"
-			(uuid "2b686ed3-086b-41ee-beb6-04c0f7d27feb")
+			(uuid "2b0f4e43-785e-4bdc-9fc9-f145bee8e35f")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b13e439-92a0-40e7-b0ee-2bf60a5e9e9a")
+		(property "Reference" "#PWR044"
+			(at 68.58 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f010cdf6-41c2-4385-9e61-85d7c553e2ab")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3098b7ff-ed52-4aa4-931e-2e6351540905")
+		(property "Reference" "R22"
+			(at 77.47 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e0de70a-53e1-4020-99f5-bcc078bb3499")
+		)
+		(pin "1"
+			(uuid "77001d26-5166-407e-9b90-bdc89a51446f")
 		)
 		(instances
 			(project "WET_PCB_v2"
@@ -1509,20 +1579,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Quad")
-		(at 67.31 57.15 0)
-		(mirror x)
-		(unit 4)
+		(lib_id "Device:R")
+		(at 68.58 64.77 180)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6124f2c5-63fa-4f73-95e9-18589360c465")
-		(property "Reference" "U3"
-			(at 67.31 46.99 0)
+		(uuid "34f227f5-fd66-407b-83c8-139de39c3e54")
+		(property "Reference" "R24"
+			(at 70.866 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1531,8 +1599,8 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Quad"
-			(at 67.31 49.53 0)
+		(property "Value" "R"
+			(at 73.406 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1542,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 57.15 0)
+			(at 70.358 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1553,7 +1621,177 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 57.15 0)
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82a563a5-11fb-4bd9-9d96-e612fc67d02b")
+		)
+		(pin "1"
+			(uuid "17214a89-5284-4f7e-a6ce-0b55a9ea24f2")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 93.98 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42a518f4-2794-4f2a-98de-f4bb1157e5a8")
+		(property "Reference" "J1"
+			(at 96.52 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor connector"
+			(at 97.536 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfd25b8f-2475-42cb-955d-1f426b195d8f")
+		)
+		(pin "1"
+			(uuid "045d4f48-9da1-4deb-af8c-1b9ffcffdf80")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 80.01 58.42 0)
+		(mirror x)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5afffa9e-6b95-4421-ba14-200f66805631")
+		(property "Reference" "U3"
+			(at 80.01 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 80.01 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,7 +1802,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 67.31 57.15 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1575,7 +1813,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 67.31 57.15 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1586,7 +1824,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 67.31 57.15 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1597,7 +1835,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 67.31 57.15 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,7 +1846,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 67.31 57.15 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1622,13 +1860,13 @@
 			(uuid "19b9f899-ce1e-48b4-9308-9bd4ca7e2802")
 		)
 		(pin "14"
-			(uuid "1df10d42-edc1-4e8f-bcdb-72fbec010796")
+			(uuid "5b8e8273-a276-40fe-bed4-1bf8ef6d9db9")
 		)
 		(pin "12"
-			(uuid "852cd4f2-f033-4412-854d-152cfea8b50c")
+			(uuid "300ec467-3238-4696-926c-b3af4a039b47")
 		)
 		(pin "13"
-			(uuid "86517b19-d103-4288-9e4c-98271e55005e")
+			(uuid "ee469c9b-aed5-4f9e-85dc-29a7b4278b94")
 		)
 		(pin "10"
 			(uuid "881a251d-78f6-4823-a71f-521a5d80e8a5")
@@ -1667,98 +1905,15 @@
 					(unit 4)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "U3")
+					(reference "U5")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "639c33e8-3823-4a3f-8ef2-a31e90ce0755")
-		(property "Reference" "R23"
-			(at 46.99 61.976 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 46.99 64.516 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 61.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "46ce83a9-6b38-4065-a1d1-719768faed33")
-		)
-		(pin "1"
-			(uuid "629a3946-4f8b-4820-b479-5e5487f2d0ad")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 81.28 69.85 0)
+		(at 93.98 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1766,9 +1921,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6c241c50-531f-4e38-9193-3398545747d2")
+		(uuid "91ba9b75-e4e7-4a5e-8df0-2fe0c54f8858")
 		(property "Reference" "#PWR042"
-			(at 81.28 76.2 0)
+			(at 93.98 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 74.168 0)
+			(at 93.98 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1789,7 +1944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 69.85 0)
+			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +1955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 69.85 0)
+			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +1966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 69.85 0)
+			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1977,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b27b6c8a-4f2f-4eac-9fd7-73d08ecccf63")
+			(uuid "894dfd74-87f5-428a-9027-975dfece3835")
 		)
 		(instances
 			(project "WET_PCB_v2"
@@ -1838,9 +1993,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
-		(at 91.44 63.5 90)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 59.69 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1848,32 +2002,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7121db42-ca03-485e-adc2-6c2cfff96451")
-		(property "Reference" "D16"
-			(at 93.98 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 93.98 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 95.885 63.5 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "9ca5c65a-de78-4e67-bbd5-c2bee6e02878")
+		(property "Reference" "R21"
+			(at 59.69 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1882,93 +2014,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75afc03e-3724-4ea6-99db-690d9af4b849")
-		)
-		(pin "2"
-			(uuid "bfb8b9ff-9460-4207-9ff6-d034b2cb0744")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "941c3bab-496f-404b-ba26-d12e339b56af")
-		(property "Reference" "#PWR043"
-			(at 91.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 74.168 0)
+		(property "Value" "R"
+			(at 59.69 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1978,7 +2025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 69.85 0)
+			(at 59.69 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 69.85 0)
+			(at 59.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1999,8 +2046,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 69.85 0)
+		(property "Description" "Resistor"
+			(at 59.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,18 +2056,21 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "aeae0bbf-6582-4ec0-b440-310f06a87dc1")
 		)
 		(pin "1"
-			(uuid "ff4157f5-27e0-4b67-8008-0c9e0f3a922a")
+			(uuid "ecffee29-b115-4f2e-96bb-7ab07361e8b2")
 		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "#PWR043")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "#PWR048")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2078,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 91.44 52.07 90)
+		(at 104.14 53.34 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2038,9 +2088,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb0a9378-64eb-4e5f-862a-944138e91673")
+		(uuid "b7449fd6-6785-49f2-b38d-38ed3dbcc673")
 		(property "Reference" "D15"
-			(at 93.98 50.7999 90)
+			(at 106.68 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2051,7 +2101,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 93.98 53.3399 90)
+			(at 106.68 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2062,7 +2112,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 95.885 52.07 0)
+			(at 108.585 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2073,7 +2123,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 91.44 52.07 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2084,7 +2134,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 91.44 52.07 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,7 +2145,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 91.44 52.07 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,7 +2156,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 52.07 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,10 +2167,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae1b3ccb-187d-40c8-8c0b-50d8e783900b")
+			(uuid "360619ae-c557-4f2e-b4ad-cbaabe4f77a9")
 		)
 		(pin "2"
-			(uuid "3f665751-ee5b-495a-90cc-1e51bb8f2bd5")
+			(uuid "23699bf8-9a9f-4c2e-8690-47d7d2a4a7bf")
 		)
 		(instances
 			(project "WET_PCB_v2"
@@ -2137,7 +2187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 67.31 0)
+		(at 104.14 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2145,10 +2195,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfa73637-7862-4bc8-b39d-62324c716c39")
-		(property "Reference" "#PWR044"
-			(at 55.88 73.66 0)
+		(uuid "c1c243af-73c5-4d0b-a679-ea91cf0bef05")
+		(property "Reference" "#PWR043"
+			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 72.39 0)
+			(at 104.14 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2169,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 67.31 0)
+			(at 104.14 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 67.31 0)
+			(at 104.14 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 67.31 0)
+			(at 104.14 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,24 +2251,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2fcf7ba-a14d-44cb-9b7b-8b66b445dd85")
+			(uuid "c4fe9013-04c0-4cc1-a4a5-a9221f4f7a99")
 		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 63.5 180)
+		(lib_id "Diode:1N4004")
+		(at 104.14 64.77 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2227,29 +2277,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f8b052ab-7cf7-4c46-a5ed-c09c610dde40")
-		(property "Reference" "R24"
-			(at 58.166 63.5 90)
+		(uuid "e8687bb6-43bc-41a5-866e-7cb24ea16ef1")
+		(property "Reference" "D16"
+			(at 106.68 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 60.706 63.5 90)
+		(property "Value" "1N4004"
+			(at 106.68 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.658 63.5 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 108.585 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,8 +2311,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 63.5 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 104.14 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,8 +2322,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 55.88 63.5 0)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 104.14 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,104 +2333,42 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "98ad0d32-63fb-4a6a-8c02-1cfbb7226f9d")
+		(property "Sim.Device" "D"
+			(at 104.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c6694a0b-c269-4dba-b59b-4597303b30ed")
+			(uuid "bc3d4557-3129-4652-ae06-2c5b08f23cf8")
+		)
+		(pin "2"
+			(uuid "75fda61a-9996-40b0-8794-3e37e83f4d23")
 		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "R24")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9962fda-93f8-4140-a865-c2d51319567c")
-		(property "Reference" "R21"
-			(at 46.99 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 46.99 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 56.388 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f2777aab-42e6-40bb-b5d3-0e571b14d90e")
-		)
-		(pin "1"
-			(uuid "da2b9410-93cc-49b0-8a1a-49ebba08fa36")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "R25")
+					(reference "D18")
 					(unit 1)
 				)
 			)

@@ -4154,7 +4154,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 22.86 63.5 0)
+		(at 22.86 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4165,7 +4165,7 @@
 		(fields_autoplaced yes)
 		(uuid "db541be0-49aa-489e-b6bb-702a285a34a5")
 		(property "Reference" "#PWR031"
-			(at 22.86 67.31 0)
+			(at 22.86 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 22.86 58.42 0)
+			(at 22.86 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 63.5 0)
+			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 63.5 0)
+			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,7 +4208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 22.86 63.5 0)
+			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

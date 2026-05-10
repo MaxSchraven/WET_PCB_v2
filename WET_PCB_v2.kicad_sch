@@ -6668,7 +6668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 17.78 22.86 0)
 			(hide yes)
 			(show_name no)

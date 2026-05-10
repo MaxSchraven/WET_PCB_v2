@@ -1342,7 +1342,7 @@
 		)
 		(uuid "fcba1080-7c4b-492b-b4b5-1fe5271d3097")
 	)
-	(hierarchical_label "Vin_DCDC_cap"
+	(hierarchical_label "Vin_DCDC_shunt"
 		(shape output)
 		(at 67.31 26.67 0)
 		(effects

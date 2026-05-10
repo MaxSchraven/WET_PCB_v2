@@ -2436,16 +2436,16 @@
 		(uuid "5ae540a0-8dd2-4713-aa5e-12a4408be37f")
 	)
 	(junction
-		(at 44.45 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6251718e-87b7-42bb-a0a8-80de8f7cac00")
-	)
-	(junction
 		(at 54.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a22e40-c060-4f7c-9537-9c46c4164437")
+	)
+	(junction
+		(at 44.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68464ba4-f22b-4c65-b11b-59681660c248")
 	)
 	(junction
 		(at 153.67 53.34)
@@ -2655,6 +2655,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 64.77) (xy 242.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1539e76e-1e75-4312-9fcd-37e59f9c9875")
+	)
+	(wire
+		(pts
 			(xy 64.77 62.23) (xy 74.93 62.23)
 		)
 		(stroke
@@ -2855,16 +2865,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 64.77) (xy 257.81 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42610592-6a18-4766-af70-a551e53c67c5")
-	)
-	(wire
-		(pts
 			(xy 44.45 72.39) (xy 44.45 74.93)
 		)
 		(stroke
@@ -3005,26 +3005,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 59.69) (xy 257.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca53688-7a64-4ce1-93f9-b750a418ed7d")
-	)
-	(wire
-		(pts
-			(xy 242.57 64.77) (xy 238.76 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faa2f55-4494-4fcd-b8be-e9351389bad8")
-	)
-	(wire
-		(pts
 			(xy 77.47 46.99) (xy 77.47 39.37)
 		)
 		(stroke
@@ -3032,16 +3012,6 @@
 			(type default)
 		)
 		(uuid "5fbcd064-8bef-4007-a8a9-e7846a9ced44")
-	)
-	(wire
-		(pts
-			(xy 262.89 62.23) (xy 257.81 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6636d0ac-b863-4217-aff5-7543d0c049cd")
 	)
 	(wire
 		(pts
@@ -3505,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 54.61 29.21)
+			(xy 54.61 27.94) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3763,35 +3733,45 @@
 		)
 		(uuid "fd9785c5-c1ac-4ed0-9749-6676dae62808")
 	)
-	(label "Lin"
-		(at 262.89 62.23 180)
+	(label "VCC_Inverter"
+		(at 55.88 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "175a8d85-5a6c-4a36-b96d-59253a1ac01f")
+		(uuid "434f2d53-6c63-4f0c-8007-e468b24d15bb")
 	)
-	(label "Hin"
-		(at 262.89 59.69 180)
+	(label "VCC_Inverter"
+		(at 240.03 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a94dbf60-56fa-4ce5-9e10-59ef83924a36")
+		(uuid "5958408d-cbd8-423f-95b2-493268fd2679")
 	)
-	(label "Off"
-		(at 262.89 64.77 180)
+	(label "VCC_Inverter"
+		(at 54.61 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "b67e4af9-47dc-4526-9683-117c1ed4c89c")
+		(uuid "790e596a-edee-462d-9951-b56071af1daa")
+	)
+	(label "VDD_Inverter"
+		(at 44.45 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
 	)
 	(label "Vin"
 		(at 147.32 17.78 0)
@@ -3803,6 +3783,39 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
+	(hierarchical_label "Inv_Driver_Right_Lin"
+		(shape input)
+		(at 257.81 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167b568a-8902-49a2-9f8f-de90144137cb")
+	)
+	(hierarchical_label "Inv_Driver_Left_Hin"
+		(shape input)
+		(at 31.75 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2695706f-4e10-4515-8025-43531f144645")
+	)
+	(hierarchical_label "Inv_Driver_Left_Lin"
+		(shape input)
+		(at 31.75 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d8e325-6ec7-4944-a4ef-93cd6d466f9a")
+	)
 	(hierarchical_label "Vout_Inverter_-"
 		(shape output)
 		(at 153.67 87.63 270)
@@ -3813,6 +3826,39 @@
 			(justify right)
 		)
 		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
+	)
+	(hierarchical_label "Inv_Driver_Right_Hin"
+		(shape input)
+		(at 257.81 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ab3c9d0-8e5a-466f-966f-e7b0a03b5ff4")
+	)
+	(hierarchical_label "Inv_Driver_Right_SD"
+		(shape input)
+		(at 257.81 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931740ff-e29a-42cf-86c8-97aff627b770")
+	)
+	(hierarchical_label "Inv_Driver_Left_SD"
+		(shape input)
+		(at 31.75 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c462de58-725c-4551-84b7-7cea92a995cd")
 	)
 	(hierarchical_label "Vout_Inverter_+"
 		(shape output)
@@ -6194,84 +6240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 54.61 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b771daa-aba0-45d1-a54c-a0b513cd4ce8")
-		(property "Reference" "#PWR04"
-			(at 54.61 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V"
-			(at 54.61 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 54.61 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9dcafdf9-d890-4c18-8ecb-aa3a8d512b68")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 147.32 63.5 90)
 		(unit 1)
@@ -6489,165 +6457,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 55.88 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9902672f-2281-4276-bf45-a1da3e7c190e")
-		(property "Reference" "#PWR06"
-			(at 52.07 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V"
-			(at 59.69 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 55.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "485ee5ca-35ea-44f0-bd6a-fe817a49291e")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 238.76 64.77 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a693bfd1-4991-49e0-a393-e333c415c2fd")
-		(property "Reference" "#PWR011"
-			(at 242.57 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V"
-			(at 234.95 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 238.76 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3057c8b6-1b18-49ba-8f97-a0790f4c0125")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7640,83 +7449,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 44.45 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef7040c8-f26f-46e0-900f-8bf27f40b236")
-		(property "Reference" "#PWR05"
-			(at 44.45 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 44.958 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e53750f8-a14b-43a1-9ad0-ff3d37d761e6")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)

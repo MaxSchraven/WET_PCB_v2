@@ -2921,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 54.61) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6375410f-4dde-43e0-80b1-42abe60927ff")
+	)
+	(wire
+		(pts
 			(xy 364.49 86.36) (xy 383.54 86.36)
 		)
 		(stroke
@@ -4005,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 60.96 0)
+		(at 58.42 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4016,7 +4026,7 @@
 		(fields_autoplaced yes)
 		(uuid "3592c19e-ee53-4753-a6a2-9cd432de3bbd")
 		(property "Reference" "#PWR035"
-			(at 49.53 64.77 0)
+			(at 58.42 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,7 +4037,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 55.88 0)
+			(at 58.42 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4037,7 +4047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 60.96 0)
+			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 60.96 0)
+			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 60.96 0)
+			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 62.23 57.15 270)
+		(at 58.42 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5397,7 +5407,7 @@
 		(fields_autoplaced yes)
 		(uuid "f68e1d04-2e86-4c03-84aa-5b034defa377")
 		(property "Reference" "J8"
-			(at 67.31 57.1499 90)
+			(at 63.5 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5408,7 +5418,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Counter_Clockwise"
-			(at 67.31 59.6899 90)
+			(at 63.5 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5419,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 57.15 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 57.15 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5451,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 57.15 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

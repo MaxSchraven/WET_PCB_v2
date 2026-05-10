@@ -1637,6 +1637,26 @@
 		)
 		(uuid "4809b86f-15f6-45d5-b2b7-7f498b20a4c8")
 	)
+	(text_box "Power input"
+		(exclude_from_sim no)
+		(at 17.78 20.32 0)
+		(size 53.34 48.26)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "889984a8-9f34-40e4-bf0a-940d92d09775")
+	)
 	(junction
 		(at 278.13 88.9)
 		(diameter 0)

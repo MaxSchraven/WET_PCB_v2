@@ -888,6 +888,17 @@
 		)
 		(uuid "ca15df44-422c-4e41-aa86-d0f885c5aba9")
 	)
+	(hierarchical_label "Vin_DCDC_coil_input_side"
+		(shape output)
+		(at 40.64 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7df72c3-1919-4989-b56d-14746696b66d")
+	)
 	(hierarchical_label "DCDC_Driver_SD"
 		(shape output)
 		(at 142.24 55.88 0)

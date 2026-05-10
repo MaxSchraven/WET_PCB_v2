@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "773159db-2b3a-4468-9c5a-820c5e7e82c4")
+	(uuid "5dba859e-03c7-4c06-8850-d0bd96ffe254")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"

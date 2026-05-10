@@ -3812,7 +3812,7 @@
 		)
 		(uuid "a6b5e33f-a715-4409-b080-f42856521262")
 	)
-	(hierarchical_label "VCC_Inverter"
+	(hierarchical_label "VCC_Driver_Inverter"
 		(shape input)
 		(at 29.21 19.05 0)
 		(effects

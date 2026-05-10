@@ -113,26 +113,6 @@
 				(justify left)
 			)
 		)
-		(pin "Vin_DCDC_shunt_input_side" output
-			(at 58.42 17.78 90)
-			(uuid "3d0ab76f-96dd-4605-b1f0-b41bd5e82724")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin_DCDC_shunt_output_side" input
-			(at 63.5 17.78 90)
-			(uuid "7bdbca7e-2b16-47fd-922e-35b0c4b22b59")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VoutDCDC" input
 			(at 77.47 36.83 0)
 			(uuid "8f6e8858-43f6-47bc-a75b-ddd954246eeb")

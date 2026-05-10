@@ -5,14 +5,24 @@
 	(uuid "5c942c03-3c63-47e3-b581-f53c2974bb62")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe18b4a-adaa-4396-b594-52dc743b1012")
+	)
 	(hierarchical_label "Vin_12V"
 		(shape input)
-		(at 38.1 25.4 0)
+		(at 38.1 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5542ab0e-9e56-42d9-99e1-dc4f21d79fe7")
 	)

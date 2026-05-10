@@ -1540,7 +1540,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7121db42-ca03-485e-adc2-6c2cfff96451")
 		(property "Reference" "D16"
 			(at 93.98 62.2299 90)

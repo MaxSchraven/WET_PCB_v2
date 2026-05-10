@@ -306,7 +306,7 @@
 			)
 		)
 		(pin "VCC_Driver_Inverter" input
-			(at 49.53 76.2 270)
+			(at 20.32 53.34 180)
 			(uuid "d4949e3e-61bf-4226-a3fb-dfa4a4fefe44")
 			(effects
 				(font
@@ -316,7 +316,7 @@
 			)
 		)
 		(pin "VDD_Driver_Inverter" input
-			(at 52.07 76.2 270)
+			(at 20.32 55.88 180)
 			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
 			(effects
 				(font

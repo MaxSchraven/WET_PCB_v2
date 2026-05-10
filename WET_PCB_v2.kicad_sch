@@ -1655,12 +1655,6 @@
 		(color 0 0 0 0)
 		(uuid "8c5eea9a-7963-4746-9016-496e7cc2edbf")
 	)
-	(junction
-		(at 73.66 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7579d1f-7bf3-4a09-88e7-e0ebab650abf")
-	)
 	(wire
 		(pts
 			(xy 278.13 88.9) (xy 298.45 88.9)
@@ -1680,16 +1674,6 @@
 			(type default)
 		)
 		(uuid "0a9491fa-a167-402c-a4c2-0c72985afd77")
-	)
-	(wire
-		(pts
-			(xy 73.66 33.02) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162a83e0-334e-4e9b-b16f-64ce1e592408")
 	)
 	(wire
 		(pts
@@ -1730,16 +1714,6 @@
 			(type default)
 		)
 		(uuid "37502022-7b2f-464b-b4d8-f8099a78d6ab")
-	)
-	(wire
-		(pts
-			(xy 73.66 27.94) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38636292-ed73-43b3-bc83-9b6cd1e1e638")
 	)
 	(wire
 		(pts
@@ -1823,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 39.37 35.56)
+			(xy 36.83 31.75) (xy 25.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1893,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 33.02) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af013fec-f6cd-4d46-937a-9807ab987069")
-	)
-	(wire
-		(pts
 			(xy 393.7 69.85) (xy 393.7 68.58)
 		)
 		(stroke
@@ -1963,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 48.26 33.02)
+			(xy 25.4 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 35.56 0)
+		(at 36.83 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2472,7 +2436,7 @@
 		(fields_autoplaced yes)
 		(uuid "83c8b4ac-5279-4c2a-84be-b6dfaebe6bff")
 		(property "Reference" "#PWR019"
-			(at 50.8 41.91 0)
+			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,7 +2447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 40.64 0)
+			(at 36.83 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2493,7 +2457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 35.56 0)
+			(at 36.83 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 35.56 0)
+			(at 36.83 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 35.56 0)
+			(at 36.83 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2604,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 34.29 33.02 0)
+		(at 20.32 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2651,7 +2615,7 @@
 		(fields_autoplaced yes)
 		(uuid "88bf7854-213e-4ac7-af62-8cf31740bf29")
 		(property "Reference" "J4"
-			(at 34.925 27.94 0)
+			(at 20.955 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,7 +2625,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 34.925 30.48 0)
+			(at 20.955 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2671,7 +2635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 33.02 0)
+			(at 20.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 33.02 0)
+			(at 20.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2657,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 34.29 33.02 0)
+			(at 20.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +2840,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR1020VL")
-		(at 52.07 33.02 180)
+		(at 38.1 29.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2887,7 +2851,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe12ec07-e6d2-4ea8-a9e0-3a82739c906a")
 		(property "Reference" "D12"
-			(at 52.3875 26.67 0)
+			(at 38.4175 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2897,7 +2861,7 @@
 			)
 		)
 		(property "Value" "MBR1020VL"
-			(at 52.3875 29.21 0)
+			(at 38.4175 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2907,7 +2871,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 52.07 28.575 0)
+			(at 38.1 24.765 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2918,7 +2882,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
-			(at 52.07 33.02 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2893,7 @@
 			)
 		)
 		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
-			(at 52.07 33.02 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

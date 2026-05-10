@@ -2651,6 +2651,16 @@
 		)
 		(uuid "eedf4c8d-368a-4660-a75b-3a288f87ded8")
 	)
+	(text "we only have a couple PWM enabled pins so this has to be made in software"
+		(exclude_from_sim no)
+		(at 168.656 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2389f526-916d-442b-a3a8-1ca7d85920c6")
+	)
 	(text "12V lower if all ICs can go lower to recuse the LDO's work"
 		(exclude_from_sim no)
 		(at 280.162 90.932 0)

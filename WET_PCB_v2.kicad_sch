@@ -2831,16 +2831,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 24.13 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335a4010-6d79-4863-97f0-28a719263683")
-	)
-	(wire
-		(pts
 			(xy 364.49 78.74) (xy 383.54 78.74)
 		)
 		(stroke
@@ -2851,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 58.42) (xy 25.4 58.42)
+			(xy 21.59 62.23) (xy 25.4 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3188,16 +3178,6 @@
 			(type default)
 		)
 		(uuid "dc7fbe04-656f-4257-9ff5-d6f76e470b65")
-	)
-	(wire
-		(pts
-			(xy 25.4 58.42) (xy 25.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda53129-249f-4346-9bd0-670b8b9bac0e")
 	)
 	(wire
 		(pts
@@ -5500,7 +5480,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 24.13 60.96 0)
+		(at 21.59 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5511,7 +5491,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9606210-33e7-49d7-b880-3f36c9552ff5")
 		(property "Reference" "#PWR034"
-			(at 24.13 64.77 0)
+			(at 21.59 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5502,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 24.13 55.88 0)
+			(at 21.59 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5532,7 +5512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 60.96 0)
+			(at 21.59 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,7 +5523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 60.96 0)
+			(at 21.59 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 24.13 60.96 0)
+			(at 21.59 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6022,7 +6002,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 55.88)
+		(at 25.4 59.69)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6038,7 +6018,7 @@
 		)
 		(uuid "7293ed87-9a5c-4e01-a7da-6a6e465a8771")
 		(property "Sheetname" "12V_to5V"
-			(at 25.4 55.1684 0)
+			(at 25.4 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6049,7 +6029,7 @@
 			)
 		)
 		(property "Sheetfile" "12v5V.kicad_sch"
-			(at 25.4 61.5446 0)
+			(at 25.4 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6060,7 +6040,7 @@
 			)
 		)
 		(pin "Vin_12V" input
-			(at 25.4 58.42 180)
+			(at 25.4 62.23 180)
 			(uuid "ddc296b0-547e-48fe-bf50-c45d5326c616")
 			(effects
 				(font
@@ -6070,7 +6050,7 @@
 			)
 		)
 		(pin "Vout_5V" output
-			(at 45.72 58.42 0)
+			(at 45.72 62.23 0)
 			(uuid "71bd7c39-b815-4712-a059-97f5352bcd5d")
 			(effects
 				(font

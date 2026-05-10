@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "5434c3ec-5394-4877-a909-a57fe228d49d")
+	(uuid "5285179d-2e15-4670-acdd-cdf6ecedadb9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
@@ -2116,7 +2116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 			(at 108.585 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2305,7 +2305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 			(at 108.585 64.77 0)
 			(hide yes)
 			(show_name no)

@@ -23797,7 +23797,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "ce87a1ae-0461-4489-8ffc-a0b8b9dc8189")
-		(at 266.46 143.95)
+		(at 238.92 149.5)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q3"
@@ -25077,7 +25077,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d938af25-6c1f-40ea-bc18-e2f5a1efa8ab")
-		(at 244.69 117.38)
+		(at 245.195 130.88)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
@@ -25282,7 +25282,7 @@
 			)
 		)
 		(point
-			(at 248.5 125)
+			(at 249.005 138.5)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "28145659-ab43-4bcd-8039-cd503ae8bb8a")

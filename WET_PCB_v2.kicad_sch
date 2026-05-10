@@ -4303,7 +4303,7 @@
 		(dnp no)
 		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
 		(property "Reference" "C21"
-			(at 84.328 65.278 0)
+			(at 82.804 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4314,7 +4314,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 84.328 67.818 0)
+			(at 82.55 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -6730,7 +6730,7 @@
 			)
 		)
 		(pin "currsense_ADC" output
-			(at 127 50.8 0)
+			(at 127 52.07 0)
 			(uuid "b316dd09-2414-4be4-a74d-9d80777406fd")
 			(effects
 				(font
@@ -6759,7 +6759,7 @@
 				(justify right)
 			)
 		)
-		(pin "VDD_OPAMP" output
+		(pin "VDD_OPAMP" input
 			(at 88.9 52.07 180)
 			(uuid "7f9ad886-e1b9-412f-b5e6-02a50fb15426")
 			(effects

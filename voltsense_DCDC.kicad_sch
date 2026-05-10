@@ -1702,7 +1702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "761ea1da-fde3-49cb-a6a2-d87256aa4a73")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 90.17 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1844,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)

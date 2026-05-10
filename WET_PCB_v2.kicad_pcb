@@ -1880,11 +1880,11 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "192d33a1-f5d5-4ec8-ba13-6e4d27d312ba")
-		(at 250.5 141 180)
+		(at 254.5 148.5 -90)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
-			(at 1.27 -2.47 0)
+			(at 1.27 -2.47 90)
 			(layer "F.SilkS")
 			(uuid "01325a51-3bae-4ff5-89d6-b808ba2344dd")
 			(effects
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.359 0)
+			(at 1.27 3.359 90)
 			(layer "F.Fab")
 			(uuid "751c715c-b1e3-4c10-a522-79d688b91144")
 			(effects
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de5ed742-6643-4284-ad4f-b92ce5e51528")
@@ -1917,7 +1917,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2157a3a-5715-4601-9f8d-c9984b32172a")
@@ -1928,7 +1928,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ba98bd26-c735-4878-80ae-84c398e5686f")
@@ -1940,7 +1940,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2021,7 +2021,7 @@
 			(uuid "b73bcfff-9641-49cf-b2df-b3132f3f8cd2")
 		)
 		(fp_text user "K"
-			(at -1.9 0 0)
+			(at -1.9 0 90)
 			(layer "F.SilkS")
 			(uuid "3c6e88d5-f508-43cc-886b-aed69fdff06e")
 			(effects
@@ -2031,19 +2031,8 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.47 0)
-			(layer "F.Fab")
-			(uuid "7c1e5beb-edf8-4c09-a9ee-e21b860f9f74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "K"
-			(at -1.9 0 0)
+			(at -1.9 0 90)
 			(layer "F.Fab")
 			(uuid "4e5aa735-f00e-4610-bac4-9704e2ca9986")
 			(effects
@@ -2053,8 +2042,19 @@
 				)
 			)
 		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 -2.47 90)
+			(layer "F.Fab")
+			(uuid "7c1e5beb-edf8-4c09-a9ee-e21b860f9f74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 0 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2066,7 +2066,7 @@
 			(uuid "7419ff3d-e048-40fa-bcfa-7da2b2b8d37d")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 180)
+			(at 2.54 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -31703,11 +31703,11 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ff813b31-a958-4537-a2b5-11b090d4b2dd")
-		(at 230 141)
+		(at 236.5 148.5 -90)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
-			(at 1.27 -2.47 0)
+			(at 1.27 -2.47 90)
 			(layer "F.SilkS")
 			(uuid "d03a9bab-011d-4a69-9492-200142acb69a")
 			(effects
@@ -31718,7 +31718,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.359 0)
+			(at 1.27 3.359 90)
 			(layer "F.Fab")
 			(uuid "f9574135-f919-441d-8270-6b905d8b28fa")
 			(effects
@@ -31729,7 +31729,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dedd5672-774b-4755-a8c0-f24413a05e63")
@@ -31740,7 +31740,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4eac233-368d-46a1-8285-c8a248fbf0fc")
@@ -31751,7 +31751,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cec26c50-156c-4042-8897-cce61da430d5")
@@ -31763,7 +31763,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31776,7 +31776,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31844,7 +31844,7 @@
 			(uuid "73ea5f42-c131-438c-aac5-dfe7fa63e812")
 		)
 		(fp_text user "K"
-			(at -1.9 0 0)
+			(at -1.9 0 90)
 			(layer "F.SilkS")
 			(uuid "fcd531e3-cd33-4732-8e35-d8b7d1e013cf")
 			(effects
@@ -31855,7 +31855,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at -1.9 0 0)
+			(at -1.9 0 90)
 			(layer "F.Fab")
 			(uuid "2b5ae189-9691-4f38-adef-e9dc17c8f450")
 			(effects
@@ -31866,7 +31866,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.47 0)
+			(at 1.27 -2.47 90)
 			(layer "F.Fab")
 			(uuid "02a71259-224c-48bd-88eb-16d3be67a916")
 			(effects
@@ -31877,7 +31877,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -31889,7 +31889,7 @@
 			(uuid "1f9a27a3-e507-49a5-b33b-6d789cdb9690")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")

@@ -3743,7 +3743,7 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
-	(hierarchical_label "Inv_Driver_Right_Hin"
+	(hierarchical_label "Inv_Driver_Right_LHin"
 		(shape input)
 		(at 257.81 62.23 0)
 		(effects

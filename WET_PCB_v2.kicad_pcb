@@ -8878,11 +8878,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "420cc220-98c9-4857-843e-9924b59ed669")
-		(at 268 158.5)
+		(at 233 144.19 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R13"
-			(at 3.81 -2.37 0)
+			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
 			(uuid "df117126-7b10-46a6-9268-0f09b6192168")
 			(effects
@@ -8893,7 +8893,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "ff763ee2-5be4-4f2c-8b57-9ee0d4de777c")
 			(effects
@@ -8904,7 +8904,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d049a502-e253-4e9f-9cba-7f2f42c2b779")
@@ -8915,7 +8915,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3be2b063-7a18-460f-9165-b175cbbfe769")
@@ -8926,7 +8926,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2b927c69-b4bc-4f55-be24-83a03807f6ef")
@@ -8938,7 +8938,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8951,7 +8951,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8964,7 +8964,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8977,7 +8977,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8990,7 +8990,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9014,24 +9014,24 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f09fb6a-c27f-44d1-85a6-6ae4bc09cb4c")
+			(uuid "8542014e-5255-46c8-b684-a73173844d5a")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "64c71fc7-5ec3-485e-baf6-059e86ef0871")
+			(uuid "71d97f0f-162a-4888-bfea-80f8d0e6e0e2")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -9044,14 +9044,24 @@
 			(uuid "bebccf4f-7ebf-4711-8d34-eceb7ee93553")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8542014e-5255-46c8-b684-a73173844d5a")
+			(uuid "64c71fc7-5ec3-485e-baf6-059e86ef0871")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f09fb6a-c27f-44d1-85a6-6ae4bc09cb4c")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -9062,16 +9072,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2133407d-75dc-43c8-9046-dad2d6025909")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "71d97f0f-162a-4888-bfea-80f8d0e6e0e2")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -9116,7 +9116,7 @@
 			(uuid "38a1e907-c8a1-4d12-a99f-f47d120ed5e5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "66327660-4b71-4b5e-a9f8-ba710bb39e01")
 			(effects
@@ -9127,7 +9127,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -9138,7 +9138,7 @@
 			(uuid "47950983-2ff9-4a3c-9953-ebb9e807960d")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

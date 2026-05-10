@@ -170,13 +170,13 @@
 			)
 		)
 		(pin "VDD_OPAMP" output
-			(at 38.1 85.09 90)
+			(at 20.32 95.25 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Vsense_ADC" output

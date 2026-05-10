@@ -2726,12 +2726,6 @@
 		(uuid "97a1813a-6996-4fc4-8701-6209c938fb12")
 	)
 	(junction
-		(at 111.76 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a03b224f-bebc-4658-91b4-ef07e22c5484")
-	)
-	(junction
 		(at 64.77 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,12 +2736,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce190205-0128-4bd2-9ccd-4c0b3077028e")
-	)
-	(junction
-		(at 104.14 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb30a220-35f7-477f-b2af-bac57fc06683")
 	)
 	(wire
 		(pts
@@ -2861,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 27.94) (xy 104.14 34.29)
+			(xy 104.14 27.94) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3031,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 52.07) (xy 127 52.07)
+			(xy 128.27 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 111.76 34.29)
+			(xy 111.76 27.94) (xy 111.76 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3368,7 @@
 		(uuid "2b1ecb71-72f1-4777-a341-b5933783a562")
 	)
 	(label "ADC1_IN1"
-		(at 128.27 52.07 0)
+		(at 128.27 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6711,7 +6699,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 34.29)
+		(at 88.9 40.64)
 		(size 38.1 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6727,7 +6715,7 @@
 		)
 		(uuid "12f67741-eb23-4832-9e03-479bbedcb04e")
 		(property "Sheetname" "currsense_DCDC"
-			(at 88.9 33.5784 0)
+			(at 88.9 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6738,7 +6726,7 @@
 			)
 		)
 		(property "Sheetfile" "currsense_DCDC.kicad_sch"
-			(at 88.9 55.1946 0)
+			(at 88.9 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6749,7 +6737,7 @@
 			)
 		)
 		(pin "currsense_ADC" output
-			(at 127 52.07 0)
+			(at 127 58.42 0)
 			(uuid "b316dd09-2414-4be4-a74d-9d80777406fd")
 			(effects
 				(font
@@ -6759,7 +6747,7 @@
 			)
 		)
 		(pin "Shunt_from_source" input
-			(at 104.14 34.29 90)
+			(at 104.14 40.64 90)
 			(uuid "53049973-aa7b-4eae-bad0-6287628ba096")
 			(effects
 				(font
@@ -6769,7 +6757,7 @@
 			)
 		)
 		(pin "Shunt_to_load" output
-			(at 111.76 34.29 90)
+			(at 111.76 40.64 90)
 			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
 			(effects
 				(font
@@ -6779,7 +6767,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 88.9 52.07 180)
+			(at 88.9 58.42 180)
 			(uuid "7f9ad886-e1b9-412f-b5e6-02a50fb15426")
 			(effects
 				(font

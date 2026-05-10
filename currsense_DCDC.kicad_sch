@@ -1553,7 +1553,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 93.98 64.7699 90)
+			(at 93.98 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -2320,6 +2320,17 @@
 	)
 	(hierarchical_label "Hin"
 		(shape input)
+		(at 82.55 24.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b24747a-b55e-4a5f-86b5-c80b125476a4")
+	)
+	(hierarchical_label "Hin"
+		(shape input)
 		(at 60.96 58.42 180)
 		(effects
 			(font
@@ -3174,83 +3185,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 82.55 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c4161bf-67eb-44d6-b3ad-9f45cfef0d39")
-		(property "Reference" "#PWR016"
-			(at 82.55 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 83.058 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.55 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03b83fb4-6fe8-4242-94ba-442693614e94")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)

@@ -1506,6 +1506,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "does this have to be this hugeass diode?\n"
+		(exclude_from_sim no)
+		(at 102.362 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ff7d327-0026-4b1d-80a8-343acf2c31c4")
+	)
 	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
 		(exclude_from_sim no)
 		(at 37.846 79.248 0)
@@ -3554,7 +3564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 135.89 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -3733,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 135.89 57.785 0)
 			(hide yes)
 			(show_name no)

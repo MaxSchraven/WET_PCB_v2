@@ -6637,6 +6637,16 @@
 				(justify left)
 			)
 		)
+		(pin "VDD_OPAMP" output
+			(at 129.54 106.68 180)
+			(uuid "7f9ad886-e1b9-412f-b5e6-02a50fb15426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

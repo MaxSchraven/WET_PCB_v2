@@ -1375,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 151.13 118.11)
+			(xy 60.96 93.98) (xy 58.42 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1505,6 +1505,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e547f70c-7bec-4117-9e0a-e594b69335eb")
+	)
+	(wire
+		(pts
 			(xy 154.94 38.1) (xy 165.1 38.1)
 		)
 		(stroke
@@ -1604,7 +1614,7 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 140.0302 110.662 0)
+		(at 60.96 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,7 +1644,7 @@
 		(uuid "b9ef7a0e-1284-4d79-9e7c-9b876a6b64e4")
 	)
 	(label "ADC1_IN4"
-		(at 153.67 118.11 0)
+		(at 60.96 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,6 +2278,72 @@
 			)
 		)
 	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "75ac265e-3399-4b8f-a98d-955322e2402f")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
+			"e547f70c-7bec-4117-9e0a-e594b69335eb"
+		)
+	)
+	(group ""
+		(uuid "8f957f51-d0af-4289-8b9d-326fda30563e")
+		(members "419c9796-b7e1-43c1-b033-dc2479750a67" "580faa52-3263-48b1-b69f-5697c6240275"
+			"bfc392ca-2058-4ea6-b9e2-4c3f3f8c4594"
+		)
+	)
+	(group ""
+		(uuid "8f957f51-d0af-4289-8b9d-326fda30563e")
+		(members "419c9796-b7e1-43c1-b033-dc2479750a67" "580faa52-3263-48b1-b69f-5697c6240275"
+			"bfc392ca-2058-4ea6-b9e2-4c3f3f8c4594"
+		)
+	)
+	(group ""
+		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
+	)
+	(group ""
+		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
+	)
+	(group ""
+		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
+	)
 	(sheet
 		(at 20.32 19.05)
 		(size 38.1 24.13)
@@ -2395,7 +2471,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 109.22)
+		(at 20.32 85.09)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2411,7 +2487,7 @@
 		)
 		(uuid "419c9796-b7e1-43c1-b033-dc2479750a67")
 		(property "Sheetname" "voltsense_inverter"
-			(at 113.03 108.5084 0)
+			(at 20.32 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2422,7 +2498,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 113.03 126.3146 0)
+			(at 20.32 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2433,7 +2509,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 113.03 119.38 180)
+			(at 20.32 95.25 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font
@@ -2443,7 +2519,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 151.13 118.11 0)
+			(at 58.42 93.98 0)
 			(uuid "6ab01412-c957-4e76-946c-5a3514b51cf5")
 			(effects
 				(font
@@ -2453,7 +2529,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 113.03 116.84 180)
+			(at 20.32 92.71 180)
 			(uuid "ace09617-4cc6-4766-8356-7b8484ad133a")
 			(effects
 				(font
@@ -2627,7 +2703,7 @@
 		)
 	)
 	(sheet
-		(at 99.3902 101.772)
+		(at 20.32 107.95)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,7 +2719,7 @@
 		)
 		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
 		(property "Sheetname" "voltsense_DCDC"
-			(at 99.3902 101.0604 0)
+			(at 20.32 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2654,7 +2730,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 99.3902 118.8666 0)
+			(at 20.32 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2665,7 +2741,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 99.3902 111.932 180)
+			(at 20.32 118.11 180)
 			(uuid "eda746ac-a594-40a9-baf0-dc3cdfca87c2")
 			(effects
 				(font
@@ -2675,7 +2751,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 137.4902 110.662 0)
+			(at 58.42 116.84 0)
 			(uuid "14b3b0e0-8b7b-4dbb-978a-08e5612be825")
 			(effects
 				(font
@@ -2685,7 +2761,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 99.3902 109.392 180)
+			(at 20.32 115.57 180)
 			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
 			(effects
 				(font

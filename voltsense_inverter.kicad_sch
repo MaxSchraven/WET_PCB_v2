@@ -2359,16 +2359,4 @@
 			)
 		)
 	)
-	(group ""
-		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
-		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
-	)
-	(group ""
-		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
-		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
-	)
-	(group ""
-		(uuid "c43bcffe-678c-47d3-b7ae-3c39147ef89a")
-		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
-	)
 )

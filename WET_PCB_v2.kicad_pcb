@@ -19865,13 +19865,13 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b1050a42-5779-44ca-a6c7-6b607501b2ba")
-		(at 310.15 186.5)
+		(at 214.76 68)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
 			(at 7.62 -2.37 0)
 			(layer "F.SilkS")
-			(uuid "7ef9e3d6-826e-41eb-b7dd-8206b04089ee")
+			(uuid "2b5a4ba8-1cbd-44ab-a2dd-07dce740efea")
 			(effects
 				(font
 					(size 1 1)
@@ -19882,7 +19882,7 @@
 		(property "Value" "Shunt"
 			(at 7.62 2.37 0)
 			(layer "F.Fab")
-			(uuid "5c9e3d17-bc56-4734-a5e9-7d2c0d3fce01")
+			(uuid "784c21b6-84d0-4f9a-adec-ab71d22307c7")
 			(effects
 				(font
 					(size 1 1)
@@ -19894,7 +19894,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cb5ccd4-b5f6-4803-8a9e-ea1ab8036785")
+			(uuid "2d932a96-20bc-4e9d-9072-0619b28cb716")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19905,7 +19905,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40b71474-7c28-4d4c-aebb-f47df7f604fc")
+			(uuid "ab7f2ca2-8548-4407-91ec-e8bcf22ab327")
 			(effects
 				(font
 					(size 1.27 1.27)

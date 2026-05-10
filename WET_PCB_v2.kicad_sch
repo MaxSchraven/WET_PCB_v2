@@ -1282,6 +1282,12 @@
 		)
 	)
 	(junction
+		(at 165.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b6b8885-4129-40c7-8544-d3cefefdd700")
+	)
+	(junction
 		(at 270.51 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1439,6 +1445,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 39.37) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac259ffd-11f9-48ae-9898-cc655466ec4c")
+	)
+	(wire
+		(pts
 			(xy 280.67 39.37) (xy 280.67 38.1)
 		)
 		(stroke
@@ -1466,6 +1482,16 @@
 			(type default)
 		)
 		(uuid "dc7fbe04-656f-4257-9ff5-d6f76e470b65")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ff4b3b-7492-4099-97f4-95157572cf1e")
 	)
 	(wire
 		(pts
@@ -1844,7 +1870,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 171.45 58.42 0)
+		(at 154.94 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1855,7 +1881,7 @@
 		(fields_autoplaced yes)
 		(uuid "3023ff6a-fded-480a-8a8e-f71d02912abf")
 		(property "Reference" "#PWR014"
-			(at 171.45 62.23 0)
+			(at 154.94 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1866,7 +1892,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 171.45 53.34 0)
+			(at 154.94 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1876,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 58.42 0)
+			(at 154.94 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 58.42 0)
+			(at 154.94 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 171.45 58.42 0)
+			(at 154.94 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

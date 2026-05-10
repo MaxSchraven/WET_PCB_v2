@@ -1422,26 +1422,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8581c40-27dd-42fe-b971-663d310490e2")
-	)
-	(wire
-		(pts
-			(xy 87.63 58.42) (xy 87.63 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d31a09-1158-4934-a9e4-7c9ad7052431")
-	)
-	(wire
-		(pts
 			(xy 128.27 63.5) (xy 128.27 59.69)
 		)
 		(stroke
@@ -1479,16 +1459,6 @@
 			(justify left bottom)
 		)
 		(uuid "226bff90-1381-4b0d-a8e2-74c0cfa24719")
-	)
-	(label "VDD_OPAMP"
-		(at 87.63 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "491aca54-4c78-4b2b-972e-053368465be9")
 	)
 	(label "VDD_OPAMP"
 		(at 73.66 20.32 180)
@@ -2351,84 +2321,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8c55a7e-ce0c-4c62-897b-53fee66e9228")
-		(property "Reference" "#PWR020"
-			(at 87.63 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3522cd0b-d413-41c8-a494-bf9eb835e2f6")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)

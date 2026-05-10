@@ -6944,52 +6944,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 20.32 130.81)
-		(size 38.1 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b040df1a-a731-4810-8ba1-4465b4a46b11")
-		(property "Sheetname" "MCU"
-			(at 20.32 130.0984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 20.32 145.3646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(page "7")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

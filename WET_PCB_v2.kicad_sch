@@ -7774,6 +7774,7 @@
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
 			(at 201.93 93.2946 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8245,6 +8246,7 @@
 		)
 		(property "Sheetfile" "voltsense_DCDC.kicad_sch"
 			(at 139.7 93.2946 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

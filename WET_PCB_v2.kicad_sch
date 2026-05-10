@@ -3602,7 +3602,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 152.908 30.48 0)
+			(at 152.4 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4581,7 +4581,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d16911ae-dc53-4b5e-afd4-6f7b1145b16f")
 		(property "Reference" "#PWR028"
 			(at 95.25 35.56 0)
@@ -4595,7 +4594,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 95.25 26.67 0)
+			(at 92.202 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -2401,7 +2401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 251.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 201.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2685,7 +2685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 140.97 173.66 0)
 			(hide yes)
 			(show_name no)
@@ -2907,7 +2907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 253.67 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3050,7 +3050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 191.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3269,7 +3269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 77.47 143.18 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 225.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3835,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 140.97 139.37 0)
 			(hide yes)
 			(show_name no)

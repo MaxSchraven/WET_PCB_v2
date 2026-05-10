@@ -845,6 +845,12 @@
 		(color 0 0 0 0)
 		(uuid "980e19a0-80a1-403f-aa38-25ab66661239")
 	)
+	(junction
+		(at 59.69 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa72d7bf-4454-4a21-ad57-a6b093d47dba")
+	)
 	(wire
 		(pts
 			(xy 39.37 54.61) (xy 43.18 54.61)
@@ -1064,6 +1070,16 @@
 			(type default)
 		)
 		(uuid "eb00b996-0f64-4b71-a718-17e65f7c2300")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadb4b4d-042e-46ac-9b70-b643e927b2ec")
 	)
 	(label "VDD_OPAMP"
 		(at 50.8 26.67 180)

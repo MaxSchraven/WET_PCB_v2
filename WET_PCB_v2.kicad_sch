@@ -2270,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 52.07) (xy 31.75 52.07)
+			(xy 33.02 49.53) (xy 25.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2317,16 +2317,6 @@
 			(type default)
 		)
 		(uuid "580faa52-3263-48b1-b69f-5697c6240275")
-	)
-	(wire
-		(pts
-			(xy 31.75 52.07) (xy 31.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b723f01-a92b-4975-990c-0f1dcc9f88c5")
 	)
 	(wire
 		(pts
@@ -2420,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99696544-7e0b-40f9-b911-4bf96e892bbf")
+	)
+	(wire
+		(pts
 			(xy 278.13 83.82) (xy 298.45 83.82)
 		)
 		(stroke
@@ -2507,16 +2507,6 @@
 			(type default)
 		)
 		(uuid "b2e06e6a-6773-437a-b784-dc68b808b02f")
-	)
-	(wire
-		(pts
-			(xy 31.75 49.53) (xy 25.4 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed9ea2c-bcb5-42fe-b5b2-116c94e35a4d")
 	)
 	(wire
 		(pts
@@ -2887,7 +2877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 52.07 0)
+		(at 33.02 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2898,7 +2888,7 @@
 		(fields_autoplaced yes)
 		(uuid "166bb19d-7c0b-4715-979a-e5a8ffa0a8bb")
 		(property "Reference" "#PWR029"
-			(at 33.02 58.42 0)
+			(at 33.02 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 57.15 0)
+			(at 33.02 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2919,7 +2909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 52.07 0)
+			(at 33.02 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2930,7 +2920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 52.07 0)
+			(at 33.02 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 52.07 0)
+			(at 33.02 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

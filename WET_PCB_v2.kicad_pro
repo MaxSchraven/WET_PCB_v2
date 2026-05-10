@@ -416,10 +416,19 @@
         "uuid": "13451c35-1666-47d9-9525-8d8125ba1cf3"
       }
     ],
-    "used_designators": "D1-6,#PWR1-12,C1-8,Q1-4,R9-16,U1-2",
+    "used_designators": "D1-8,#PWR1-12,#PWR17-23,C1-10,Q1-4,R1-4,R9-16,U1-3",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "13451c35-1666-47d9-9525-8d8125ba1cf3",
+      "Root"
+    ],
+    [
+      "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe",
+      "inverter"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

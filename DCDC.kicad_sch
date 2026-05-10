@@ -945,12 +945,6 @@
 		)
 	)
 	(junction
-		(at 86.36 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f5558d9-ae98-4731-b5be-1a5ad6ab9730")
-	)
-	(junction
 		(at 49.53 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -991,6 +985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d72c7944-a141-4cd2-8149-356f07cfff64")
+	)
+	(junction
+		(at 86.36 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a2e1b2-450f-46e4-b008-d263d532fd96")
 	)
 	(wire
 		(pts
@@ -1094,7 +1094,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 25.4) (xy 86.36 25.4)
+			(xy 86.36 22.86) (xy 86.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e874512-2dd8-4997-a005-2d1c28dc1681")
+	)
+	(wire
+		(pts
+			(xy 74.93 22.86) (xy 86.36 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1355,7 @@
 	)
 	(hierarchical_label "Vin_DCDC_shunt_output_side"
 		(shape input)
-		(at 76.2 25.4 180)
+		(at 74.93 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)

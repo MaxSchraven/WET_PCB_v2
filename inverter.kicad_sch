@@ -3720,7 +3720,7 @@
 		)
 		(uuid "931740ff-e29a-42cf-86c8-97aff627b770")
 	)
-	(hierarchical_label "Vin_inverter"
+	(hierarchical_label "Vin_Inverter"
 		(shape input)
 		(at 147.32 17.78 180)
 		(effects

@@ -14599,7 +14599,7 @@
 		(property "Reference" "D15"
 			(at 1.27 -2.92 0)
 			(layer "F.SilkS")
-			(uuid "bf108cdd-19ee-4b41-800b-7c77fc9d30b3")
+			(uuid "da5b12d1-c788-4d1c-8e35-874628b9aa56")
 			(effects
 				(font
 					(size 1 1)
@@ -14610,7 +14610,7 @@
 		(property "Value" "1N4004"
 			(at 1.27 3.809 0)
 			(layer "F.Fab")
-			(uuid "10872664-6164-43d9-b50a-67d2e69bd56b")
+			(uuid "b7d8013a-9275-4679-bbee-82be97e89189")
 			(effects
 				(font
 					(size 1 1)
@@ -14622,7 +14622,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04f7b3d5-b981-4b6c-8bb0-49916788da4c")
+			(uuid "50c062d3-b80d-4ce7-ac5e-41f895e542d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14633,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a67e83d9-3ecb-43a5-83c2-f52ebaa8abd4")
+			(uuid "5edc3a2e-977a-4209-bfc1-7195a0882c15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18004,11 +18004,11 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "97bf579f-fb26-4112-a23b-eae492b0b161")
-		(at 172.92 150.75)
+		(at 172.92 150.75 90)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D16"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 90)
 			(layer "F.SilkS")
 			(uuid "2256db19-1a84-4624-8110-ae95d51af773")
 			(effects
@@ -18019,7 +18019,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.809 0)
+			(at 1.27 3.809 90)
 			(layer "F.Fab")
 			(uuid "dd1b0825-42cd-4333-a5f4-559770b74f8d")
 			(effects
@@ -18030,7 +18030,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58da06c0-3648-492c-91f3-a59148f3b5ad")
@@ -18041,7 +18041,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d909ad0d-c543-4fdb-ba74-d5080dc35699")
@@ -18052,7 +18052,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "89e41e00-dbfb-40e0-8813-fe1347ae2e6e")
@@ -18064,7 +18064,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18077,7 +18077,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18145,7 +18145,7 @@
 			(uuid "fd76c98f-5b79-4e66-815e-2926b9814b46")
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 90)
 			(layer "F.SilkS")
 			(uuid "e9bee6b9-718d-4e29-9a0a-0ed33b39c942")
 			(effects
@@ -18155,19 +18155,8 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -2.12 0 0)
-			(layer "F.Fab")
-			(uuid "5e592e4a-0e63-4f75-b834-6d38bc1eb765")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 90)
 			(layer "F.Fab")
 			(uuid "cb1a9858-28f5-427b-80de-cf8e4eb37534")
 			(effects
@@ -18177,8 +18166,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -2.12 0 90)
+			(layer "F.Fab")
+			(uuid "5e592e4a-0e63-4f75-b834-6d38bc1eb765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -18190,7 +18190,7 @@
 			(uuid "3a8e974f-9510-4708-b797-c1416beb24ab")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")

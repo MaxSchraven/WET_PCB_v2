@@ -1065,16 +1065,6 @@
 		)
 		(uuid "cb1b3fbe-367e-4834-a25e-df4cb204cf53")
 	)
-	(text "Add decoupling caps for VSS VDD"
-		(exclude_from_sim no)
-		(at 44.196 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff3a2c77-716c-44b8-a6c6-9e76f4e2eb85")
-	)
 	(junction
 		(at 55.88 59.69)
 		(diameter 0)

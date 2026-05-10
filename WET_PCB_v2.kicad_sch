@@ -3767,7 +3767,7 @@
 		)
 		(uuid "43672e46-2d6e-45d6-b81f-581ae4835de2")
 	)
-	(label "TIM1_CH1N"
+	(label "TIM3_CH2"
 		(at 307.34 76.2 180)
 		(effects
 			(font

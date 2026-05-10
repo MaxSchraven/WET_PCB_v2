@@ -3798,7 +3798,7 @@
 		)
 		(uuid "3ab3c9d0-8e5a-466f-966f-e7b0a03b5ff4")
 	)
-	(hierarchical_label "Inv_Driver_Right_Lin"
+	(hierarchical_label "Inv_Driver_Right_SD"
 		(shape input)
 		(at 257.81 64.77 0)
 		(effects

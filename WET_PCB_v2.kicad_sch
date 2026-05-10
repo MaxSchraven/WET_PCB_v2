@@ -83,7 +83,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCDC_Driver_SD" output
+		(pin "DCDC_Driver_SD" input
 			(at 50.8 43.18 270)
 			(uuid "36195b3a-92ff-4f68-99fd-c766ce8ec848")
 			(effects

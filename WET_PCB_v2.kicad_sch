@@ -1896,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 114.3 63.5)
+			(xy 208.28 64.77) (xy 205.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 73.66 62.23)
+			(xy 167.64 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 25.4) (xy 163.83 25.4)
+			(xy 95.25 91.44) (xy 92.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 166.37 25.4 0)
+		(at 95.25 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2215,7 +2215,7 @@
 		(uuid "b9ef7a0e-1284-4d79-9e7c-9b876a6b64e4")
 	)
 	(label "ADC1_IN4"
-		(at 116.84 63.5 0)
+		(at 208.28 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2562,84 +2562,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VPP")
-		(at 73.66 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "583004cb-251e-488a-aba7-3e201a71b469")
-		(property "Reference" "#PWR026"
-			(at 73.66 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VPP"
-			(at 73.66 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 73.66 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cbc023d-25e7-45cc-be67-c9cc3e983ab2")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3002,6 +2924,84 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 54.61 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d6d31d-cefb-428c-b475-ff49ca5d49d4")
+		(property "Reference" "#PWR026"
+			(at 54.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VPP"
+			(at 54.61 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 54.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e114c7-46cd-4ed4-8d93-78b37062a1d2")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3508,7 +3508,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 54.61)
+		(at 167.64 55.88)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3524,7 +3524,7 @@
 		)
 		(uuid "419c9796-b7e1-43c1-b033-dc2479750a67")
 		(property "Sheetname" "voltsense_inverter"
-			(at 76.2 53.8984 0)
+			(at 167.64 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3535,7 +3535,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 76.2 71.7046 0)
+			(at 167.64 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 76.2 64.77 180)
+			(at 167.64 66.04 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 114.3 63.5 0)
+			(at 205.74 64.77 0)
 			(uuid "6ab01412-c957-4e76-946c-5a3514b51cf5")
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 76.2 62.23 180)
+			(at 167.64 63.5 180)
 			(uuid "ace09617-4cc6-4766-8356-7b8484ad133a")
 			(effects
 				(font
@@ -3740,7 +3740,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 16.51)
+		(at 54.61 82.55)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3756,7 +3756,7 @@
 		)
 		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
 		(property "Sheetname" "voltsense_DCDC"
-			(at 125.73 15.7984 0)
+			(at 54.61 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3767,7 +3767,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_DCDC.kicad_sch"
-			(at 125.73 33.6046 0)
+			(at 54.61 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3778,7 +3778,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 125.73 26.67 180)
+			(at 54.61 92.71 180)
 			(uuid "eda746ac-a594-40a9-baf0-dc3cdfca87c2")
 			(effects
 				(font
@@ -3788,7 +3788,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 163.83 25.4 0)
+			(at 92.71 91.44 0)
 			(uuid "14b3b0e0-8b7b-4dbb-978a-08e5612be825")
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 125.73 24.13 180)
+			(at 54.61 90.17 180)
 			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
 			(effects
 				(font

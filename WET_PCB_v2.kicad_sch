@@ -3353,7 +3353,7 @@
 		(dnp no)
 		(uuid "276bb403-5788-4e36-bf77-20457db770c5")
 		(property "Reference" "J7"
-			(at 214.376 26.67 0)
+			(at 216.916 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3363,7 +3363,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 219.71 29.718 0)
+			(at 218.694 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

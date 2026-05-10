@@ -938,7 +938,7 @@
 		)
 		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
 	)
-	(hierarchical_label "CDC_Driver_Lin"
+	(hierarchical_label "DCDC_Driver_Lin"
 		(shape output)
 		(at 142.24 58.42 0)
 		(effects

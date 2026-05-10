@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 16.51 17.78)
-		(size 60.96 40.64)
+		(size 39.37 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 			)
 		)
 		(pin "VoutDCDC" input
-			(at 77.47 36.83 0)
+			(at 55.88 36.83 0)
 			(uuid "8f6e8858-43f6-47bc-a75b-ddd954246eeb")
 			(effects
 				(font

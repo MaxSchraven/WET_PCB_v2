@@ -900,16 +900,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 91.44 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aafac54-cdf3-4054-bfdb-a8868fc67729")
-	)
-	(wire
-		(pts
 			(xy 55.88 59.69) (xy 59.69 59.69)
 		)
 		(stroke
@@ -920,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 91.44 58.42)
+			(xy 91.44 57.15) (xy 91.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -937,6 +927,16 @@
 			(type default)
 		)
 		(uuid "b4265341-4365-4c1d-838d-35d180938471")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c56ad2-dae5-4741-9429-e1774f4fa20e")
 	)
 	(wire
 		(pts
@@ -1132,7 +1132,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e9d4026-4d21-4c9f-8dde-7102c9344207")
 		(property "Reference" "J1"
 			(at 83.82 62.2299 90)
@@ -1146,7 +1145,7 @@
 			)
 		)
 		(property "Value" "Conn_02x01"
-			(at 83.82 64.7699 90)
+			(at 83.82 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1532,7 +1531,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 91.44 62.23 90)
+		(at 91.44 63.5 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1544,7 +1543,7 @@
 		(fields_autoplaced yes)
 		(uuid "7121db42-ca03-485e-adc2-6c2cfff96451")
 		(property "Reference" "D16"
-			(at 93.98 60.9599 90)
+			(at 93.98 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1555,7 +1554,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 93.98 63.4999 90)
+			(at 93.98 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1566,7 +1565,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 95.885 62.23 0)
+			(at 95.885 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1577,7 +1576,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 91.44 62.23 0)
+			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1587,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 91.44 62.23 0)
+			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1599,7 +1598,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 91.44 62.23 0)
+			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1610,7 +1609,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 62.23 0)
+			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 67.31 0)
+		(at 91.44 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1647,7 +1646,7 @@
 		(dnp no)
 		(uuid "941c3bab-496f-404b-ba26-d12e339b56af")
 		(property "Reference" "#PWR043"
-			(at 91.44 73.66 0)
+			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,7 +1657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 71.628 0)
+			(at 91.44 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1668,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 67.31 0)
+			(at 91.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1679,7 +1678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 67.31 0)
+			(at 91.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 67.31 0)
+			(at 91.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

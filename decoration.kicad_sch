@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8e5afbd8-d8d6-4871-989f-55bca315e4cc")
+	(uuid "fbaf3c5d-df4b-4a54-8d83-9ad72ba399e7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
@@ -654,16 +654,6 @@
 			)
 		)
 		(uuid "c124de74-8ce2-4e98-9581-7d9294728427")
-	)
-	(text "check if we can use this UVLED"
-		(exclude_from_sim no)
-		(at 110.744 108.966 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "de83c185-ca27-4753-8390-b91652c505cc")
 	)
 	(junction
 		(at 105.41 109.22)

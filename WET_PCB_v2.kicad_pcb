@@ -617,7 +617,7 @@
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D18"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "9d97a4e5-cdf7-433f-84e8-7850446b71e2")
 			(effects
@@ -628,7 +628,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.809 0)
+			(at 1.27 3.809 180)
 			(layer "F.Fab")
 			(uuid "7f0d1b36-998a-41b7-a0dd-0bad515351e4")
 			(effects
@@ -638,8 +638,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ce76bd9-4d71-4d4f-9cf7-f39ae654ade8")
@@ -649,8 +649,8 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4492fbdf-228c-4eca-80d3-0712e166d8ed")
@@ -661,7 +661,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eb3c3951-9cba-4ecd-a1d6-c0240c30652a")
@@ -702,12 +702,6 @@
 		(path "/6ecc05b2-84d4-404f-84e6-8cc19742ad68/e8687bb6-43bc-41a5-866e-7cb24ea16ef1")
 		(sheetname "/currsense_inv/")
 		(sheetfile "currsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -754,7 +748,7 @@
 			(uuid "c8f784b0-1b80-4034-ae28-88cf1b71ef91")
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.SilkS")
 			(uuid "18fea7b8-8428-4e89-9a80-ff60b9ec9061")
 			(effects
@@ -765,7 +759,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.Fab")
 			(uuid "a9268c19-c781-43aa-8ba9-58b5067aaa18")
 			(effects
@@ -776,7 +770,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.Fab")
 			(uuid "f597b590-802f-4a60-a6c0-9704cd7a8bf4")
 			(effects
@@ -2926,7 +2920,7 @@
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D8"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "53e364cd-6e11-49b3-a64e-a56e94d2cd69")
 			(effects
@@ -2937,7 +2931,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 4.5 -3.5 90)
+			(at 1.27 3.809 180)
 			(layer "F.Fab")
 			(uuid "e433b87b-b9e9-4b5a-baaf-3038390344b3")
 			(effects
@@ -2947,8 +2941,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dee118a-a72c-4a25-9ab1-13b7318d1753")
@@ -2958,8 +2952,8 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77b82b3e-e6f9-4405-b679-94f85da88e88")
@@ -2970,7 +2964,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ed6ca81a-75ae-4948-aaff-c47a457bc7b4")
@@ -3011,12 +3005,6 @@
 		(path "/419c9796-b7e1-43c1-b033-dc2479750a67/ef3fcc49-964a-4f09-8a83-0f39bb8b60f1")
 		(sheetname "/voltsense_inverter/")
 		(sheetfile "voltsense_inverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -3063,9 +3051,9 @@
 			(uuid "086ea21d-6d23-4864-9e0d-9f19d1deaabf")
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.SilkS")
-			(uuid "48eb0d2f-8963-4348-bfdc-1443ebbdcbe5")
+			(uuid "315f5a35-fc43-460c-b83f-47f573176a48")
 			(effects
 				(font
 					(size 1 1)
@@ -3074,7 +3062,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.Fab")
 			(uuid "002e1514-59ce-4764-a0d5-cc037f249ce7")
 			(effects
@@ -3085,9 +3073,9 @@
 			)
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.Fab")
-			(uuid "315f5a35-fc43-460c-b83f-47f573176a48")
+			(uuid "48eb0d2f-8963-4348-bfdc-1443ebbdcbe5")
 			(effects
 				(font
 					(size 1 1)
@@ -14618,7 +14606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14629,7 +14617,7 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14682,12 +14670,6 @@
 		(path "/12f67741-eb23-4832-9e03-479bbedcb04e/b7449fd6-6785-49f2-b38d-38ed3dbcc673")
 		(sheetname "/currsense_DCDC/")
 		(sheetfile "currsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -18008,7 +17990,7 @@
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D16"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "af01423f-4f50-4052-a697-66e31846d10e")
 			(effects
@@ -18019,7 +18001,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.809 0)
+			(at 1.27 3.809 180)
 			(layer "F.Fab")
 			(uuid "92d46f26-4659-445e-8b19-55f88acbba76")
 			(effects
@@ -18029,8 +18011,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3d887a8-0a6a-4e0a-b81a-d722733203a4")
@@ -18040,8 +18022,8 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2ea1f4b-06ad-42d5-b20e-5f3418eed419")
@@ -18052,7 +18034,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "89e41e00-dbfb-40e0-8813-fe1347ae2e6e")
@@ -18093,12 +18075,6 @@
 		(path "/12f67741-eb23-4832-9e03-479bbedcb04e/e8687bb6-43bc-41a5-866e-7cb24ea16ef1")
 		(sheetname "/currsense_DCDC/")
 		(sheetfile "currsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -18145,7 +18121,7 @@
 			(uuid "fd76c98f-5b79-4e66-815e-2926b9814b46")
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.SilkS")
 			(uuid "e9bee6b9-718d-4e29-9a0a-0ed33b39c942")
 			(effects
@@ -18156,7 +18132,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.Fab")
 			(uuid "cb1a9858-28f5-427b-80de-cf8e4eb37534")
 			(effects
@@ -18167,7 +18143,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.Fab")
 			(uuid "5e592e4a-0e63-4f75-b834-6d38bc1eb765")
 			(effects
@@ -20099,7 +20075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20110,7 +20086,7 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20163,12 +20139,6 @@
 		(path "/6ecc05b2-84d4-404f-84e6-8cc19742ad68/b7449fd6-6785-49f2-b38d-38ed3dbcc673")
 		(sheetname "/currsense_inv/")
 		(sheetfile "currsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -20217,7 +20187,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.SilkS")
-			(uuid "a86fb2d8-7115-4413-a874-3f4ae4942673")
+			(uuid "92fc33e4-c204-482c-8177-addaf9349e68")
 			(effects
 				(font
 					(size 1 1)
@@ -20228,7 +20198,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.Fab")
-			(uuid "92fc33e4-c204-482c-8177-addaf9349e68")
+			(uuid "a86fb2d8-7115-4413-a874-3f4ae4942673")
 			(effects
 				(font
 					(size 1 1)
@@ -20290,7 +20260,7 @@
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D24"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "f8d82e63-05e1-4734-85b7-ac0782f2a8ca")
 			(effects
@@ -20301,7 +20271,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.61 0 0)
+			(at 1.27 3.809 180)
 			(layer "F.Fab")
 			(uuid "a2b74f06-17f0-4cd6-8852-6ca9e98052f8")
 			(effects
@@ -20311,8 +20281,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd06d231-27b1-4932-9769-33360f613830")
@@ -20322,8 +20292,8 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "887dc10b-7ce8-4488-be5c-0a5a621b3237")
@@ -20334,7 +20304,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "18431e98-8781-41b0-88ac-f56f5aa40581")
@@ -20375,12 +20345,6 @@
 		(path "/a17383a4-d27f-4c25-9e0c-b0df1856b8d8/3050b9da-7c7f-487d-864e-0bdbacdff059")
 		(sheetname "/voltsense_DCDC/")
 		(sheetfile "voltsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -20427,7 +20391,7 @@
 			(uuid "16622042-44ce-4220-9e78-c1af5c950d1c")
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.SilkS")
 			(uuid "a7ee7466-93e3-4315-9ed1-85044860a5fd")
 			(effects
@@ -20438,7 +20402,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 0)
+			(at 1.27 -2.92 180)
 			(layer "F.Fab")
 			(uuid "f125bc89-3a42-4e99-86ec-f71e9f727d8e")
 			(effects
@@ -20449,7 +20413,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at -2.12 0 0)
+			(at -2.12 0 180)
 			(layer "F.Fab")
 			(uuid "9abe693d-7df2-4b2c-912f-c827fe10fe39")
 			(effects
@@ -22903,7 +22867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22914,7 +22878,7 @@
 				)
 			)
 		)
-		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22941,12 +22905,6 @@
 		(path "/fe12ec07-e6d2-4ea8-a9e0-3a82739c906a")
 		(sheetname "/")
 		(sheetfile "WET_PCB_v2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -22995,7 +22953,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.SilkS")
-			(uuid "205731df-6873-4b39-8e5d-994ecff68dbf")
+			(uuid "57105c68-2c5b-4ba5-86d1-86cd27bab289")
 			(effects
 				(font
 					(size 1 1)
@@ -23006,7 +22964,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.Fab")
-			(uuid "57105c68-2c5b-4ba5-86d1-86cd27bab289")
+			(uuid "205731df-6873-4b39-8e5d-994ecff68dbf")
 			(effects
 				(font
 					(size 1 1)
@@ -29106,7 +29064,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29117,7 +29075,7 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29170,12 +29128,6 @@
 		(path "/419c9796-b7e1-43c1-b033-dc2479750a67/22c75459-ec72-41eb-be8d-cf2419f5d8bb")
 		(sheetname "/voltsense_inverter/")
 		(sheetfile "voltsense_inverter.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
@@ -29224,7 +29176,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.SilkS")
-			(uuid "ac63d962-83d1-4e7b-ae62-d220793c4cdf")
+			(uuid "af220917-925a-43a1-b766-97d00be06bb9")
 			(effects
 				(font
 					(size 1 1)
@@ -29235,7 +29187,7 @@
 		(fp_text user "K"
 			(at -2.12 0 0)
 			(layer "F.Fab")
-			(uuid "af220917-925a-43a1-b766-97d00be06bb9")
+			(uuid "ac63d962-83d1-4e7b-ae62-d220793c4cdf")
 			(effects
 				(font
 					(size 1 1)
@@ -31422,7 +31374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31433,7 +31385,7 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31486,12 +31438,6 @@
 		(path "/a17383a4-d27f-4c25-9e0c-b0df1856b8d8/8633b565-80ea-471a-9092-4a694a712a45")
 		(sheetname "/voltsense_DCDC/")
 		(sheetfile "voltsense_DCDC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "fbaf3c5d-df4b-4a54-8d83-9ad72ba399e7")
+	(uuid "8937f4c6-1f7b-4b7c-962b-2082bbceebf8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
@@ -655,6 +655,16 @@
 		)
 		(uuid "c124de74-8ce2-4e98-9581-7d9294728427")
 	)
+	(text "check if we can use this UVLED"
+		(exclude_from_sim no)
+		(at 110.744 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de83c185-ca27-4753-8390-b91652c505cc")
+	)
 	(junction
 		(at 105.41 109.22)
 		(diameter 0)
@@ -1265,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
 			(at 111.76 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1434,7 +1444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1689,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
 			(at 111.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1780,7 +1790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)

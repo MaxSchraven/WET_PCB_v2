@@ -23797,7 +23797,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "ce87a1ae-0461-4489-8ffc-a0b8b9dc8189")
-		(at 238.92 149.5)
+		(at 227.54 153.05 180)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q3"
@@ -23857,7 +23857,7 @@
 			)
 		)
 		(property "Height" "4.69"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23870,7 +23870,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23883,7 +23883,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23896,7 +23896,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23909,7 +23909,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF530NPBF"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23933,54 +23933,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
+			(start 7.65 1.36)
+			(end -2.57 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c9cfe36e-c0f9-4c4c-8a77-d2d6cea199bc")
-		)
-		(fp_line
-			(start -2.57 -1.88)
-			(end 7.65 -1.88)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18328827-03f0-49cd-a263-2d2ee5580375")
-		)
-		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "641b7491-d11c-4e80-a76a-0224f3206bba")
-		)
-		(fp_line
-			(start 0.69 -3.26)
-			(end 0.69 -1.88)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "52a11cd1-7b3f-4e97-8d37-70e878764146")
-		)
-		(fp_line
-			(start 4.39 -3.26)
-			(end 4.39 -1.88)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c70cc684-7a82-4272-8952-51a7f1dd93cb")
+			(uuid "47868d63-ceca-4560-b7f5-7a37df7e4395")
 		)
 		(fp_line
 			(start 7.65 -3.26)
@@ -23993,14 +23953,54 @@
 			(uuid "7c1844ff-b3ad-4d4c-9394-99cfd720f107")
 		)
 		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
+			(start 4.39 -3.26)
+			(end 4.39 -1.88)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "47868d63-ceca-4560-b7f5-7a37df7e4395")
+			(uuid "c70cc684-7a82-4272-8952-51a7f1dd93cb")
+		)
+		(fp_line
+			(start 0.69 -3.26)
+			(end 0.69 -1.88)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52a11cd1-7b3f-4e97-8d37-70e878764146")
+		)
+		(fp_line
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "641b7491-d11c-4e80-a76a-0224f3206bba")
+		)
+		(fp_line
+			(start -2.57 -1.88)
+			(end 7.65 -1.88)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18328827-03f0-49cd-a263-2d2ee5580375")
+		)
+		(fp_line
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9cfe36e-c0f9-4c4c-8a77-d2d6cea199bc")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -24014,14 +24014,14 @@
 			(uuid "4ca029e6-10a1-483e-954b-95abe8abeea1")
 		)
 		(fp_line
-			(start -2.46 -1.88)
-			(end 7.54 -1.88)
+			(start 4.39 -3.15)
+			(end 4.39 -1.88)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bc833f8a-8d88-4cfa-9c87-47619fe77d93")
+			(uuid "4b0077c8-7a99-49a2-b7b0-875821e7eba5")
 		)
 		(fp_line
 			(start 0.69 -3.15)
@@ -24034,14 +24034,14 @@
 			(uuid "0b4ecc56-f498-4a4e-9731-24b4ff6b5bf2")
 		)
 		(fp_line
-			(start 4.39 -3.15)
-			(end 4.39 -1.88)
+			(start -2.46 -1.88)
+			(end 7.54 -1.88)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4b0077c8-7a99-49a2-b7b0-875821e7eba5")
+			(uuid "bc833f8a-8d88-4cfa-9c87-47619fe77d93")
 		)
 		(fp_rect
 			(start -2.46 -3.15)
@@ -24066,7 +24066,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -24077,7 +24077,7 @@
 			(uuid "1f909503-73a1-4af4-9153-8e4e7869f7c0")
 		)
 		(pad "2" thru_hole oval
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -24088,7 +24088,7 @@
 			(uuid "21888dd3-ea24-45e8-a141-dee8cdf6be34")
 		)
 		(pad "3" thru_hole oval
-			(at 5.08 0)
+			(at 5.08 0 180)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -25077,7 +25077,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d938af25-6c1f-40ea-bc18-e2f5a1efa8ab")
-		(at 212.12 150.66 180)
+		(at 216.12 149.16 180)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
@@ -25282,7 +25282,7 @@
 			)
 		)
 		(point
-			(at 208.31 143.04)
+			(at 212.31 141.54)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "28145659-ab43-4bcd-8039-cd503ae8bb8a")

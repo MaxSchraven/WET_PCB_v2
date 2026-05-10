@@ -2639,6 +2639,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 86.36 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eedf4c8d-368a-4660-a75b-3a288f87ded8")
+	)
 	(text "12V lower if all ICs can go lower to recuse the LDO's work"
 		(exclude_from_sim no)
 		(at 270.002 90.932 0)

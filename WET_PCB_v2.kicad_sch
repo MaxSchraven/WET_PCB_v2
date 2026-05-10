@@ -3271,6 +3271,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d845de83-b0b4-4a76-8315-fe10c50f81e8")
+	)
+	(wire
+		(pts
 			(xy 383.54 68.58) (xy 393.7 68.58)
 		)
 		(stroke
@@ -6352,6 +6362,84 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeb645c5-1e23-4e16-b76a-60243d91a4f9")
+		(property "Reference" "#PWR039"
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af982501-28a1-46e9-8000-8218eeea6c8d")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

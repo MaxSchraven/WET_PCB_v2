@@ -1666,12 +1666,6 @@
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
 	)
 	(junction
-		(at 73.66 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "645e702d-6852-4e74-8c1f-b71197a5d2dc")
-	)
-	(junction
 		(at 278.13 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1682,6 +1676,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c5eea9a-7963-4746-9016-496e7cc2edbf")
+	)
+	(junction
+		(at 73.66 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7579d1f-7bf3-4a09-88e7-e0ebab650abf")
 	)
 	(wire
 		(pts
@@ -1905,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 73.66 33.02)
+			(xy 55.88 33.02) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 41.91 33.02)
+			(xy 39.37 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 45.72 33.02 180)
+		(at 52.07 33.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2821,7 +2821,7 @@
 		(fields_autoplaced yes)
 		(uuid "d79a16e9-892f-4224-8b95-f6d6f0803906")
 		(property "Reference" "D12"
-			(at 45.72 26.67 0)
+			(at 52.07 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2831,7 +2831,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 45.72 29.21 0)
+			(at 52.07 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2841,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 45.72 28.575 0)
+			(at 52.07 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,7 +2852,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 45.72 33.02 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,7 +2863,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 45.72 33.02 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,7 +2874,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 33.02 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2885,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 33.02 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

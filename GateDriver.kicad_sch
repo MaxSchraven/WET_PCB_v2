@@ -1523,12 +1523,6 @@
 		(uuid "0cb5bb8a-2e75-4211-8a6f-486a1f038c37")
 	)
 	(junction
-		(at 111.76 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "198e9b43-159f-48fa-9ea8-e1caf9a36753")
-	)
-	(junction
 		(at 121.92 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49cea7b8-a59d-4764-8df5-aff5f3b2dfbb")
+	)
+	(junction
+		(at 104.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55380ff0-1565-4aa5-b312-8e09cde7f02d")
 	)
 	(junction
 		(at 82.55 73.66)
@@ -1559,10 +1559,10 @@
 		(uuid "680b4aca-2c32-44ab-96e8-f0d2454e96a0")
 	)
 	(junction
-		(at 111.76 60.96)
+		(at 104.14 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91269b0d-61be-43b3-9cb9-c7ed92105f1e")
+		(uuid "7c3e2920-059e-43ae-9214-6a35f29bdbab")
 	)
 	(junction
 		(at 82.55 38.1)
@@ -1912,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f3c144-2143-43db-8c71-4deb1a8164f6")
+	)
+	(wire
+		(pts
 			(xy 144.78 63.5) (xy 156.21 63.5)
 		)
 		(stroke
@@ -1942,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 48.26) (xy 111.76 48.26)
+			(xy 101.6 48.26) (xy 104.14 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 60.96) (xy 111.76 60.96)
+			(xy 90.17 60.96) (xy 104.14 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1979,16 +1989,6 @@
 			(type default)
 		)
 		(uuid "c1970509-f991-4984-9015-828fe7b9a85d")
-	)
-	(wire
-		(pts
-			(xy 111.76 60.96) (xy 121.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5152390-7eb7-4ab1-85c7-2d3ed5db34bd")
 	)
 	(wire
 		(pts
@@ -2162,13 +2162,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 48.26) (xy 121.92 48.26)
+			(xy 104.14 60.96) (xy 121.92 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd4ddd3d-35f9-4a70-96e6-b05725e57665")
+		(uuid "f92ebdfb-ed16-4219-bc8e-00f6d7e724a9")
 	)
 	(label "VCC_Driver"
 		(at 102.87 63.5 0)
@@ -2543,7 +2543,7 @@
 	)
 	(symbol
 		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
-		(at 111.76 60.96 90)
+		(at 104.14 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2553,7 +2553,7 @@
 		(dnp no)
 		(uuid "27e2b4d7-38cb-4402-b356-7636cdb17e40")
 		(property "Reference" "C14"
-			(at 103.886 55.626 90)
+			(at 106.934 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2564,7 +2564,7 @@
 			)
 		)
 		(property "Value" "C322C104K5R5TA"
-			(at 101.854 57.912 90)
+			(at 106.426 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.95 52.07 0)
+			(at 200.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +2587,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
-			(at 307.95 52.07 0)
+			(at 300.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Description" "GoldMax, Commercial Standard"
-			(at 111.76 60.96 0)
+			(at 104.14 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Height" "6.6"
-			(at 507.95 52.07 0)
+			(at 500.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2622,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 607.95 52.07 0)
+			(at 600.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +2634,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 707.95 52.07 0)
+			(at 700.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 807.95 52.07 0)
+			(at 800.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2658,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
-			(at 907.95 52.07 0)
+			(at 900.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

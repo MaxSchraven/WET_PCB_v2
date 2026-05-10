@@ -3377,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 137.16 58.42)
+			(xy 139.7 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4014,6 +4014,16 @@
 			(justify right bottom)
 		)
 		(uuid "7e90a9db-1c86-40a9-ab01-dcec454fede0")
+	)
+	(label "ADC1_IN1"
+		(at 139.7 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "877c9030-d17f-4288-bb5a-46f6bd9135a4")
 	)
 	(label "TIM3_CH1"
 		(at 307.34 86.36 180)

@@ -1254,8 +1254,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "U3"
+				(at -1.27 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1266,7 +1266,7 @@
 				)
 			)
 			(property "Value" "Opamp_Quad"
-				(at 0 -5.08 0)
+				(at -1.27 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1276,7 +1276,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1401,7 +1401,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "out1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "in1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "in1+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1469,7 +1469,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "in2+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "in2-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1505,7 +1505,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "out2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "out3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "in3-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "in3+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "in4+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1623,7 +1623,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "in4-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1641,7 +1641,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "out4"
 						(effects
 							(font
 								(size 1.27 1.27)

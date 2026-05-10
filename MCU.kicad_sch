@@ -1505,56 +1505,6 @@
 		)
 		(uuid "2a96c364-fd1d-47cf-8489-8129c9a16c74")
 	)
-	(label "TIM1_CH1N"
-		(at 33.02 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "411b5d83-6162-4a29-a19d-c254fcab0c6e")
-	)
-	(label "GPIO_PB3"
-		(at 33.02 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d603b20-3a99-4120-aa5c-b0151b361bd2")
-	)
-	(label "GPIO_A11"
-		(at 33.02 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55ebb20d-1111-4ede-b788-06eba219b24b")
-	)
-	(label "ADC1_IN4"
-		(at 33.02 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "604a0186-9ee8-4fd7-a4b1-5be6442d89f5")
-	)
-	(label "GPIO_A12"
-		(at 33.02 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d4a17d2-16e0-4340-ab07-dbd25ab5ff2c")
-	)
 	(label "TIM17_CH1N"
 		(at 104.14 55.88 0)
 		(effects
@@ -1574,16 +1524,6 @@
 			(justify left bottom)
 		)
 		(uuid "78126d43-8d0f-49e7-8ce7-286fd87affff")
-	)
-	(label "ADC1_IN5"
-		(at 33.02 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9455a41e-6b2e-4fc7-9660-943c5de3e89d")
 	)
 	(label "SYS_NRST"
 		(at 104.14 58.42 0)
@@ -1615,15 +1555,82 @@
 		)
 		(uuid "c3d95831-895f-480e-b2d4-0ad45cf369b8")
 	)
-	(label "TIM1_CH1"
-		(at 33.02 48.26 180)
+	(hierarchical_label "TIM1_CH1"
+		(shape input)
+		(at 33.02 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "ff7c91e8-6a35-486b-839f-0fb1a95afc83")
+		(uuid "1a94f3bf-3b51-411c-8430-759daed5bf30")
+	)
+	(hierarchical_label "ADC1_IN4"
+		(shape input)
+		(at 33.02 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46fd91cd-20c4-464e-bd6e-363c1c70ae8f")
+	)
+	(hierarchical_label "TIM1_CH1N"
+		(shape input)
+		(at 33.02 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5685be10-b671-4847-9674-f8a8df297846")
+	)
+	(hierarchical_label "ADC1_IN5"
+		(shape input)
+		(at 33.02 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85f77ebc-b1b6-4e19-9745-30a0ae08434e")
+	)
+	(hierarchical_label "GPIO_A11"
+		(shape input)
+		(at 33.02 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "badd776e-5d93-42ce-a370-4ab9f048677e")
+	)
+	(hierarchical_label "GPIO_A12"
+		(shape input)
+		(at 33.02 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c62256c7-33e7-46c1-ab63-fdbd34db0e2b")
+	)
+	(hierarchical_label "GPIO_PB3"
+		(shape input)
+		(at 33.02 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dad9f28d-6e16-4623-bd64-ca9c80593e23")
 	)
 	(symbol
 		(lib_id "power:GND")

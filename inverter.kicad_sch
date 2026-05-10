@@ -3803,6 +3803,28 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
+	(hierarchical_label "DCDC_Driver_Hin"
+		(shape input)
+		(at 31.75 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2695706f-4e10-4515-8025-43531f144645")
+	)
+	(hierarchical_label "DCDC_Driver_Lin"
+		(shape input)
+		(at 31.75 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d8e325-6ec7-4944-a4ef-93cd6d466f9a")
+	)
 	(hierarchical_label "Vout_Inverter_-"
 		(shape output)
 		(at 153.67 87.63 270)
@@ -3813,6 +3835,17 @@
 			(justify right)
 		)
 		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
+	)
+	(hierarchical_label "DCDC_Driver_SD"
+		(shape input)
+		(at 31.75 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c462de58-725c-4551-84b7-7cea92a995cd")
 	)
 	(hierarchical_label "Vout_Inverter_+"
 		(shape output)

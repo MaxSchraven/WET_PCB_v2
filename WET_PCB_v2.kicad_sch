@@ -8350,7 +8350,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6ecc05b2-84d4-404f-84e6-8cc19742ad68")
-		(property "Sheetname" "currsense_DCDC1"
+		(property "Sheetname" "currsense_inv"
 			(at 256.54 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)

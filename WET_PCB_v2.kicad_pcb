@@ -11030,11 +11030,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "51893a75-e89c-441d-8584-cfee0c20c79e")
-		(at 213.69 82)
+		(at 221.5 88.81 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R17"
-			(at 3.81 -2.37 0)
+			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
 			(uuid "6e909a9f-76d9-4daa-8f32-b8c4631b6fea")
 			(effects
@@ -11045,7 +11045,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "5b913e5e-7a0b-415f-bf33-9e67edeec37f")
 			(effects
@@ -11056,7 +11056,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc479960-fb86-4c33-a793-c6d46bee8ee1")
@@ -11067,7 +11067,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "608f980b-fe08-4e65-b9d9-7245611989c9")
@@ -11078,7 +11078,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "239ab6d6-7849-439e-a946-586a724a7d30")
@@ -11090,7 +11090,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11103,7 +11103,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11116,7 +11116,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11129,7 +11129,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11142,7 +11142,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11165,6 +11165,16 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 7.08 -1.37)
+			(end 7.08 -1.04)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9c548961-b508-4388-9784-aaa7ad04e183")
+		)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -11196,26 +11206,6 @@
 			(uuid "8bde2547-06a4-4e6f-9e2d-edc44046dd2a")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "083a0ae7-5123-485b-b072-ca21baea74fa")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9c548961-b508-4388-9784-aaa7ad04e183")
-		)
-		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
 			(stroke
@@ -11224,6 +11214,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e62d1768-129b-4f63-a5d8-2400df02ac3c")
+		)
+		(fp_line
+			(start 0.54 1.37)
+			(end 7.08 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "083a0ae7-5123-485b-b072-ca21baea74fa")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -11237,16 +11237,6 @@
 			(uuid "93ffa486-5623-446c-8fe1-d6ba12ded1c3")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d872a743-1c23-4dac-bdc7-1fb1d7a5739d")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -11255,6 +11245,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "780979bd-56d3-40d1-857f-a2398cb52ff7")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d872a743-1c23-4dac-bdc7-1fb1d7a5739d")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -11268,7 +11268,7 @@
 			(uuid "9b29e5f1-67f2-4243-a3fc-1163c65e5d8d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "57be56c4-7bf0-45bc-9a81-391d33d533a1")
 			(effects
@@ -11279,7 +11279,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11290,7 +11290,7 @@
 			(uuid "faf633fb-7a72-4cc9-aabf-d48302b953f9")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15491,7 +15491,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7f356705-410f-4951-900e-442068ac34a1")
-		(at 227.69 101.55)
+		(at 224.38 97)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"

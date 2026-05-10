@@ -209,7 +209,7 @@
 	)
 	(sheet
 		(at 20.32 48.26)
-		(size 38.1 27.94)
+		(size 38.1 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 20.32 76.7846 0)
+			(at 20.32 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -246,7 +246,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Hin" input
-			(at 27.94 76.2 270)
+			(at 27.94 78.74 270)
 			(uuid "9dd5eada-91b8-497f-86e1-2b546b108d82")
 			(effects
 				(font
@@ -256,7 +256,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Lin" input
-			(at 30.48 76.2 270)
+			(at 30.48 78.74 270)
 			(uuid "680ebc16-8f30-49c7-96d6-1ea969df31e3")
 			(effects
 				(font
@@ -266,7 +266,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_SD" input
-			(at 33.02 76.2 270)
+			(at 33.02 78.74 270)
 			(uuid "b532be7c-9221-4f0b-a313-2df34239bf16")
 			(effects
 				(font
@@ -276,7 +276,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Hin" input
-			(at 39.37 76.2 270)
+			(at 39.37 78.74 270)
 			(uuid "459d877f-511e-44a7-89f5-abaebefc065d")
 			(effects
 				(font
@@ -286,7 +286,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Lin" input
-			(at 41.91 76.2 270)
+			(at 41.91 78.74 270)
 			(uuid "ce42ce2c-ccd4-430a-a9cd-cb9cf91e4693")
 			(effects
 				(font
@@ -296,7 +296,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_SD" input
-			(at 44.45 76.2 270)
+			(at 44.45 78.74 270)
 			(uuid "7dcc417e-f2a1-42d8-bb11-2514cac7b4ef")
 			(effects
 				(font

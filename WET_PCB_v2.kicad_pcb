@@ -3134,7 +3134,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "271c11bf-3150-4389-881d-ddaf1c92ba37")
-		(at 145.38 33.84)
+		(at 189 102.92)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
@@ -3339,7 +3339,7 @@
 			)
 		)
 		(point
-			(at 149.19 41.46)
+			(at 192.81 110.54)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "dcfa1792-bc42-480a-ab46-4b4fbee54a3f")

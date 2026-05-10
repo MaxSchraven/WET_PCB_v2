@@ -906,7 +906,7 @@
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
 	)
-	(hierarchical_label "DCDC_coil_circuit_side"
+	(hierarchical_label "Vin_DCDC_coil_circuit_side"
 		(shape input)
 		(at 50.8 43.18 90)
 		(effects
@@ -972,7 +972,7 @@
 		)
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
 	)
-	(hierarchical_label "DCDC_coil_input_side"
+	(hierarchical_label "Vin_DCDC_coil_input_side"
 		(shape output)
 		(at 44.45 43.18 90)
 		(effects

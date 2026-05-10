@@ -14413,7 +14413,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "763c53ef-b148-44ee-b627-f14079f594f6")
-		(at 173.46 146.5)
+		(at 175.5 148.5 180)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D15"
@@ -14473,7 +14473,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14486,7 +14486,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14564,17 +14564,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -2.12 0 0)
-			(layer "F.Fab")
-			(uuid "6e21ab82-88c1-42f3-804c-ce82bfca24ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 -2.92 0)
 			(layer "F.Fab")
@@ -14586,8 +14575,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -2.12 0 0)
+			(layer "F.Fab")
+			(uuid "6e21ab82-88c1-42f3-804c-ce82bfca24ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -14599,7 +14599,7 @@
 			(uuid "ac0b7437-a9e9-479d-9b91-3cf940691b57")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -28643,7 +28643,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ee6f5dce-8a28-4e97-b774-36d2cafe98dc")
-		(at 182.89 146.5)
+		(at 182.89 146.5 180)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D7"
@@ -28703,7 +28703,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28716,7 +28716,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28794,17 +28794,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -2.12 0 0)
-			(layer "F.Fab")
-			(uuid "ac63d962-83d1-4e7b-ae62-d220793c4cdf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 -2.92 0)
 			(layer "F.Fab")
@@ -28816,8 +28805,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -2.12 0 0)
+			(layer "F.Fab")
+			(uuid "ac63d962-83d1-4e7b-ae62-d220793c4cdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -28829,7 +28829,7 @@
 			(uuid "289d6100-83ad-4fb8-b8b7-2ad7d8392c1e")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")

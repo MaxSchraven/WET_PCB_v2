@@ -1036,16 +1036,6 @@
 		(uuid "f9b80b59-0314-4722-9c6b-4ad8277d808f")
 	)
 	(label "VDD_OPAMP"
-		(at 128.27 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "022ff3a0-4bc0-482f-9fbb-20d69f011a36")
-	)
-	(label "VDD_OPAMP"
 		(at 87.63 41.91 0)
 		(effects
 			(font
@@ -1077,14 +1067,14 @@
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape output)
-		(at 87.63 38.1 90)
+		(at 69.85 22.86 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ba66ae03-a4ef-499d-9114-95b0adf6c1bf")
+		(uuid "424ff060-d492-4914-9bdd-acbc07dfba9e")
 	)
 	(symbol
 		(lib_id "Device:R")

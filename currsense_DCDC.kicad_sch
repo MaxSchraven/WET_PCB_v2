@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d0d36c9e-fbb1-4425-b27d-02ac309e4acf")
+	(uuid "474d31f3-3e2b-4ed5-9593-c29f83fe6c3b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
@@ -1064,16 +1064,6 @@
 			)
 		)
 		(uuid "cb1b3fbe-367e-4834-a25e-df4cb204cf53")
-	)
-	(text "Add decoupling caps for VSS VDD"
-		(exclude_from_sim no)
-		(at 44.196 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff3a2c77-716c-44b8-a6c6-9e76f4e2eb85")
 	)
 	(junction
 		(at 55.88 59.69)

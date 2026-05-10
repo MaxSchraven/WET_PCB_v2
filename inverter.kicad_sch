@@ -3336,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 27.94) (xy 54.61 29.21)
+			(xy 54.61 25.4) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3624,8 +3624,18 @@
 		)
 		(uuid "5c0e41f9-471c-48a8-a733-05292ca6e6df")
 	)
+	(label "VDD_Inverter"
+		(at 250.19 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "694c49f2-1e2a-497f-a6af-a6482919b34f")
+	)
 	(label "VCC_Inverter"
-		(at 54.61 27.94 0)
+		(at 54.61 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,12 +3645,12 @@
 		(uuid "790e596a-edee-462d-9951-b56071af1daa")
 	)
 	(label "VDD_Inverter"
-		(at 44.45 25.4 0)
+		(at 44.45 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
 	)

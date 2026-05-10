@@ -8009,6 +8009,46 @@
 				(justify left top)
 			)
 		)
+		(pin "UVLED1" input
+			(at 26.67 105.41 0)
+			(uuid "18f59ee2-f6c5-4246-81ed-6a59ccfade34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UVLED2" input
+			(at 26.67 107.95 0)
+			(uuid "e5395333-5415-413e-9da6-f689307f4069")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UVLED3" input
+			(at 26.67 110.49 0)
+			(uuid "48623fde-665b-4b6d-ae19-71aedf078c33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UVLED4" input
+			(at 26.67 113.03 0)
+			(uuid "ec2880bd-19d9-45e5-af71-78822e82d9d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

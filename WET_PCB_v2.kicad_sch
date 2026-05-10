@@ -6749,7 +6749,7 @@
 				(justify right)
 			)
 		)
-		(pin "Shunt_to_load" input
+		(pin "Shunt_to_load" output
 			(at 111.76 34.29 90)
 			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
 			(effects

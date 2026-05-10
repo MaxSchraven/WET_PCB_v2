@@ -1224,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 20.32) (xy 71.12 20.32)
+			(xy 76.2 20.32) (xy 73.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1263,7 @@
 		(uuid "491aca54-4c78-4b2b-972e-053368465be9")
 	)
 	(label "VDD_OPAMP"
-		(at 71.12 20.32 180)
+		(at 73.66 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape input)
-		(at 73.66 20.32 0)
+		(at 76.2 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,8 +1742,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 71.12 24.13 0)
+		(lib_id "power:GND")
+		(at 73.66 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1751,32 +1751,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bb25a46-ae8e-4fc6-af7f-ed1a302873e1")
-		(property "Reference" "C18"
-			(at 74.93 21.9709 0)
+		(uuid "882b5625-0e39-4976-a5bb-47dd2c0cf2f5")
+		(property "Reference" "#PWR054"
+			(at 73.66 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 74.93 24.5109 0)
+		(property "Value" "GND"
+			(at 73.66 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 72.0852 27.94 0)
+			(at 73.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1787,7 +1785,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 24.13 0)
+			(at 73.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a81a9a79-5aa7-4684-91e3-0651cde15cd0")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 73.66 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb25a46-ae8e-4fc6-af7f-ed1a302873e1")
+		(property "Reference" "C18"
+			(at 77.47 21.9709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 77.47 24.5109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.6252 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,7 +1875,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 71.12 24.13 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

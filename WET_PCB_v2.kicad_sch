@@ -8046,7 +8046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 64.77 85.09 0)
 			(hide yes)
 			(show_name no)

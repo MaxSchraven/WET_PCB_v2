@@ -2307,7 +2307,7 @@
 	(text_box "Power input"
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
-		(size 60.96 43.18)
+		(size 60.96 58.42)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 22.86 68.58 0)
+		(at 22.86 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3116,7 +3116,7 @@
 		(fields_autoplaced yes)
 		(uuid "13ef1181-9f35-434d-b1e5-a183dbcccbe2")
 		(property "Reference" "R5"
-			(at 25.4 67.3099 0)
+			(at 25.4 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3127,7 +3127,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 25.4 69.8499 0)
+			(at 25.4 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3138,7 +3138,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.082 68.58 90)
+			(at 21.082 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 68.58 0)
+			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 22.86 68.58 0)
+			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 80.01 0)
+		(at 22.86 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4505,7 +4505,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90f0352-2b65-4e29-a548-e386681e0dbd")
 		(property "Reference" "#PWR032"
-			(at 22.86 86.36 0)
+			(at 22.86 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,7 +4516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 85.09 0)
+			(at 22.86 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4526,7 +4526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 80.01 0)
+			(at 22.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4537,7 +4537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 80.01 0)
+			(at 22.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +4548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 80.01 0)
+			(at 22.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 22.86 64.77 0)
+		(at 22.86 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4740,7 +4740,7 @@
 		(fields_autoplaced yes)
 		(uuid "db541be0-49aa-489e-b6bb-702a285a34a5")
 		(property "Reference" "#PWR031"
-			(at 22.86 68.58 0)
+			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4751,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 22.86 59.69 0)
+			(at 22.86 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 64.77 0)
+			(at 22.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 64.77 0)
+			(at 22.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 22.86 64.77 0)
+			(at 22.86 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 22.86 76.2 90)
+		(at 22.86 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4896,7 +4896,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbb7d28f-3d45-44a9-8677-18a22e637cb3")
 		(property "Reference" "D13"
-			(at 26.67 76.5174 90)
+			(at 26.67 94.2974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4907,7 +4907,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 26.67 79.0574 90)
+			(at 26.67 96.8374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4918,7 +4918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 76.2 0)
+			(at 22.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 76.2 0)
+			(at 22.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4940,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 22.86 76.2 0)
+			(at 22.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4951,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 22.86 76.2 0)
+			(at 22.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

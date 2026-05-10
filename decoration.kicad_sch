@@ -664,11 +664,27 @@
 		(uuid "a8271f3a-f36a-46cd-ae8b-102cad43b558")
 	)
 	(no_connect
-		(at 105.41 67.31)
+		(at 135.89 97.79)
+		(uuid "0eeab65f-a2a1-464a-a54e-a3d24adcb40a")
+	)
+	(no_connect
+		(at 135.89 95.25)
+		(uuid "770b6068-b940-4e5e-9781-91a37146b5cd")
+	)
+	(no_connect
+		(at 133.35 78.74)
 		(uuid "a63ef750-8cd6-4122-9411-6a91358b737b")
 	)
 	(no_connect
-		(at 105.41 64.77)
+		(at 134.62 86.36)
+		(uuid "b4fba42f-99ac-4639-b1be-2acc3bd42755")
+	)
+	(no_connect
+		(at 134.62 88.9)
+		(uuid "e6dfad85-2597-4b2b-8c61-cc9b2604b3bc")
+	)
+	(no_connect
+		(at 133.35 76.2)
 		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
 	)
 	(wire
@@ -877,7 +893,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 110.49 64.77 0)
+		(at 138.43 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -888,7 +904,7 @@
 		(fields_autoplaced yes)
 		(uuid "29046909-95f8-4f0e-b0b4-f88402ebca64")
 		(property "Reference" "J12"
-			(at 111.76 64.7699 0)
+			(at 139.7 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -899,7 +915,7 @@
 			)
 		)
 		(property "Value" "Fuse holder or smth to hold tube"
-			(at 111.76 67.3099 0)
+			(at 139.7 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -910,7 +926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 64.77 0)
+			(at 138.43 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -921,7 +937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 64.77 0)
+			(at 138.43 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -932,7 +948,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 110.49 64.77 0)
+			(at 138.43 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1032,6 +1048,88 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 140.97 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5caba445-3e5b-492e-adbb-f4b94b80961e")
+		(property "Reference" "J14"
+			(at 142.24 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse holder or smth to hold tube"
+			(at 142.24 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ab26080-36d3-4ee2-a676-1caeeba1f11b")
+		)
+		(pin "1"
+			(uuid "115321d2-1e18-4bd0-822e-be27d24b8392")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1372,6 +1470,88 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a359ce21-3cab-4a1e-a6bd-5f487eea098c")
+		(property "Reference" "J13"
+			(at 140.97 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse holder or smth to hold tube"
+			(at 140.97 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5bd893d8-2e13-4e5e-8f59-247a67ab4dbf")
+		)
+		(pin "1"
+			(uuid "fbf2a23f-6320-4777-a180-a8fc8b4e4bcd")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
+					(reference "J13")
 					(unit 1)
 				)
 			)

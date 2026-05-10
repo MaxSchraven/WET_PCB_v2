@@ -1064,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 38.1) (xy 114.3 38.1)
+			(xy 111.76 38.1) (xy 114.3 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 114.3 43.18)
+			(xy 111.76 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 40.64) (xy 114.3 40.64)
+			(xy 111.76 40.64) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2028,7 +2028,7 @@
 	)
 	(sheet
 		(at 97.79 34.29)
-		(size 12.7 12.7)
+		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2074,7 +2074,7 @@
 			)
 		)
 		(pin "Hin" input
-			(at 110.49 43.18 0)
+			(at 111.76 43.18 0)
 			(uuid "4e0f7804-922f-4493-b913-21fd13b02f21")
 			(effects
 				(font
@@ -2084,7 +2084,7 @@
 			)
 		)
 		(pin "Lin" input
-			(at 110.49 40.64 0)
+			(at 111.76 40.64 0)
 			(uuid "c33d1abd-23e8-44ec-99a9-551a85147ed0")
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(pin "SD" input
-			(at 110.49 38.1 0)
+			(at 111.76 38.1 0)
 			(uuid "c023d659-43af-4a89-b779-9883fb505291")
 			(effects
 				(font
@@ -2124,8 +2124,18 @@
 			)
 		)
 		(pin "VCC_Driver" input
-			(at 110.49 35.56 0)
+			(at 111.76 35.56 0)
 			(uuid "fc2ca620-6d27-424e-a3f7-dded0a470c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_Driver" input
+			(at 111.76 45.72 0)
+			(uuid "3e6f5635-6a1b-43ce-871b-4667b4a7ca5d")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3803,7 +3803,7 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
-	(hierarchical_label "DCDC_Driver_Hin"
+	(hierarchical_label "Inv_Driver_Left_Hin"
 		(shape input)
 		(at 31.75 59.69 180)
 		(effects

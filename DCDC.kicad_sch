@@ -1294,6 +1294,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 35.56) (xy 125.73 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed010e0e-faa0-4428-b3bd-0d2f0be0807e")
+	)
+	(wire
+		(pts
 			(xy 57.15 27.94) (xy 58.42 27.94)
 		)
 		(stroke
@@ -1322,6 +1332,17 @@
 			(justify left)
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
+	)
+	(hierarchical_label "VCC_Driver"
+		(shape passive)
+		(at 137.16 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
 	)
 	(hierarchical_label "CDC_Driver_Lin"
 		(shape output)

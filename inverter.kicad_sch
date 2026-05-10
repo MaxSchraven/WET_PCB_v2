@@ -3654,16 +3654,6 @@
 		)
 		(uuid "93eb8bb2-1fcd-4f20-a57c-029c9251cbc2")
 	)
-	(label "Vin"
-		(at 147.32 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
-	)
 	(hierarchical_label "Inv_Driver_Right_Lin"
 		(shape input)
 		(at 257.81 62.23 0)

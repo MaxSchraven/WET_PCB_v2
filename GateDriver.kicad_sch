@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "Value" "STPS8H100D"
-			(at 97.282 45.466 90)
+			(at 106.68 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

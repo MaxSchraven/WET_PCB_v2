@@ -6029,6 +6029,16 @@
 				(justify left top)
 			)
 		)
+		(pin "Vin_12V" input
+			(at 33.02 58.42 180)
+			(uuid "ddc296b0-547e-48fe-bf50-c45d5326c616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

@@ -3477,12 +3477,6 @@
 		(uuid "47a68961-9e99-4459-8e26-ae78e2670592")
 	)
 	(junction
-		(at 242.57 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c9e4034-8ca6-432a-b73e-21965fec4523")
-	)
-	(junction
 		(at 49.53 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3625,12 +3619,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8c75059-0d40-4491-b96b-0b1bdf092ec3")
-	)
-	(junction
-		(at 242.57 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1153148-b75b-4d2a-a9f9-143603d45641")
 	)
 	(junction
 		(at 388.62 81.28)
@@ -3780,16 +3768,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 26.67) (xy 240.03 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3525ae7c-b23e-439b-94fc-682b5ebc1b81")
-	)
-	(wire
-		(pts
 			(xy 374.65 78.74) (xy 388.62 78.74)
 		)
 		(stroke
@@ -3797,16 +3775,6 @@
 			(type default)
 		)
 		(uuid "37502022-7b2f-464b-b4d8-f8099a78d6ab")
-	)
-	(wire
-		(pts
-			(xy 242.57 29.21) (xy 240.03 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39107910-d4f9-4514-9627-f33b748c10ca")
 	)
 	(wire
 		(pts
@@ -4320,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 26.67) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae8e0ea-6771-4b74-94d3-99b034cb9a3d")
+	)
+	(wire
+		(pts
 			(xy 288.29 83.82) (xy 295.91 83.82)
 		)
 		(stroke
@@ -4500,13 +4478,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 29.21) (xy 242.57 26.67)
+			(xy 245.11 29.21) (xy 240.03 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3e2cbfc-ce58-4679-b582-7449eac82177")
+		(uuid "bdef55d0-677e-4aa9-88f8-36f63d8292d0")
 	)
 	(wire
 		(pts
@@ -5540,7 +5518,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 247.65 29.21 180)
+		(at 250.19 26.67 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5550,7 +5529,7 @@
 		(dnp no)
 		(uuid "276bb403-5788-4e36-bf77-20457db770c5")
 		(property "Reference" "J7"
-			(at 258.826 29.21 0)
+			(at 261.366 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5560,7 +5539,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 260.604 26.67 0)
+			(at 263.144 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5570,7 +5549,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
-			(at 247.65 29.21 0)
+			(at 250.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 29.21 0)
+			(at 250.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5571,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 247.65 29.21 0)
+			(at 250.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

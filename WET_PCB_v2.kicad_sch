@@ -4407,7 +4407,7 @@
 		(dnp no)
 		(uuid "c051e83d-4d54-461f-a5a0-7955d779fdda")
 		(property "Reference" "J6"
-			(at 115.824 19.304 90)
+			(at 121.158 15.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

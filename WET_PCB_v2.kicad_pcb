@@ -307,7 +307,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "02f2cc05-9ac9-4645-8164-f1a2c413ed92")
-		(at 288.235 106.875)
+		(at 260.46 119.9)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D4"
@@ -2182,7 +2182,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "236d2a7e-13a1-4615-9a0e-ae84c0a2ce73")
-		(at 288.235 118.775)
+		(at 260.46 131.8)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q2"
@@ -17327,7 +17327,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "9097c03f-26a8-4dd4-821f-ce68e1820507")
-		(at 288.235 130.675)
+		(at 260.46 143.7)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q4"
@@ -21109,7 +21109,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "bd04478e-43f3-408b-b91b-33e05711f3fc")
-		(at 288.235 100.925)
+		(at 260.46 113.95)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D1"
@@ -22167,7 +22167,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "c17439c9-45a8-4bbc-85e4-6bc50c8c2e75")
-		(at 288.235 112.825)
+		(at 260.46 125.85)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
@@ -23797,7 +23797,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "ce87a1ae-0461-4489-8ffc-a0b8b9dc8189")
-		(at 288.235 124.725)
+		(at 260.46 137.75)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q3"
@@ -25077,7 +25077,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d938af25-6c1f-40ea-bc18-e2f5a1efa8ab")
-		(at 319.88 98.8)
+		(at 244.69 117.38)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
@@ -25282,7 +25282,7 @@
 			)
 		)
 		(point
-			(at 323.69 106.42)
+			(at 248.5 125)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "28145659-ab43-4bcd-8039-cd503ae8bb8a")
@@ -25458,7 +25458,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d9ceed1f-388d-46bf-81de-99f7853ca1f8")
-		(at 308.905 99.055)
+		(at 212.88 116.46)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
@@ -25663,7 +25663,7 @@
 			)
 		)
 		(point
-			(at 312.715 106.675)
+			(at 216.69 124.08)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "ac49116a-8180-4b23-8f29-33b62a1c6691")

@@ -4304,11 +4304,11 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "2d342a03-929d-4fc5-b931-1bd9ecca4a8f")
-		(at 175.5 110.5)
+		(at 177 110 -90)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C15"
-			(at 1 -3.75 0)
+			(at 1 -3.75 90)
 			(layer "F.SilkS")
 			(uuid "92a2ff23-aa0d-4df3-8ff5-03b9e733d393")
 			(effects
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Value" "MCGPR63V106M5X11"
-			(at 4.5 3.5 0)
+			(at 4.5 3.5 90)
 			(layer "F.Fab")
 			(uuid "e7a86d4e-7e95-4097-8b49-261f12aac79b")
 			(effects
@@ -4330,7 +4330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e011b22c-1fc4-48c3-b1db-ed02f78832d3")
@@ -4341,7 +4341,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP PRO MCGPR63V106M5X11Electrolytic Capacitor, 10 F, 63 V, +/- 20%, Radial Leaded, 2000 hours @ 85C, Polar"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d3d7fc3-4d29-4ba3-b0f9-b528fe512aa9")
@@ -4352,7 +4352,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ecbab458-abd3-412f-b2ed-64157b8454e0")
@@ -4364,7 +4364,7 @@
 			)
 		)
 		(property "Height" "12"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4377,7 +4377,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4390,7 +4390,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4403,7 +4403,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4473,7 +4473,7 @@
 			(uuid "4464c4fd-d060-4849-a1ec-a45a7f230a31")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 0)
+			(at 1 0 90)
 			(layer "F.Fab")
 			(uuid "c09505e9-7494-445c-9866-d234f3cbf188")
 			(effects
@@ -4484,7 +4484,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4495,7 +4495,7 @@
 			(uuid "75040e2a-7c23-4528-ad12-5d35b097456a")
 		)
 		(pad "2" thru_hole circle
-			(at 2 0)
+			(at 2 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

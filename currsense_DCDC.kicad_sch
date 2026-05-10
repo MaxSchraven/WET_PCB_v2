@@ -1757,7 +1757,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5afffa9e-6b95-4421-ba14-200f66805631")
 		(property "Reference" "U3"
 			(at 78.74 59.6901 0)
@@ -1771,7 +1770,7 @@
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 78.74 57.1501 0)
+			(at 77.724 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

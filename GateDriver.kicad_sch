@@ -2160,7 +2160,7 @@
 		)
 		(uuid "412583e1-faae-4f07-8942-4d4f6a38c0b3")
 	)
-	(hierarchical_label "Lin"
+	(hierarchical_label "DCDC_Driver_Lin"
 		(shape input)
 		(at 60.96 60.96 180)
 		(effects

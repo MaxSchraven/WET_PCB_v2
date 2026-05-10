@@ -6493,7 +6493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 31.75 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7680,7 +7680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 20.32 87.63 0)
 			(hide yes)
 			(show_name no)

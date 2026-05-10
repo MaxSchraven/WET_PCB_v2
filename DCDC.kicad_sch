@@ -1303,6 +1303,17 @@
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
 	)
+	(hierarchical_label "Vin_DCDC_coil_source_side"
+		(shape output)
+		(at 45.72 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
+	)
 	(hierarchical_label "VCC_Driver"
 		(shape passive)
 		(at 137.16 35.56 0)
@@ -1359,7 +1370,7 @@
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
 	)
 	(hierarchical_label "Vin_DCDC_coil_source_side"
-		(shape input)
+		(shape output)
 		(at 41.91 25.4 90)
 		(effects
 			(font

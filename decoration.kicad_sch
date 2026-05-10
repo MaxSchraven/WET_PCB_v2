@@ -530,6 +530,14 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 87.63 60.96)
+		(uuid "a63ef750-8cd6-4122-9411-6a91358b737b")
+	)
+	(no_connect
+		(at 87.63 58.42)
+		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 92.71 58.42 0)
@@ -553,7 +561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Fuse holder or smth to hold tube"
 			(at 93.98 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)

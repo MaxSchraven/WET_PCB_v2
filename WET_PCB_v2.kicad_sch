@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 33.02 72.39)
+		(at 33.02 71.12)
 		(size 26.67 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "04007180-46fe-4cf0-9e6f-a7d321798318")
 		(property "Sheetname" "DCDC"
-			(at 33.02 71.6784 0)
+			(at 33.02 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 33.02 85.6746 0)
+			(at 33.02 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

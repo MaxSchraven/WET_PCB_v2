@@ -295,6 +295,16 @@
 				(justify left)
 			)
 		)
+		(pin "VCC_Driver_Inverter" input
+			(at 63.5 109.22 270)
+			(uuid "d4949e3e-61bf-4226-a3fb-dfa4a4fefe44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

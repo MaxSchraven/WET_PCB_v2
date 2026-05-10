@@ -1612,16 +1612,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 156.21 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0460564f-2b29-4984-9f2c-3dc24a82b7ce")
-	)
-	(wire
-		(pts
 			(xy 90.17 63.5) (xy 102.87 63.5)
 		)
 		(stroke
@@ -2032,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 173.99 62.23)
+			(xy 156.21 63.5) (xy 173.99 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2184,7 @@
 	)
 	(hierarchical_label "Q1_gate"
 		(shape output)
-		(at 173.99 62.23 0)
+		(at 173.99 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)

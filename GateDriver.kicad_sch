@@ -1523,6 +1523,12 @@
 		(uuid "0cb5bb8a-2e75-4211-8a6f-486a1f038c37")
 	)
 	(junction
+		(at 156.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ced73b3-4e05-42e8-bc5e-33ca475cd148")
+	)
+	(junction
 		(at 92.71 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1559,6 +1565,12 @@
 		(uuid "7930a203-adc1-46ce-bae3-36edeb0a1163")
 	)
 	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc66652d-1d91-4bce-8406-e84d6b70b178")
+	)
+	(junction
 		(at 82.55 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1571,19 +1583,7 @@
 		(uuid "f69d087b-9e97-4b9c-a15a-69d19db45971")
 	)
 	(junction
-		(at 156.21 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f98db0b8-fd49-4182-a0ef-6602850e6882")
-	)
-	(junction
-		(at 124.46 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa149285-05de-4b91-822e-9fa70f988cf4")
-	)
-	(junction
-		(at 144.78 63.5)
+		(at 144.78 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa613e7c-365e-4417-906f-8855c375a93f")
@@ -1612,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 69.85)
+			(xy 124.46 66.04) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 144.78 76.2)
+			(xy 138.43 78.74) (xy 144.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1702,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 124.46 76.2)
+			(xy 124.46 69.85) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 144.78 63.5)
+			(xy 143.51 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 90.17 68.58)
+			(xy 90.17 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1839,16 +1839,6 @@
 			(type default)
 		)
 		(uuid "6cc0d951-3bd8-4ae4-8302-02b3038fc106")
-	)
-	(wire
-		(pts
-			(xy 99.06 68.58) (xy 99.06 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3ca2c3-1944-484c-8222-203a9db4f9fd")
 	)
 	(wire
 		(pts
@@ -1922,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 156.21 63.5)
+			(xy 144.78 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1969,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "b10a0142-2601-4430-9037-169e54907888")
-	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 124.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f23388-9be9-4f5e-a9ca-29454cc5e08e")
 	)
 	(wire
 		(pts
@@ -2052,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 124.46 76.2)
+			(xy 130.81 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2042,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 144.78 76.2)
+			(xy 156.21 66.04) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb067d2-ae64-4fac-9822-29df580f33f8")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 144.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 90.17 66.04)
+			(xy 90.17 69.85) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 125.73 63.5)
+			(xy 124.46 66.04) (xy 125.73 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2676,7 @@
 	)
 	(symbol
 		(lib_id "MF25_10K:MF25_10K")
-		(at 125.73 63.5 0)
+		(at 125.73 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2697,16 +2687,6 @@
 		(fields_autoplaced yes)
 		(uuid "2e25a736-83ca-447b-b8cd-14a513e40cfe")
 		(property "Reference" "R18"
-			(at 134.62 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF25_10K"
 			(at 134.62 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,8 +2696,18 @@
 				)
 			)
 		)
+		(property "Value" "MF25_10K"
+			(at 134.62 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 139.7 159.69 0)
+			(at 139.7 162.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +2719,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf"
-			(at 139.7 259.69 0)
+			(at 139.7 262.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2731,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%"
-			(at 125.73 63.5 0)
+			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2742,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 139.7 459.69 0)
+			(at 139.7 462.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2754,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 139.7 559.69 0)
+			(at 139.7 562.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +2766,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 139.7 659.69 0)
+			(at 139.7 662.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2778,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 139.7 759.69 0)
+			(at 139.7 762.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +2790,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 139.7 859.69 0)
+			(at 139.7 862.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3545,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 134.62 76.2 0)
+		(at 134.62 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3566,16 +3556,6 @@
 		(fields_autoplaced yes)
 		(uuid "bd025d61-c647-49d4-bbd8-e5003c8a021f")
 		(property "Reference" "D11"
-			(at 134.62 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4004"
 			(at 134.62 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,8 +3565,18 @@
 				)
 			)
 		)
+		(property "Value" "1N4004"
+			(at 134.62 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 134.62 80.645 0)
+			(at 134.62 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3587,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 134.62 76.2 0)
+			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3598,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 134.62 76.2 0)
+			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3609,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 134.62 76.2 0)
+			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,7 +3620,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 76.2 0)
+			(at 134.62 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

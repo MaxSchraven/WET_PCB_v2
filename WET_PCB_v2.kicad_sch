@@ -2737,6 +2737,12 @@
 		(color 0 0 0 0)
 		(uuid "ce190205-0128-4bd2-9ccd-4c0b3077028e")
 	)
+	(junction
+		(at 104.14 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb30a220-35f7-477f-b2af-bac57fc06683")
+	)
 	(wire
 		(pts
 			(xy 64.77 76.2) (xy 64.77 73.66)
@@ -2849,6 +2855,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 27.94) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d56917-ef84-4832-843e-1d53e9e6d427")
+	)
+	(wire
+		(pts
 			(xy 267.97 88.9) (xy 278.13 88.9)
 		)
 		(stroke
@@ -2949,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 24.13) (xy 104.14 24.13)
+			(xy 100.33 27.94) (xy 104.14 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3246,16 +3262,6 @@
 			(type default)
 		)
 		(uuid "dc7fbe04-656f-4257-9ff5-d6f76e470b65")
-	)
-	(wire
-		(pts
-			(xy 104.14 24.13) (xy 104.14 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa24b4e-92bf-4a2d-b961-bc2ab5744013")
 	)
 	(wire
 		(pts
@@ -5198,7 +5204,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 100.33 24.13 0)
+		(at 100.33 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5208,7 +5214,7 @@
 		(dnp no)
 		(uuid "9cae6bb2-aa0e-423e-b281-96e95618b804")
 		(property "Reference" "#PWR025"
-			(at 100.33 27.94 0)
+			(at 100.33 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,7 +5225,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 96.774 22.606 0)
+			(at 96.774 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5229,7 +5235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 24.13 0)
+			(at 100.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 24.13 0)
+			(at 100.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,7 +5257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 100.33 24.13 0)
+			(at 100.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5917,6 +5923,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2a5e7a-1a27-4027-a7c9-15fef9b4542d")
+		(property "Reference" "R7"
+			(at 107.95 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 107.95 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 29.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab74d24d-4acc-45a7-8097-97094a6b7a76")
+		)
+		(pin "1"
+			(uuid "44d72a79-19b7-402d-891a-7e6944616b7c")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R7")
 					(unit 1)
 				)
 			)

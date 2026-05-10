@@ -2639,6 +2639,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 96.52 58.42)
+		(end 127 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9f406a4d-1825-43d6-9f9c-a0d7534021fb")
+	)
 	(text "12V lower if all ICs can go lower to recuse the LDO's work"
 		(exclude_from_sim no)
 		(at 270.002 90.932 0)
@@ -2662,7 +2674,7 @@
 	(text_box "Power input"
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
-		(size 53.34 3.9483)
+		(size 63.5 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

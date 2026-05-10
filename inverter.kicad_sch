@@ -3855,6 +3855,17 @@
 	)
 	(hierarchical_label "Vout_Inverter_+"
 		(shape output)
+		(at 147.32 90.17 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
+	)
+	(hierarchical_label "Vout_Inverter_+"
+		(shape output)
 		(at 140.97 87.63 270)
 		(effects
 			(font

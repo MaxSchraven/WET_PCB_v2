@@ -2629,7 +2629,7 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2657ff30-5373-47e7-b0d9-9a88b075b949")
-		(at 317.615 137.595)
+		(at 311.5 150)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, diameter=5.0mm, height=10mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 5.00mm diameter 5.0mm height 10mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C8"
@@ -5088,7 +5088,7 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "34fa6edb-7dc0-485d-9813-9031bae3f176")
-		(at 298.825 139.225)
+		(at 275 147.5)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C7"

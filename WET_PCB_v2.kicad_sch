@@ -8010,7 +8010,7 @@
 			)
 		)
 		(pin "UVLED1" input
-			(at 26.67 105.41 0)
+			(at 26.67 106.68 0)
 			(uuid "18f59ee2-f6c5-4246-81ed-6a59ccfade34")
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 			)
 		)
 		(pin "UVLED2" input
-			(at 26.67 107.95 0)
+			(at 26.67 109.22 0)
 			(uuid "e5395333-5415-413e-9da6-f689307f4069")
 			(effects
 				(font

@@ -1535,6 +1535,12 @@
 		(uuid "25bb1d4a-91a4-4a97-8a2c-5be9b9f5a73f")
 	)
 	(junction
+		(at 92.71 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cea7b8-a59d-4764-8df5-aff5f3b2dfbb")
+	)
+	(junction
 		(at 82.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1716,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 97.79 38.1)
+			(xy 97.79 38.1) (xy 97.79 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1796,16 +1802,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 52.07) (xy 101.6 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6582dab7-bfbc-4e69-b030-ccc631afb58e")
-	)
-	(wire
-		(pts
 			(xy 97.79 38.1) (xy 124.46 38.1)
 		)
 		(stroke
@@ -1846,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 90.17 53.34)
+			(xy 97.79 53.34) (xy 90.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1913,16 +1909,6 @@
 			(type default)
 		)
 		(uuid "8ac31dc6-4379-428d-8b7c-b40224b46a65")
-	)
-	(wire
-		(pts
-			(xy 101.6 52.07) (xy 97.79 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90562956-0eb9-4045-8e40-58ba9a9f8fcc")
 	)
 	(wire
 		(pts
@@ -2026,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 26.67) (xy 92.71 26.67)
+			(xy 95.25 26.67) (xy 92.71 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2181,7 @@
 		(uuid "00ca6c55-5eef-4e62-9b64-1cf29859c1c1")
 	)
 	(label "VCC_Driver"
-		(at 96.52 26.67 0)
+		(at 95.25 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)

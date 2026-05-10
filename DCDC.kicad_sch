@@ -944,26 +944,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Shunt network"
-		(exclude_from_sim no)
-		(at 67.31 22.86 0)
-		(size 8.89 5.9929)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4d2d59e0-1850-4926-bf55-bd2483f44f47")
-	)
 	(junction
 		(at 86.36 25.4)
 		(diameter 0)

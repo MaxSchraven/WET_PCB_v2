@@ -2801,6 +2801,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 26.67) (xy 271.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2134c1a5-3c5a-4e2e-a700-cd085208bab8")
+	)
+	(wire
+		(pts
 			(xy 374.65 88.9) (xy 393.7 88.9)
 		)
 		(stroke
@@ -3318,6 +3328,16 @@
 			(type default)
 		)
 		(uuid "cb3f67e2-ec80-4471-8398-e02f1213a390")
+	)
+	(wire
+		(pts
+			(xy 279.4 26.67) (xy 279.4 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d821f094-5d3b-42c4-839e-197b9e941cf2")
 	)
 	(wire
 		(pts
@@ -6245,6 +6265,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 275.59 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c973e45d-3e2a-49e2-8402-f381a42cc375")
+		(property "Reference" "R8"
+			(at 275.59 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Shunt"
+			(at 275.59 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 28.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 275.59 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a809a2f8-5225-4c2e-85d6-c610ee711a64")
+		)
+		(pin "1"
+			(uuid "867d39c5-8df9-4eae-a437-74c7d69f9010")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R8")
 					(unit 1)
 				)
 			)

@@ -1614,7 +1614,7 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 114.6302 85.262 0)
+		(at 143.8402 114.472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 		)
 	)
 	(sheet
-		(at 73.9902 76.372)
+		(at 103.2002 105.582)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2653,7 +2653,7 @@
 		)
 		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
 		(property "Sheetname" "voltsense_DCDC"
-			(at 73.9902 75.6604 0)
+			(at 103.2002 104.8704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 73.9902 93.4666 0)
+			(at 103.2002 122.6766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 73.9902 86.532 180)
+			(at 103.2002 115.742 180)
 			(uuid "eda746ac-a594-40a9-baf0-dc3cdfca87c2")
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 112.0902 85.262 0)
+			(at 141.3002 114.472 0)
 			(uuid "14b3b0e0-8b7b-4dbb-978a-08e5612be825")
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 73.9902 83.992 180)
+			(at 103.2002 113.202 180)
 			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
 			(effects
 				(font

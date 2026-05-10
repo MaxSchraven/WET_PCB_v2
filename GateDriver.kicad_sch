@@ -1506,6 +1506,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Add decoupling caps for VSS VDD"
+		(exclude_from_sim no)
+		(at 61.468 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2136662b-8ab4-422f-ad7a-4dd39cc8c143")
+	)
 	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
 		(exclude_from_sim no)
 		(at 36.576 70.358 0)

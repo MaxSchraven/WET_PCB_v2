@@ -19886,14 +19886,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
+	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b1050a42-5779-44ca-a6c7-6b607501b2ba")
 		(at 310.15 186.5)
-		(descr "Resistor, Axial_Shunt series, Box, pin pitch=25.4mm, 3W, length*width*height=22.2*8*8mm^3, shunt pin pitch = 14.30mm, http://www.vishay.com/docs/30217/cpsl.pdf")
-		(tags "Resistor Axial_Shunt series Box pin pitch 25.4mm 3W length 22.2mm width 8mm height 8mm shunt pin pitch 14.30mm")
+		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 12.7 -5.12 0)
+			(at 7.62 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "7ef9e3d6-826e-41eb-b7dd-8206b04089ee")
 			(effects
@@ -19904,7 +19904,7 @@
 			)
 		)
 		(property "Value" "Shunt"
-			(at 12.7 5.12 0)
+			(at 7.62 2.37 0)
 			(layer "F.Fab")
 			(uuid "5c9e3d17-bc56-4734-a5e9-7d2c0d3fce01")
 			(effects
@@ -19925,7 +19925,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19952,17 +19952,11 @@
 		(path "/c973e45d-3e2a-49e2-8402-f381a42cc375")
 		(sheetname "/")
 		(sheetfile "WET_PCB_v2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.48 -4.12)
-			(end 23.92 -4.12)
+			(start 1.04 0)
+			(end 4.35 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19971,18 +19965,8 @@
 			(uuid "f2935a9d-8565-4edf-a5f3-68f671efc2fc")
 		)
 		(fp_line
-			(start 1.48 -1.74)
-			(end 1.48 -4.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c0a67ff-8ab3-435c-92bc-0f9e69dc347f")
-		)
-		(fp_line
-			(start 1.48 1.74)
-			(end 1.48 4.12)
+			(start 14.2 0)
+			(end 10.89 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19990,39 +19974,20 @@
 			(layer "F.SilkS")
 			(uuid "8c496afd-b72b-4628-a560-26178b9918db")
 		)
-		(fp_line
-			(start 1.48 4.12)
-			(end 23.92 4.12)
+		(fp_rect
+			(start 4.35 -1.37)
+			(end 10.89 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "5bc9d0e8-3f07-4a94-9cc3-002e374ac48e")
-		)
-		(fp_line
-			(start 23.92 -4.12)
-			(end 23.92 -1.74)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "941da3b2-1b47-444e-a9f4-266473686934")
-		)
-		(fp_line
-			(start 23.92 4.12)
-			(end 23.92 1.74)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8428d4b5-585f-4165-8ea3-f03e93cc2ce0")
+			(uuid "892f9846-d2b8-4427-8005-2f7c451c5638")
 		)
 		(fp_rect
-			(start -1.75 -4.25)
-			(end 27.15 4.25)
+			(start -1.05 -1.5)
+			(end 16.29 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -20033,7 +19998,7 @@
 		)
 		(fp_line
 			(start 0 0)
-			(end 1.6 0)
+			(end 4.47 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20042,8 +20007,8 @@
 			(uuid "7665a616-8b27-4ddf-bd65-0e4cf9c80e45")
 		)
 		(fp_line
-			(start 25.4 0)
-			(end 23.8 0)
+			(start 15.24 0)
+			(end 10.77 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20052,8 +20017,8 @@
 			(uuid "3a6fa700-f87c-4324-b620-418395218930")
 		)
 		(fp_rect
-			(start 1.6 -4)
-			(end 23.8 4)
+			(start 4.47 -1.25)
+			(end 10.77 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20063,7 +20028,7 @@
 			(uuid "8d2b6f6f-04d5-4528-8d69-f6598243eafa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 12.7 0 0)
+			(at 7.62 0 0)
 			(layer "F.Fab")
 			(uuid "c63ea625-fcf3-442d-8343-a57f36ae518c")
 			(effects
@@ -20075,8 +20040,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/currsense_inv/Shunt_from_source")
@@ -20084,33 +20049,17 @@
 			(uuid "c9e2dc52-a1ba-4e0c-8488-188f0e1b7396")
 		)
 		(pad "2" thru_hole circle
-			(at 5.55 0)
-			(size 3 3)
-			(drill 1.5)
+			(at 15.24 0)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/currsense_inv/Shunt_to_load")
 			(pintype "passive")
 			(uuid "9aa7f7c5-0277-4dc6-bf8f-a1ffcc358a93")
 		)
-		(pad "3" thru_hole circle
-			(at 19.85 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "1b0d6604-55c3-4119-93ff-5f795b80ed8f")
-		)
-		(pad "4" thru_hole circle
-			(at 25.4 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "a0bccb70-2b91-44bb-931c-73c1b0800cbe")
-		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24336,14 +24285,14 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm"
+	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d03821f3-7b7b-4e38-9987-be900563d492")
 		(at 201.3 96)
-		(descr "Resistor, Axial_Shunt series, Box, pin pitch=25.4mm, 3W, length*width*height=22.2*8*8mm^3, shunt pin pitch = 14.30mm, http://www.vishay.com/docs/30217/cpsl.pdf")
-		(tags "Resistor Axial_Shunt series Box pin pitch 25.4mm 3W length 22.2mm width 8mm height 8mm shunt pin pitch 14.30mm")
+		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=15.24mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 15.24mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 12.7 -5.12 0)
+			(at 7.62 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "098e7797-253b-44c3-8a0b-21758857b629")
 			(effects
@@ -24354,7 +24303,7 @@
 			)
 		)
 		(property "Value" "Shunt"
-			(at 12.7 5.12 0)
+			(at 7.62 2.37 0)
 			(layer "F.Fab")
 			(uuid "27a48a99-7ef7-455b-bdd6-4ec3043cdb2a")
 			(effects
@@ -24375,7 +24324,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24402,57 +24351,11 @@
 		(path "/bb2a5e7a-1a27-4027-a7c9-15fef9b4542d")
 		(sheetname "/")
 		(sheetfile "WET_PCB_v2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.48 -4.12)
-			(end 23.92 -4.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c8b1e13-76a3-456e-b93b-80ff8961644e")
-		)
-		(fp_line
-			(start 1.48 -1.74)
-			(end 1.48 -4.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "03b1425a-e28d-42eb-9282-9282adbdf443")
-		)
-		(fp_line
-			(start 1.48 1.74)
-			(end 1.48 4.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a199b05-416f-4791-ad3a-893e107a16ae")
-		)
-		(fp_line
-			(start 1.48 4.12)
-			(end 23.92 4.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c83f5e1-24fe-4062-ae5c-fe8896af5417")
-		)
-		(fp_line
-			(start 23.92 -4.12)
-			(end 23.92 -1.74)
+			(start 1.04 0)
+			(end 4.35 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -24461,8 +24364,8 @@
 			(uuid "1e059057-1021-4eee-bf92-da5ae2bf9316")
 		)
 		(fp_line
-			(start 23.92 4.12)
-			(end 23.92 1.74)
+			(start 14.2 0)
+			(end 10.89 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -24471,8 +24374,19 @@
 			(uuid "00cc0f8a-0052-413f-8777-d3d6da19bef1")
 		)
 		(fp_rect
-			(start -1.75 -4.25)
-			(end 27.15 4.25)
+			(start 4.35 -1.37)
+			(end 10.89 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1a2e905b-a627-4d2e-a124-e8b08fd4c018")
+		)
+		(fp_rect
+			(start -1.05 -1.5)
+			(end 16.29 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -24483,7 +24397,7 @@
 		)
 		(fp_line
 			(start 0 0)
-			(end 1.6 0)
+			(end 4.47 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -24492,8 +24406,8 @@
 			(uuid "0f229558-6c8e-48a3-8e59-45b71afaea46")
 		)
 		(fp_line
-			(start 25.4 0)
-			(end 23.8 0)
+			(start 15.24 0)
+			(end 10.77 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -24502,8 +24416,8 @@
 			(uuid "2c736187-7bf5-4643-8d2a-7b3cbdc590b3")
 		)
 		(fp_rect
-			(start 1.6 -4)
-			(end 23.8 4)
+			(start 4.47 -1.25)
+			(end 10.77 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -24513,7 +24427,7 @@
 			(uuid "3c89ed3f-ada7-4306-abb1-c6ffb27cf7b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 12.7 0 0)
+			(at 7.62 0 0)
 			(layer "F.Fab")
 			(uuid "30ed1216-e196-4bce-a5a4-58359dc8dfcd")
 			(effects
@@ -24525,8 +24439,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3 3)
-			(drill 1.5)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "VPP")
@@ -24534,33 +24448,17 @@
 			(uuid "e18deaa9-d233-4f47-a637-c7eecaf7225c")
 		)
 		(pad "2" thru_hole circle
-			(at 5.55 0)
-			(size 3 3)
-			(drill 1.5)
+			(at 15.24 0)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/DCDC/DCDC_coil_input_side")
 			(pintype "passive")
 			(uuid "9e87ff21-a7fd-4dcb-8d75-45e3de57c94e")
 		)
-		(pad "3" thru_hole circle
-			(at 19.85 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "81617097-3f07-41f4-ab18-c7dba7202ac7")
-		)
-		(pad "4" thru_hole circle
-			(at 25.4 0)
-			(size 3 3)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "b9ce31ff-c5ae-45f6-8df7-7abcbc6dc731")
-		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Shunt_L22.2mm_W8.0mm_PS14.30mm_P25.40mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)

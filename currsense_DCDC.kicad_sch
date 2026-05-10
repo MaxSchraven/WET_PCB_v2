@@ -1087,7 +1087,7 @@
 	)
 	(hierarchical_label "Shunt_from_source"
 		(shape input)
-		(at 43.18 54.61 180)
+		(at 43.18 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1095,6 +1095,17 @@
 			(justify right)
 		)
 		(uuid "230f2627-4d97-4f59-904f-68d0685c4ff0")
+	)
+	(hierarchical_label "Shunt_from_source"
+		(shape input)
+		(at 43.18 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35cb37bc-3126-49d3-b462-f4cd2d5591b7")
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape output)

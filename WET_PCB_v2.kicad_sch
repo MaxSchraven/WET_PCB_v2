@@ -7056,7 +7056,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 46.99)
+		(at 246.38 39.37)
 		(size 38.1 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7072,7 +7072,7 @@
 		)
 		(uuid "6ecc05b2-84d4-404f-84e6-8cc19742ad68")
 		(property "Sheetname" "currsense_DCDC1"
-			(at 241.3 46.2784 0)
+			(at 246.38 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7083,7 +7083,7 @@
 			)
 		)
 		(property "Sheetfile" "currsense_DCDC.kicad_sch"
-			(at 241.3 67.8946 0)
+			(at 246.38 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7094,7 +7094,7 @@
 			)
 		)
 		(pin "currsense_ADC" output
-			(at 279.4 64.77 0)
+			(at 284.48 57.15 0)
 			(uuid "0e8d2038-e443-4ea6-8888-04dcab139a49")
 			(effects
 				(font
@@ -7104,7 +7104,7 @@
 			)
 		)
 		(pin "Shunt_from_source" input
-			(at 256.54 46.99 90)
+			(at 261.62 39.37 90)
 			(uuid "7e3d98ab-03d8-4fa1-b261-865a97e10b52")
 			(effects
 				(font
@@ -7114,7 +7114,7 @@
 			)
 		)
 		(pin "Shunt_to_load" output
-			(at 264.16 46.99 90)
+			(at 269.24 39.37 90)
 			(uuid "3131ea7e-5563-4d10-8d3f-71da3bdba8e0")
 			(effects
 				(font
@@ -7124,7 +7124,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 241.3 64.77 180)
+			(at 246.38 57.15 180)
 			(uuid "6363342d-921c-4064-81ca-89489b9a7721")
 			(effects
 				(font

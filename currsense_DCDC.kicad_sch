@@ -1085,16 +1085,16 @@
 		)
 		(uuid "4c07fe05-27f3-46a1-b1d6-513a97630f47")
 	)
-	(hierarchical_label "Vsense_in"
+	(hierarchical_label "Shunt_from_source"
 		(shape input)
-		(at 30.48 36.83 90)
+		(at 43.18 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5ba4d8f4-269e-419f-9a18-ff12e55365b1")
+		(uuid "230f2627-4d97-4f59-904f-68d0685c4ff0")
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape output)

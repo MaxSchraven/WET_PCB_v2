@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "aef2537c-8ca1-45ff-ad53-29983d4e29a2")
+	(uuid "0c9a361d-7493-42dc-b196-bb818816f412")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TLV9301xDCK"
@@ -1090,7 +1090,7 @@
 		(uuid "230f2627-4d97-4f59-904f-68d0685c4ff0")
 	)
 	(hierarchical_label "Shunt_to_load"
-		(shape input)
+		(shape output)
 		(at 43.18 54.61 180)
 		(effects
 			(font
@@ -1101,7 +1101,7 @@
 		(uuid "35cb37bc-3126-49d3-b462-f4cd2d5591b7")
 	)
 	(hierarchical_label "VDD_OPAMP"
-		(shape output)
+		(shape input)
 		(at 53.34 26.67 0)
 		(effects
 			(font

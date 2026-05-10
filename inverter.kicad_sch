@@ -4518,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 207.01 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 87.63 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 207.01 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -5352,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 			(at 87.63 81.915 0)
 			(hide yes)
 			(show_name no)

@@ -30959,7 +30959,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "f85e0d9b-fdd3-4e14-97ac-f002206e544e")
-		(at 182.96 137)
+		(at 185.5 137 180)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D23"
@@ -31019,7 +31019,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31032,7 +31032,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31110,17 +31110,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -2.12 0 0)
-			(layer "F.Fab")
-			(uuid "9b1f0775-8fc6-4685-a978-5cc37b730fd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 -2.92 0)
 			(layer "F.Fab")
@@ -31132,8 +31121,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -2.12 0 0)
+			(layer "F.Fab")
+			(uuid "9b1f0775-8fc6-4685-a978-5cc37b730fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -31145,7 +31145,7 @@
 			(uuid "4b708b81-e370-4346-af75-12d86fda0e2d")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")

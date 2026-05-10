@@ -8088,6 +8088,7 @@
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
 			(at 199.39 55.372 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

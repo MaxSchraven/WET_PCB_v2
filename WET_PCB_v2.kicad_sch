@@ -3867,7 +3867,7 @@
 		)
 		(uuid "bfc392ca-2058-4ea6-b9e2-4c3f3f8c4594")
 	)
-	(label "TIM1_CH1"
+	(label "TIM14_CH1"
 		(at 307.34 78.74 180)
 		(effects
 			(font
@@ -3916,6 +3916,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4d5cc15-277c-4ca6-8e9f-e1595d49f163")
+	)
+	(label "TIM14_CH1"
+		(at 168.91 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5e16357-5984-444a-818f-916f85d9a9ca")
 	)
 	(label "ADC1_IN1"
 		(at 377.19 76.2 0)

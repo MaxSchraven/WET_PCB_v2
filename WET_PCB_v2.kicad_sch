@@ -6607,6 +6607,36 @@
 				(justify left top)
 			)
 		)
+		(pin "currsense_ADC" output
+			(at 166.37 105.41 0)
+			(uuid "b316dd09-2414-4be4-a74d-9d80777406fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Shunt_from_source" input
+			(at 143.51 111.76 270)
+			(uuid "53049973-aa7b-4eae-bad0-6287628ba096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Shunt_to_load" input
+			(at 148.59 111.76 270)
+			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

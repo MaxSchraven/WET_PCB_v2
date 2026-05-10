@@ -7,12 +7,12 @@
 	(lib_symbols)
 	(hierarchical_label "Vin_12V"
 		(shape input)
-		(at 48.26 25.4 180)
+		(at 38.1 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5542ab0e-9e56-42d9-99e1-dc4f21d79fe7")
 	)

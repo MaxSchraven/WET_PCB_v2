@@ -2226,7 +2226,7 @@
 		)
 		(uuid "8b24747a-b55e-4a5f-86b5-c80b125476a4")
 	)
-	(hierarchical_label "Hin"
+	(hierarchical_label "DCDC_Driver_Hin"
 		(shape input)
 		(at 60.96 58.42 180)
 		(effects

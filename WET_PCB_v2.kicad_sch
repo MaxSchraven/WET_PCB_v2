@@ -5992,8 +5992,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 55.88)
-		(size 12.7 5.08)
+		(at 26.67 58.42)
+		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6008,7 +6008,7 @@
 		)
 		(uuid "7293ed87-9a5c-4e01-a7da-6a6e465a8771")
 		(property "Sheetname" "12V_to5V"
-			(at 33.02 55.1684 0)
+			(at 26.67 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6019,7 +6019,7 @@
 			)
 		)
 		(property "Sheetfile" "12v5V.kicad_sch"
-			(at 33.02 61.5446 0)
+			(at 26.67 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6030,13 +6030,23 @@
 			)
 		)
 		(pin "Vin_12V" input
-			(at 33.02 58.42 180)
+			(at 26.67 60.96 180)
 			(uuid "ddc296b0-547e-48fe-bf50-c45d5326c616")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout_5V" output
+			(at 46.99 60.96 0)
+			(uuid "71bd7c39-b815-4712-a059-97f5352bcd5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

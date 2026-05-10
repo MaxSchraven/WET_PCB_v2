@@ -24305,7 +24305,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "d35e5898-e2ab-45ac-a364-85622b386ab6")
-		(at 184.95 105.04 90)
+		(at 182.95 94.54 90)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D9"

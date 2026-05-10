@@ -842,6 +842,12 @@
 		(color 0 0 0 0)
 		(uuid "9c046f8b-9a95-4cb9-96d3-4f9037036f5c")
 	)
+	(junction
+		(at 81.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9c59aef-23be-4e1c-9240-43c5c81a031c")
+	)
 	(wire
 		(pts
 			(xy 57.15 54.61) (xy 59.69 54.61)
@@ -954,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 57.15) (xy 91.44 57.15)
+			(xy 77.47 57.15) (xy 81.28 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1001,6 +1007,16 @@
 			(type default)
 		)
 		(uuid "dc87a30a-7f73-4832-8e96-d8f83a0e21b0")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea340399-1e80-4599-b66a-e690e4ed8f5b")
 	)
 	(wire
 		(pts
@@ -1108,7 +1124,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 81.28 62.23 90)
+		(at 81.28 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1119,17 +1135,6 @@
 		(fields_autoplaced yes)
 		(uuid "0e9d4026-4d21-4c9f-8dde-7102c9344207")
 		(property "Reference" "J1"
-			(at 83.82 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_02x01"
 			(at 83.82 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,8 +1145,19 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Conn_02x01"
+			(at 83.82 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" ""
-			(at 81.28 62.23 0)
+			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1152,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 62.23 0)
+			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,7 +1179,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 62.23 0)
+			(at 81.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1439,7 +1455,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 67.31 0)
+		(at 81.28 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1449,7 +1465,7 @@
 		(dnp no)
 		(uuid "6c241c50-531f-4e38-9193-3398545747d2")
 		(property "Reference" "#PWR042"
-			(at 81.28 73.66 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1460,7 +1476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 71.628 0)
+			(at 81.28 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1470,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 67.31 0)
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 67.31 0)
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1492,7 +1508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 67.31 0)
+			(at 81.28 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

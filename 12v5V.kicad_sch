@@ -5,4 +5,15 @@
 	(uuid "cb615fc9-9640-429c-856c-c8fc91162f72")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "Vin_12V"
+		(shape output)
+		(at 35.56 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5542ab0e-9e56-42d9-99e1-dc4f21d79fe7")
+	)
 )

@@ -727,6 +727,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37beddb6-211c-4dbb-8df2-5928fd854ed6")
+	)
+	(wire
+		(pts
 			(xy 91.44 43.18) (xy 91.44 54.61)
 		)
 		(stroke
@@ -904,6 +914,17 @@
 			(type default)
 		)
 		(uuid "f91d4f59-c1f8-4559-82e0-48da527c9a6d")
+	)
+	(hierarchical_label "VCC_Driver_DCDC"
+		(shape input)
+		(at 142.24 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "224ee833-59a5-45d8-b384-9256acf14c6e")
 	)
 	(hierarchical_label "DCDC_coil_circuit_side"
 		(shape input)

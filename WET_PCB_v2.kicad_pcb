@@ -1880,7 +1880,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "192d33a1-f5d5-4ec8-ba13-6e4d27d312ba")
-		(at 248 137.5)
+		(at 250.5 141 180)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
@@ -1940,7 +1940,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2031,17 +2031,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -1.9 0 0)
-			(layer "F.Fab")
-			(uuid "4e5aa735-f00e-4610-bac4-9704e2ca9986")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 -2.47 0)
 			(layer "F.Fab")
@@ -2053,8 +2042,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -1.9 0 0)
+			(layer "F.Fab")
+			(uuid "4e5aa735-f00e-4610-bac4-9704e2ca9986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -2066,7 +2066,7 @@
 			(uuid "7419ff3d-e048-40fa-bcfa-7da2b2b8d37d")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -31703,7 +31703,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ff813b31-a958-4537-a2b5-11b090d4b2dd")
-		(at 230 142)
+		(at 230 141)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"

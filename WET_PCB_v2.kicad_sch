@@ -3344,6 +3344,16 @@
 		)
 		(uuid "6091b912-d244-42fb-9f1d-53215e3cd13a")
 	)
+	(text "the caps have random footprints \nso they appear in the layout designer"
+		(exclude_from_sim no)
+		(at 68.834 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "786f1f5b-0360-45f3-994f-51463c4976b1")
+	)
 	(text "theres no PWM ch left so might be fun to \nso it adjusting its dutycycle for the DCDC\n"
 		(exclude_from_sim no)
 		(at 50.8 110.998 0)

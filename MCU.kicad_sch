@@ -1557,78 +1557,78 @@
 	)
 	(hierarchical_label "TIM1_CH1"
 		(shape input)
-		(at 33.02 48.26 0)
+		(at 33.02 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1a94f3bf-3b51-411c-8430-759daed5bf30")
 	)
 	(hierarchical_label "ADC1_IN4"
 		(shape input)
-		(at 33.02 40.64 0)
+		(at 33.02 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "46fd91cd-20c4-464e-bd6e-363c1c70ae8f")
 	)
 	(hierarchical_label "TIM1_CH1N"
 		(shape input)
-		(at 33.02 45.72 0)
+		(at 33.02 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5685be10-b671-4847-9674-f8a8df297846")
 	)
 	(hierarchical_label "ADC1_IN5"
 		(shape input)
-		(at 33.02 43.18 0)
+		(at 33.02 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "85f77ebc-b1b6-4e19-9745-30a0ae08434e")
 	)
 	(hierarchical_label "GPIO_A11"
 		(shape input)
-		(at 33.02 50.8 0)
+		(at 33.02 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "badd776e-5d93-42ce-a370-4ab9f048677e")
 	)
 	(hierarchical_label "GPIO_A12"
 		(shape input)
-		(at 33.02 53.34 0)
+		(at 33.02 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c62256c7-33e7-46c1-ab63-fdbd34db0e2b")
 	)
 	(hierarchical_label "GPIO_PB3"
 		(shape input)
-		(at 33.02 55.88 0)
+		(at 33.02 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dad9f28d-6e16-4623-bd64-ca9c80593e23")
 	)

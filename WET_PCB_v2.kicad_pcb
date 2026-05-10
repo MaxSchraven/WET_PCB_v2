@@ -4651,7 +4651,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "32136224-a2e4-4acd-9fff-3cb5880d10df")
-		(at 236.5 124)
+		(at 236.5 125)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R12"
@@ -23020,7 +23020,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "cc1ceb6e-a140-4156-b28f-efabab3a29f6")
-		(at 238.5 130.5)
+		(at 230.5 133.5)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"

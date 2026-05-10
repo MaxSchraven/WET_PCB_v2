@@ -2473,7 +2473,7 @@
 			)
 		)
 		(pin "VCC_Driver_DCDC" input
-			(at 76.2 30.48 180)
+			(at 76.2 31.75 180)
 			(uuid "095b3bc5-1cd9-4fe0-97cc-958f047f2c5f")
 			(effects
 				(font

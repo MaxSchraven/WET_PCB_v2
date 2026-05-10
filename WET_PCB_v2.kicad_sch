@@ -169,6 +169,26 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD_OPAMP" output
+			(at 40.64 100.33 90)
+			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vsense_ADC" output
+			(at 76.2 109.22 0)
+			(uuid "6ab01412-c957-4e76-946c-5a3514b51cf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

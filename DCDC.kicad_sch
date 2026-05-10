@@ -609,6 +609,16 @@
 		)
 		(uuid "5d41edfc-f2ae-4245-824c-834705654245")
 	)
+	(text "the cap footprints are random im not sure which ones to use and if we should add more caps"
+		(exclude_from_sim no)
+		(at 90.17 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "897692e6-6de0-404b-a039-7961980ff560")
+	)
 	(text "is one cap at in and out enough or do we want to add more (we can leave them empty anyway)"
 		(exclude_from_sim no)
 		(at 116.078 75.692 0)

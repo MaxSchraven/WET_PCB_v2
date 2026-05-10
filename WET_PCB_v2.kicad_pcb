@@ -14773,13 +14773,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "763c53ef-b148-44ee-b627-f14079f594f6")
-		(at 73.99 61.45)
+		(at 176.84 134)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D15"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "9d4c3220-01f1-4924-a5e2-268742e40231")
+			(uuid "bf108cdd-19ee-4b41-800b-7c77fc9d30b3")
 			(effects
 				(font
 					(size 1 1)
@@ -14790,7 +14790,7 @@
 		(property "Value" "1N4004"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "ee8cf7d7-5ec1-448a-bc4f-68806466289a")
+			(uuid "10872664-6164-43d9-b50a-67d2e69bd56b")
 			(effects
 				(font
 					(size 1 1)
@@ -14802,7 +14802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "104a4aeb-9261-4446-89bd-9d501cbec522")
+			(uuid "04f7b3d5-b981-4b6c-8bb0-49916788da4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14813,7 +14813,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e27bb93e-a5fc-4fd0-9088-4684953c95cb")
+			(uuid "a67e83d9-3ecb-43a5-83c2-f52ebaa8abd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,13 +18274,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "97bf579f-fb26-4112-a23b-eae492b0b161")
-		(at 73.99 65.7)
+		(at 176.84 138.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D16"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "385089a4-22c4-446a-876c-86125a0bbe70")
+			(uuid "2256db19-1a84-4624-8110-ae95d51af773")
 			(effects
 				(font
 					(size 1 1)
@@ -18291,7 +18291,7 @@
 		(property "Value" "1N4004"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "233e96f7-8640-4f05-a1e0-7a9a79940f5a")
+			(uuid "dd1b0825-42cd-4333-a5f4-559770b74f8d")
 			(effects
 				(font
 					(size 1 1)
@@ -18303,7 +18303,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b68dab4-479d-4933-9660-f07903aa87b2")
+			(uuid "58da06c0-3648-492c-91f3-a59148f3b5ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18314,7 +18314,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e92b3fe6-32f2-4c44-8d87-e044b414e38e")
+			(uuid "d909ad0d-c543-4fdb-ba74-d5080dc35699")
 			(effects
 				(font
 					(size 1.27 1.27)

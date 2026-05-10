@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "3b042701-4cc7-4d99-ace0-07efb4ba3efb")
+	(uuid "e13898da-68ea-4c02-8d79-4b1e34af815a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TLV9301xDCK"

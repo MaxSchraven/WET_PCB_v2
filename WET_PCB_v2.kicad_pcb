@@ -2092,11 +2092,11 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "236d2a7e-13a1-4615-9a0e-ae84c0a2ce73")
-		(at 236.46 123.45)
+		(at 256.05 123.96 -90)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q2"
-			(at 2.54 -4.1 0)
+			(at 2.54 -4.1 90)
 			(layer "F.SilkS")
 			(uuid "5ff584d3-feb7-4d9d-b420-7ea81f7ece73")
 			(effects
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "Value" "IRF530NPBF"
-			(at 2.54 2.2 0)
+			(at 2.54 2.2 90)
 			(layer "F.Fab")
 			(uuid "85f3e457-d7eb-43f4-b2df-81e61516b774")
 			(effects
@@ -2118,7 +2118,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/irf530npbf/infineon-technologies-ag"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa57b77b-1490-4029-9641-b3a10e61d4e2")
@@ -2129,7 +2129,7 @@
 			)
 		)
 		(property "Description" "IRF530NPBF N-Channel MOSFET, 17 A, 100 V HEXFET, 3-Pin TO-220AB Infineon"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac3527da-42ee-4697-a8e5-25e310767458")
@@ -2140,7 +2140,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "42cef8f3-2d42-4911-af89-ccdbe97a9a36")
@@ -2152,7 +2152,7 @@
 			)
 		)
 		(property "Height" "4.69"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2178,7 +2178,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2191,7 +2191,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF530NPBF"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2228,14 +2228,24 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "866bfbbd-ac1a-4fbf-82c6-bdb7543a1e9f")
+			(uuid "f4570c47-0338-4cda-86de-9fd7a771ed9a")
+		)
+		(fp_line
+			(start 7.65 1.36)
+			(end -2.57 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7018159c-31aa-4310-a232-acf4b3a0c1f4")
 		)
 		(fp_line
 			(start -2.57 -1.88)
@@ -2248,14 +2258,14 @@
 			(uuid "c6b3f41c-a71f-4975-ada2-ac0885436781")
 		)
 		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f4570c47-0338-4cda-86de-9fd7a771ed9a")
+			(uuid "866bfbbd-ac1a-4fbf-82c6-bdb7543a1e9f")
 		)
 		(fp_line
 			(start 0.69 -3.26)
@@ -2286,16 +2296,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8078525d-e0ce-4d67-a94c-97625d9d69b7")
-		)
-		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7018159c-31aa-4310-a232-acf4b3a0c1f4")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -2350,7 +2350,7 @@
 			(uuid "103ce9f0-f2f5-4041-ae90-efef57db1456")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 0)
+			(at 2.54 -0.95 90)
 			(layer "F.Fab")
 			(uuid "b0e56d5f-a969-4363-af3d-df4eead1b7da")
 			(effects
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -2372,7 +2372,7 @@
 			(uuid "d13659db-f0ba-486f-8dc8-040c3fb77a30")
 		)
 		(pad "2" thru_hole oval
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -2383,7 +2383,7 @@
 			(uuid "0b1d5626-e8df-4563-92cd-1a14fce92366")
 		)
 		(pad "3" thru_hole oval
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -22077,11 +22077,11 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "c17439c9-45a8-4bbc-85e4-6bc50c8c2e75")
-		(at 221.96 123.95)
+		(at 256.55 136.46 -90)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
-			(at 2.54 -4.1 0)
+			(at 2.54 -4.1 90)
 			(layer "F.SilkS")
 			(uuid "a03bbf3c-b7d6-4ebd-83a3-110622a80c28")
 			(effects
@@ -22092,7 +22092,7 @@
 			)
 		)
 		(property "Value" "IRF530NPBF"
-			(at 2.54 2.2 0)
+			(at 2.54 2.2 90)
 			(layer "F.Fab")
 			(uuid "7a807d96-03b2-48de-a944-79d7944f09d4")
 			(effects
@@ -22103,7 +22103,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/irf530npbf/infineon-technologies-ag"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37482cbc-b43c-4b71-8e75-94c1042fd28d")
@@ -22114,7 +22114,7 @@
 			)
 		)
 		(property "Description" "IRF530NPBF N-Channel MOSFET, 17 A, 100 V HEXFET, 3-Pin TO-220AB Infineon"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac4b82d6-dfed-4e15-ba24-3a37ee7e30d4")
@@ -22125,7 +22125,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e5500910-3676-46b9-83c7-b579d2ff60e4")
@@ -22137,7 +22137,7 @@
 			)
 		)
 		(property "Height" "4.69"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22150,7 +22150,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22163,7 +22163,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22176,7 +22176,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22189,7 +22189,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IRF530NPBF"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22213,14 +22213,24 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8dbea195-a746-4691-9886-082f351f612f")
+			(uuid "9a024757-714e-4df8-b91f-facf923e44c7")
+		)
+		(fp_line
+			(start 7.65 1.36)
+			(end -2.57 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3f5e63c-44a8-4b8e-9f2a-87e47b954a7e")
 		)
 		(fp_line
 			(start -2.57 -1.88)
@@ -22233,14 +22243,14 @@
 			(uuid "138912c7-a20f-4087-ac2a-53c6382d0698")
 		)
 		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a024757-714e-4df8-b91f-facf923e44c7")
+			(uuid "8dbea195-a746-4691-9886-082f351f612f")
 		)
 		(fp_line
 			(start 0.69 -3.26)
@@ -22271,16 +22281,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "92cabdf7-2a86-4d53-a39c-8f4c1f349c41")
-		)
-		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3f5e63c-44a8-4b8e-9f2a-87e47b954a7e")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -22335,7 +22335,7 @@
 			(uuid "27a7dedf-7f24-4b0a-81ce-b987a50f916e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 0)
+			(at 2.54 -0.95 90)
 			(layer "F.Fab")
 			(uuid "6b824d49-f465-477d-ae7e-6874278f2a8a")
 			(effects
@@ -22346,7 +22346,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -22357,7 +22357,7 @@
 			(uuid "00ea9374-cc7f-458e-9499-0745057b5bdd")
 		)
 		(pad "2" thru_hole oval
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -22368,7 +22368,7 @@
 			(uuid "7dcfed10-a47c-4164-bb31-ba1b971ce7f0")
 		)
 		(pad "3" thru_hole oval
-			(at 5.08 0)
+			(at 5.08 0 270)
 			(size 1.905 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")

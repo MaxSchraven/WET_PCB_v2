@@ -2922,7 +2922,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "26d480c4-ab44-4696-abb2-12fc4d5e6f6e")
-		(at 182.89 153.75)
+		(at 182.89 153.75 180)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D8"
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2995,7 +2995,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3073,17 +3073,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at -2.12 0 0)
-			(layer "F.Fab")
-			(uuid "315f5a35-fc43-460c-b83f-47f573176a48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 -2.92 0)
 			(layer "F.Fab")
@@ -3095,8 +3084,19 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at -2.12 0 0)
+			(layer "F.Fab")
+			(uuid "315f5a35-fc43-460c-b83f-47f573176a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -3108,7 +3108,7 @@
 			(uuid "320771cb-3f68-4d73-96e3-2e231c188177")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -18004,11 +18004,11 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "97bf579f-fb26-4112-a23b-eae492b0b161")
-		(at 172.92 150.75 90)
+		(at 176 150.75 180)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D16"
-			(at 1.27 -2.92 90)
+			(at 1.27 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "2256db19-1a84-4624-8110-ae95d51af773")
 			(effects
@@ -18019,7 +18019,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 1.27 3.809 90)
+			(at 1.27 3.809 0)
 			(layer "F.Fab")
 			(uuid "dd1b0825-42cd-4333-a5f4-559770b74f8d")
 			(effects
@@ -18030,7 +18030,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58da06c0-3648-492c-91f3-a59148f3b5ad")
@@ -18041,7 +18041,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d909ad0d-c543-4fdb-ba74-d5080dc35699")
@@ -18052,7 +18052,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "89e41e00-dbfb-40e0-8813-fe1347ae2e6e")
@@ -18064,7 +18064,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18077,7 +18077,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18145,7 +18145,7 @@
 			(uuid "fd76c98f-5b79-4e66-815e-2926b9814b46")
 		)
 		(fp_text user "K"
-			(at -2.12 0 90)
+			(at -2.12 0 0)
 			(layer "F.SilkS")
 			(uuid "e9bee6b9-718d-4e29-9a0a-0ed33b39c942")
 			(effects
@@ -18156,7 +18156,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.92 90)
+			(at 1.27 -2.92 0)
 			(layer "F.Fab")
 			(uuid "cb1a9858-28f5-427b-80de-cf8e4eb37534")
 			(effects
@@ -18167,7 +18167,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at -2.12 0 90)
+			(at -2.12 0 0)
 			(layer "F.Fab")
 			(uuid "5e592e4a-0e63-4f75-b834-6d38bc1eb765")
 			(effects
@@ -18178,7 +18178,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -18190,7 +18190,7 @@
 			(uuid "3a8e974f-9510-4708-b797-c1416beb24ab")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 90)
+			(at 2.54 0 180)
 			(size 2.24 2.24)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")

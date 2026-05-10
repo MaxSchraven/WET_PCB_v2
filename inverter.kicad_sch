@@ -2224,6 +2224,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "different cap?\n"
+		(exclude_from_sim no)
+		(at 146.812 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6503e1a-ffa5-493a-872f-e42dd41b4fdc")
+	)
 	(junction
 		(at 97.79 35.56)
 		(diameter 0)

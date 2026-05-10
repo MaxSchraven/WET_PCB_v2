@@ -3853,6 +3853,17 @@
 		)
 		(uuid "d97a49ae-7b36-4c1d-98fd-4ebf345e1b3e")
 	)
+	(hierarchical_label "Vout_Inverter_+"
+		(shape output)
+		(at 140.97 87.63 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4ce603e-96ea-45e9-86f1-c8e20bc406c2")
+	)
 	(symbol
 		(lib_id "IRF530NPBF:IRF530NPBF")
 		(at 120.65 67.31 0)

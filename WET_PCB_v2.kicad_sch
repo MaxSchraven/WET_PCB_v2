@@ -3031,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd5866f-d2bc-47fa-8d88-5811e3346309")
+	)
+	(wire
+		(pts
 			(xy 52.07 63.5) (xy 64.77 63.5)
 		)
 		(stroke
@@ -3368,6 +3378,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b1ecb71-72f1-4777-a341-b5933783a562")
+	)
+	(label "ADC1_IN1"
+		(at 128.27 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43672e46-2d6e-45d6-b81f-581ae4835de2")
 	)
 	(label "TIM1_CH1N"
 		(at 297.18 76.2 180)

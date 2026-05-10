@@ -2661,6 +2661,16 @@
 		)
 		(uuid "4809b86f-15f6-45d5-b2b7-7f498b20a4c8")
 	)
+	(text "this si the right PWM control right??\n"
+		(exclude_from_sim no)
+		(at 222.504 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6091b912-d244-42fb-9f1d-53215e3cd13a")
+	)
 	(text "do we need this voltage?"
 		(exclude_from_sim no)
 		(at 222.504 72.39 0)

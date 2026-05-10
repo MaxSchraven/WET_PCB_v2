@@ -1312,16 +1312,6 @@
 		)
 		(uuid "5672c767-423a-48c4-863e-d44a32ff1be1")
 	)
-	(label "Vin_DCDC_cap"
-		(at 67.31 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9c93b2a-931d-4a2d-a03e-a38138ead1a5")
-	)
 	(label "Lin"
 		(at 114.3 40.64 0)
 		(effects

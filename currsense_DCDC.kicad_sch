@@ -1096,7 +1096,7 @@
 		)
 		(uuid "230f2627-4d97-4f59-904f-68d0685c4ff0")
 	)
-	(hierarchical_label "Shunt_from_source"
+	(hierarchical_label "Shunt_to_load"
 		(shape input)
 		(at 43.18 54.61 180)
 		(effects

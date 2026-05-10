@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 33.02 71.12)
-		(size 26.67 12.7)
+		(at 33.02 43.18)
+		(size 73.66 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "04007180-46fe-4cf0-9e6f-a7d321798318")
 		(property "Sheetname" "DCDC"
-			(at 33.02 70.4084 0)
+			(at 33.02 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VoutDCDC" input
+			(at 33.02 43.18 90)
+			(uuid "1aadbe64-81c6-43b5-a6e3-629241e5dbc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_Driver_DCDC" passive
+			(at 34.6393 43.18 90)
+			(uuid "bd7a51ed-46dc-4bc3-9304-8ff38c8fe5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_SD" output
+			(at 36.2586 43.18 90)
+			(uuid "15b9c6ec-1680-4a3c-8ae9-8aba417cbf1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_Hin" output
+			(at 37.8779 43.18 90)
+			(uuid "a5fc83e9-a038-4c99-a2cf-27867684d2aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_Lin" output
+			(at 39.4972 43.18 90)
+			(uuid "445369ec-0f7a-4f5b-877c-1ab41cff74cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC_shunt_output_side" input
+			(at 41.1165 43.18 90)
+			(uuid "4e2a997b-f5e0-4508-8417-227ffa5edcfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC_shunt_input_side" output
+			(at 42.7358 43.18 90)
+			(uuid "55eb5b59-f302-450a-985f-d56dedd24d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC+" input
+			(at 44.3551 43.18 90)
+			(uuid "12dc0fbe-adb1-4a4c-9c76-9864e23d16c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_coil_input_side" output
+			(at 45.9744 43.18 90)
+			(uuid "e2d8c691-de74-4301-b8c5-3b69c8cb6c8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_coil_circuit_side" input
+			(at 47.5937 43.18 90)
+			(uuid "c3ba9e35-b269-4f9c-9ad1-646c5ac86883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

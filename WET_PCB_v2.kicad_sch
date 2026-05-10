@@ -2869,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 200.66 85.09)
+			(xy 227.33 85.09) (xy 224.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 24.13) (xy 123.19 25.4)
+			(xy 147.32 24.13) (xy 147.32 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 31.75) (xy 101.6 31.75)
+			(xy 119.38 31.75) (xy 125.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 27.94) (xy 162.56 27.94)
+			(xy 163.83 27.94) (xy 186.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 160.02 83.82)
+			(xy 186.69 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 27.94) (xy 101.6 27.94)
+			(xy 119.38 27.94) (xy 125.73 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 83.82) (xy 100.33 83.82)
+			(xy 121.92 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 24.13) (xy 120.65 25.4)
+			(xy 144.78 24.13) (xy 144.78 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 162.56 31.75)
+			(xy 180.34 31.75) (xy 186.69 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 138.43 85.09)
+			(xy 165.1 85.09) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3378,7 +3378,7 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 140.97 85.09 0)
+		(at 165.1 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 		(uuid "b9ef7a0e-1284-4d79-9e7c-9b876a6b64e4")
 	)
 	(label "ADC1_IN4"
-		(at 203.2 85.09 0)
+		(at 227.33 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3766,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 95.25 27.94 0)
+		(at 119.38 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3776,7 +3776,7 @@
 		(dnp no)
 		(uuid "1db3fa1b-1a39-49a5-bc37-89fb28a05070")
 		(property "Reference" "#PWR025"
-			(at 95.25 31.75 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3787,7 +3787,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 91.694 26.416 0)
+			(at 115.824 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3797,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 27.94 0)
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +3808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 27.94 0)
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 95.25 27.94 0)
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,7 +3843,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 205.74 26.67 0)
+		(at 229.87 26.67 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3854,7 +3854,7 @@
 		(dnp no)
 		(uuid "276bb403-5788-4e36-bf77-20457db770c5")
 		(property "Reference" "J7"
-			(at 216.916 26.67 0)
+			(at 241.046 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3864,7 +3864,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 218.694 29.21 0)
+			(at 242.824 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 26.67 0)
+			(at 229.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,7 +3885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 26.67 0)
+			(at 229.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 205.74 26.67 0)
+			(at 229.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,10 +4169,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
 		(property "Reference" "C21"
-			(at 86.36 67.6909 0)
+			(at 110.49 67.6909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4183,7 +4182,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 86.36 70.2309 0)
+			(at 110.49 70.2309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4321,7 +4320,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 156.21 31.75 0)
+		(at 180.34 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4331,7 +4330,7 @@
 		(dnp no)
 		(uuid "538bb8f3-efcd-4a00-909a-b2d5b9f57439")
 		(property "Reference" "#PWR033"
-			(at 156.21 35.56 0)
+			(at 180.34 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4341,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 152.4 30.48 0)
+			(at 176.53 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4352,7 +4351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 31.75 0)
+			(at 180.34 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4363,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 31.75 0)
+			(at 180.34 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 156.21 31.75 0)
+			(at 180.34 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5333,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 97.79 83.82 0)
+		(at 121.92 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5345,7 +5344,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8d6d31d-cefb-428c-b475-ff49ca5d49d4")
 		(property "Reference" "#PWR026"
-			(at 97.79 87.63 0)
+			(at 121.92 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,7 +5355,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 97.79 78.74 0)
+			(at 121.92 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5366,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 97.79 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,7 +5904,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 120.65 19.05 90)
+		(at 144.78 19.05 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5916,7 +5915,7 @@
 		(dnp no)
 		(uuid "c051e83d-4d54-461f-a5a0-7955d779fdda")
 		(property "Reference" "J6"
-			(at 121.158 15.748 90)
+			(at 145.288 15.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5926,7 +5925,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 122.428 17.78 90)
+			(at 146.558 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5936,7 +5935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 19.05 0)
+			(at 144.78 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,7 +5946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 19.05 0)
+			(at 144.78 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5958,7 +5957,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 19.05 0)
+			(at 144.78 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +5984,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 95.25 31.75 0)
+		(at 119.38 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5995,7 +5994,7 @@
 		(dnp no)
 		(uuid "d16911ae-dc53-4b5e-afd4-6f7b1145b16f")
 		(property "Reference" "#PWR028"
-			(at 95.25 35.56 0)
+			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,7 +6005,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 91.186 30.48 0)
+			(at 115.316 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6016,7 +6015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 31.75 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +6026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 31.75 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +6037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 95.25 31.75 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +6434,7 @@
 		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
 	)
 	(sheet
-		(at 101.6 25.4)
+		(at 125.73 25.4)
 		(size 38.1 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6451,7 +6450,7 @@
 		)
 		(uuid "04007180-46fe-4cf0-9e6f-a7d321798318")
 		(property "Sheetname" "DCDC"
-			(at 101.6 24.6884 0)
+			(at 125.73 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6462,7 +6461,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 101.6 50.1146 0)
+			(at 125.73 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6473,7 +6472,7 @@
 			)
 		)
 		(pin "DCDC_coil_circuit_side" input
-			(at 123.19 25.4 90)
+			(at 147.32 25.4 90)
 			(uuid "46d9929f-290e-4077-bb91-dba5001b5e51")
 			(effects
 				(font
@@ -6483,7 +6482,7 @@
 			)
 		)
 		(pin "DCDC_coil_input_side" output
-			(at 120.65 25.4 90)
+			(at 144.78 25.4 90)
 			(uuid "5b2be358-d6dd-46ad-87f6-8a202afc07c9")
 			(effects
 				(font
@@ -6493,7 +6492,7 @@
 			)
 		)
 		(pin "DCDC_Driver_Hin" input
-			(at 127 49.53 270)
+			(at 151.13 49.53 270)
 			(uuid "9ffe3add-926f-4a57-b5d5-9a544383a67a")
 			(effects
 				(font
@@ -6503,7 +6502,7 @@
 			)
 		)
 		(pin "DCDC_Driver_Lin" input
-			(at 129.54 49.53 270)
+			(at 153.67 49.53 270)
 			(uuid "eed3a793-5b6d-47ac-a99a-a2ab341cd77b")
 			(effects
 				(font
@@ -6513,7 +6512,7 @@
 			)
 		)
 		(pin "DCDC_Driver_SD" input
-			(at 132.08 49.53 270)
+			(at 156.21 49.53 270)
 			(uuid "36195b3a-92ff-4f68-99fd-c766ce8ec848")
 			(effects
 				(font
@@ -6523,7 +6522,7 @@
 			)
 		)
 		(pin "VCC_Driver_DCDC" input
-			(at 101.6 31.75 180)
+			(at 125.73 31.75 180)
 			(uuid "095b3bc5-1cd9-4fe0-97cc-958f047f2c5f")
 			(effects
 				(font
@@ -6533,7 +6532,7 @@
 			)
 		)
 		(pin "Vin_DCDC+" input
-			(at 101.6 27.94 180)
+			(at 125.73 27.94 180)
 			(uuid "dd12f53c-6a44-404d-9c33-82f8d35dcbd9")
 			(effects
 				(font
@@ -6543,7 +6542,7 @@
 			)
 		)
 		(pin "VoutDCDC" input
-			(at 139.7 27.94 0)
+			(at 163.83 27.94 0)
 			(uuid "8f6e8858-43f6-47bc-a75b-ddd954246eeb")
 			(effects
 				(font
@@ -6553,7 +6552,7 @@
 			)
 		)
 		(pin "VDD_Driver_DCDC" input
-			(at 101.6 35.56 180)
+			(at 125.73 35.56 180)
 			(uuid "9f30a3de-7f77-4c9f-ba05-3e459825a5fd")
 			(effects
 				(font
@@ -6571,8 +6570,8 @@
 		)
 	)
 	(sheet
-		(at 104.14 114.3)
-		(size 12.7 5.08)
+		(at 124.46 99.06)
+		(size 36.83 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6587,7 +6586,7 @@
 		)
 		(uuid "12f67741-eb23-4832-9e03-479bbedcb04e")
 		(property "Sheetname" "currsense_DCDC"
-			(at 104.14 113.5884 0)
+			(at 124.46 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6598,7 +6597,7 @@
 			)
 		)
 		(property "Sheetfile" "currsense_DCDC.kicad_sch"
-			(at 104.14 119.9646 0)
+			(at 124.46 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6617,7 +6616,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 76.2)
+		(at 186.69 76.2)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,7 +6632,7 @@
 		)
 		(uuid "419c9796-b7e1-43c1-b033-dc2479750a67")
 		(property "Sheetname" "voltsense_inverter"
-			(at 162.56 75.4884 0)
+			(at 186.69 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6644,7 +6643,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 162.56 93.2946 0)
+			(at 186.69 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6655,7 +6654,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 162.56 86.36 180)
+			(at 186.69 86.36 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font
@@ -6665,7 +6664,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 200.66 85.09 0)
+			(at 224.79 85.09 0)
 			(uuid "6ab01412-c957-4e76-946c-5a3514b51cf5")
 			(effects
 				(font
@@ -6675,7 +6674,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 162.56 83.82 180)
+			(at 186.69 83.82 180)
 			(uuid "ace09617-4cc6-4766-8356-7b8484ad133a")
 			(effects
 				(font
@@ -6759,7 +6758,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 25.4)
+		(at 186.69 25.4)
 		(size 38.1 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6775,7 +6774,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 162.56 24.6884 0)
+			(at 186.69 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6786,7 +6785,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 162.56 56.4646 0)
+			(at 186.69 56.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6797,7 +6796,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Hin" input
-			(at 170.18 55.88 270)
+			(at 194.31 55.88 270)
 			(uuid "9dd5eada-91b8-497f-86e1-2b546b108d82")
 			(effects
 				(font
@@ -6807,7 +6806,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_Lin" input
-			(at 172.72 55.88 270)
+			(at 196.85 55.88 270)
 			(uuid "680ebc16-8f30-49c7-96d6-1ea969df31e3")
 			(effects
 				(font
@@ -6817,7 +6816,7 @@
 			)
 		)
 		(pin "Inv_Driver_Left_SD" input
-			(at 175.26 55.88 270)
+			(at 199.39 55.88 270)
 			(uuid "b532be7c-9221-4f0b-a313-2df34239bf16")
 			(effects
 				(font
@@ -6827,7 +6826,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Hin" input
-			(at 181.61 55.88 270)
+			(at 205.74 55.88 270)
 			(uuid "459d877f-511e-44a7-89f5-abaebefc065d")
 			(effects
 				(font
@@ -6837,7 +6836,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_Lin" input
-			(at 184.15 55.88 270)
+			(at 208.28 55.88 270)
 			(uuid "ce42ce2c-ccd4-430a-a9cd-cb9cf91e4693")
 			(effects
 				(font
@@ -6847,7 +6846,7 @@
 			)
 		)
 		(pin "Inv_Driver_Right_SD" input
-			(at 186.69 55.88 270)
+			(at 210.82 55.88 270)
 			(uuid "7dcc417e-f2a1-42d8-bb11-2514cac7b4ef")
 			(effects
 				(font
@@ -6857,7 +6856,7 @@
 			)
 		)
 		(pin "VCC_Driver_Inverter" input
-			(at 162.56 31.75 180)
+			(at 186.69 31.75 180)
 			(uuid "d4949e3e-61bf-4226-a3fb-dfa4a4fefe44")
 			(effects
 				(font
@@ -6867,7 +6866,7 @@
 			)
 		)
 		(pin "VDD_Driver_Inverter" input
-			(at 162.56 34.29 180)
+			(at 186.69 34.29 180)
 			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
 			(effects
 				(font
@@ -6877,7 +6876,7 @@
 			)
 		)
 		(pin "Vin_Inverter" input
-			(at 162.56 27.94 180)
+			(at 186.69 27.94 180)
 			(uuid "3b9601ae-9ad0-400f-91c1-3d38ac01bf78")
 			(effects
 				(font
@@ -6887,7 +6886,7 @@
 			)
 		)
 		(pin "Vout_Inverter_+" output
-			(at 200.66 26.67 0)
+			(at 224.79 26.67 0)
 			(uuid "3c8459f3-1a04-483f-a21f-9379766357a7")
 			(effects
 				(font
@@ -6897,7 +6896,7 @@
 			)
 		)
 		(pin "Vout_Inverter_-" output
-			(at 200.66 29.21 0)
+			(at 224.79 29.21 0)
 			(uuid "85b5dd43-2acf-439d-95eb-8a25d6b2144b")
 			(effects
 				(font
@@ -6915,7 +6914,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 76.2)
+		(at 124.46 76.2)
 		(size 38.1 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6931,7 +6930,7 @@
 		)
 		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
 		(property "Sheetname" "voltsense_DCDC"
-			(at 100.33 75.4884 0)
+			(at 124.46 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6942,7 +6941,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_DCDC.kicad_sch"
-			(at 100.33 93.2946 0)
+			(at 124.46 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6953,7 +6952,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 100.33 86.36 180)
+			(at 124.46 86.36 180)
 			(uuid "eda746ac-a594-40a9-baf0-dc3cdfca87c2")
 			(effects
 				(font
@@ -6963,7 +6962,7 @@
 			)
 		)
 		(pin "Vsense_ADC" output
-			(at 138.43 85.09 0)
+			(at 162.56 85.09 0)
 			(uuid "14b3b0e0-8b7b-4dbb-978a-08e5612be825")
 			(effects
 				(font
@@ -6973,7 +6972,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 100.33 83.82 180)
+			(at 124.46 83.82 180)
 			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
 			(effects
 				(font

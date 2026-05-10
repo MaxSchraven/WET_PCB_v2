@@ -1523,12 +1523,6 @@
 		(uuid "0cb5bb8a-2e75-4211-8a6f-486a1f038c37")
 	)
 	(junction
-		(at 156.21 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ced73b3-4e05-42e8-bc5e-33ca475cd148")
-	)
-	(junction
 		(at 92.71 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55380ff0-1565-4aa5-b312-8e09cde7f02d")
+	)
+	(junction
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5635e69b-5ce6-46d8-9fd7-54313962aed7")
 	)
 	(junction
 		(at 82.55 73.66)
@@ -1565,6 +1565,12 @@
 		(uuid "7930a203-adc1-46ce-bae3-36edeb0a1163")
 	)
 	(junction
+		(at 156.21 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fda9cf2-45a3-4cb5-a3cd-1346961bf8cd")
+	)
+	(junction
 		(at 124.46 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1581,12 +1587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f69d087b-9e97-4b9c-a15a-69d19db45971")
-	)
-	(junction
-		(at 144.78 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa613e7c-365e-4417-906f-8855c375a93f")
 	)
 	(junction
 		(at 104.14 48.26)
@@ -1872,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 63.5) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ded6c54-46b7-4faa-a76c-6b40b72d7099")
+	)
+	(wire
+		(pts
 			(xy 82.55 71.12) (xy 82.55 73.66)
 		)
 		(stroke
@@ -1912,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 156.21 66.04)
+			(xy 144.78 63.5) (xy 156.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2039,16 +2049,6 @@
 			(type default)
 		)
 		(uuid "db10236c-8400-4410-94ce-fe7909a65466")
-	)
-	(wire
-		(pts
-			(xy 156.21 66.04) (xy 156.21 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb067d2-ae64-4fac-9822-29df580f33f8")
 	)
 	(wire
 		(pts
@@ -2684,7 +2684,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e25a736-83ca-447b-b8cd-14a513e40cfe")
 		(property "Reference" "R18"
 			(at 134.62 59.69 0)
@@ -2697,7 +2696,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 134.62 62.23 0)
+			(at 134.874 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

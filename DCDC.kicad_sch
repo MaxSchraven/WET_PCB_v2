@@ -916,9 +916,9 @@
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
 	)
-	(hierarchical_label "VoutDCDC"
+	(hierarchical_label "DCDC_LED1"
 		(shape input)
-		(at 179.07 39.37 0)
+		(at 80.01 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)

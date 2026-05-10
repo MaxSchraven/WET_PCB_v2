@@ -5067,6 +5067,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d16061a-19a2-468d-90a3-34ee9389bb08")
+		(property "Reference" "#PWR041"
+			(at 69.85 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cab70d64-39f7-45ec-b671-5c344ef94915")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 245.11 26.67 0)
 		(mirror y)
@@ -7803,7 +7881,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 66.04 87.63 0)
+		(at 72.39 85.09 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7814,7 +7892,7 @@
 		(fields_autoplaced yes)
 		(uuid "cafec4a1-eb21-46ee-82af-84f683555a1d")
 		(property "Reference" "U3"
-			(at 64.77 86.3599 0)
+			(at 71.12 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7825,7 +7903,7 @@
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 64.77 88.8999 0)
+			(at 71.12 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7836,7 +7914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +7925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7936,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7869,7 +7947,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,7 +7958,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7891,7 +7969,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,7 +7980,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 66.04 87.63 0)
+			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

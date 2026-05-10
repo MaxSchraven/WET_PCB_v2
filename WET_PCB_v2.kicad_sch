@@ -3807,7 +3807,7 @@
 		)
 		(uuid "7e357228-82be-488a-af93-a2c6344b8d8e")
 	)
-	(label "GPIO_PB3"
+	(label "PB3_TIM3_CH1"
 		(at 307.34 86.36 180)
 		(effects
 			(font

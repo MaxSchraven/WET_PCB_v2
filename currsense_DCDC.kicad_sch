@@ -169,8 +169,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U3"
-				(at -1.27 1.2701 0)
+			(property "Reference" "U"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -181,7 +181,7 @@
 				)
 			)
 			(property "Value" "Opamp_Quad"
-				(at -1.27 -1.2699 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -191,7 +191,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -316,7 +316,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "out1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -334,7 +334,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "in1-"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -352,7 +352,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "in1+"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -384,7 +384,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "in2+"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -402,7 +402,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "in2-"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -420,7 +420,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "out2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,7 +452,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "out3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,7 +470,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "in3-"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -488,7 +488,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "in3+"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -520,7 +520,7 @@
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "in4+"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,7 +538,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "in4-"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,7 +556,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "out4"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,28 +1760,26 @@
 		(fields_autoplaced yes)
 		(uuid "5afffa9e-6b95-4421-ba14-200f66805631")
 		(property "Reference" "U3"
-			(at 78.74 59.6901 0)
+			(at 80.01 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 78.74 57.1501 0)
+			(at 80.01 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1902,10 +1900,6 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "U3")
-					(unit 4)
-				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
 					(reference "U3")
 					(unit 4)

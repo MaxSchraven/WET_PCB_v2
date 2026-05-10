@@ -1144,7 +1144,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_02x01"
+		(property "Value" "Capacitor"
 			(at 85.09 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)

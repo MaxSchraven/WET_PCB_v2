@@ -2318,7 +2318,7 @@
 		)
 		(uuid "734ebf5c-180d-40c3-9f29-6dd3dce6078c")
 	)
-	(hierarchical_label "Hin"
+	(hierarchical_label "VDD_Driver"
 		(shape input)
 		(at 82.55 24.13 90)
 		(effects
@@ -2339,6 +2339,17 @@
 			(justify right)
 		)
 		(uuid "c682f22a-960c-41cf-a95b-eef96a882dfa")
+	)
+	(hierarchical_label "VDD_Driver"
+		(shape input)
+		(at 87.63 21.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2052aea-ac5e-470e-aa61-3f7b00c6e0a9")
 	)
 	(symbol
 		(lib_id "Driver_FET:IR2110")
@@ -3185,84 +3196,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 92.71 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a723833-7c8d-4fbf-8f05-e1bdda8f4040")
-		(property "Reference" "#PWR025"
-			(at 92.71 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V"
-			(at 92.71 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 92.71 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07a5c68c-5855-4070-818f-cba81c45faee")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

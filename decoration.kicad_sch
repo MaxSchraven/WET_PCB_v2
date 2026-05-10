@@ -764,7 +764,7 @@
 	)
 	(hierarchical_label "UVLED4"
 		(shape input)
-		(at 123.19 85.09 0)
+		(at 123.19 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,7 +775,7 @@
 	)
 	(hierarchical_label "UVLED3"
 		(shape input)
-		(at 124.46 96.52 0)
+		(at 123.19 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)

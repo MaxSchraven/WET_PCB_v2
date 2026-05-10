@@ -2672,6 +2672,12 @@
 		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
 	)
 	(junction
+		(at 111.76 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19afacea-88a9-45f2-a6d7-b1d654dc2ec4")
+	)
+	(junction
 		(at 41.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2736,6 +2742,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce190205-0128-4bd2-9ccd-4c0b3077028e")
+	)
+	(junction
+		(at 104.14 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4fabad0-c9d7-4d76-aed1-deeb1c2d8adc")
 	)
 	(wire
 		(pts

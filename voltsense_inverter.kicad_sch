@@ -797,7 +797,7 @@
 	)
 	(text "Shouldnt these be Zener diodes??\n"
 		(exclude_from_sim no)
-		(at 148.59 51.816 0)
+		(at 149.606 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1075,16 +1075,6 @@
 		)
 		(uuid "491aca54-4c78-4b2b-972e-053368465be9")
 	)
-	(label "Vsense"
-		(at 133.35 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d63f519-a827-4782-a1c0-a564545a6056")
-	)
 	(label "VDD_OPAMP"
 		(at 73.66 20.32 180)
 		(effects
@@ -1105,6 +1095,17 @@
 			(justify left)
 		)
 		(uuid "424ff060-d492-4914-9bdd-acbc07dfba9e")
+	)
+	(hierarchical_label "Vsense_in"
+		(shape input)
+		(at 53.34 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf96380f-a017-4189-9694-db5edf6f9ced")
 	)
 	(symbol
 		(lib_id "Device:R")

@@ -1836,6 +1836,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 46.99) (xy 34.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbe6d8d-5620-4c7f-9028-5ed97ccd2e2a")
+	)
+	(wire
+		(pts
 			(xy 364.49 88.9) (xy 383.54 88.9)
 		)
 		(stroke
@@ -1873,6 +1883,16 @@
 			(type default)
 		)
 		(uuid "37502022-7b2f-464b-b4d8-f8099a78d6ab")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 25.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d2c968-464a-43e0-9763-b4665957f50d")
 	)
 	(wire
 		(pts
@@ -2134,6 +2154,16 @@
 		)
 		(uuid "f9a17c02-69ed-4169-b44a-a385cc1b56ba")
 	)
+	(wire
+		(pts
+			(xy 48.26 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5629fb-ae43-4391-b404-235d35943ca2")
+	)
 	(label "GPIO_A11"
 		(at 297.18 81.28 180)
 		(effects
@@ -2305,6 +2335,84 @@
 		(uuid "f0e628b1-5f09-462e-984d-1b03daef1f73")
 	)
 	(symbol
+		(lib_id "power:VPP")
+		(at 48.26 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb774d8-b321-4eba-9ec6-f0a4cda78e42")
+		(property "Reference" "#PWR030"
+			(at 48.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VPP"
+			(at 48.26 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07c781ad-0795-4d49-885d-c494d90cae3a")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WET:WET_Token_10")
 		(at 331.47 78.74 0)
 		(unit 1)
@@ -2426,6 +2534,84 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166bb19d-7c0b-4715-979a-e5a8ffa0a8bb")
+		(property "Reference" "#PWR029"
+			(at 36.83 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3171360-a36c-4462-80a7-be0d015c509a")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2582,6 +2768,166 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR1020VL")
+		(at 38.1 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4298277b-b081-4109-9293-4fe762232f12")
+		(property "Reference" "D13"
+			(at 38.4175 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR1020VL"
+			(at 38.4175 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 38.1 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "901fe68a-b5d5-4dfd-8ca1-6db8658e495c")
+		)
+		(pin "1"
+			(uuid "5665b477-d3bc-428e-a24b-d1f9d0b86567")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 20.32 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7750c551-8890-46c8-91d8-1921bb3ce235")
+		(property "Reference" "J5"
+			(at 20.955 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 20.955 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 20.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d422fdc-41e7-44fe-8f4c-331d31652781")
+		)
+		(pin "2"
+			(uuid "33f98d53-95da-4592-ad19-129da33bf721")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "J5")
 					(unit 1)
 				)
 			)

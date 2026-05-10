@@ -11316,11 +11316,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "540e4452-5e96-46e8-a287-adfeac296aff")
-		(at 202 100.5 180)
+		(at 192 97 -90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C13"
-			(at 2.5 -2.2 0)
+			(at 2.5 -2.2 90)
 			(layer "F.SilkS")
 			(uuid "2ea15b50-f17e-427a-aa61-37eb10652831")
 			(effects
@@ -11331,7 +11331,7 @@
 			)
 		)
 		(property "Value" "C322C104K5R5TA"
-			(at 2.5 2.2 0)
+			(at 2.5 2.2 90)
 			(layer "F.Fab")
 			(uuid "afb81ba9-2dba-465e-bd5a-5bfe882f4887")
 			(effects
@@ -11342,7 +11342,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46e82a5b-91e2-47dc-b779-95c21952bef6")
@@ -11353,7 +11353,7 @@
 			)
 		)
 		(property "Description" "GoldMax, Commercial Standard"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6ca1f62-d1a7-41db-a46c-f1c64f1d64ba")
@@ -11364,7 +11364,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "acffde53-6b19-4d2c-b722-b25fa28e9ae1")
@@ -11376,7 +11376,7 @@
 			)
 		)
 		(property "Height" "6.6"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11389,7 +11389,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11402,7 +11402,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11514,7 +11514,7 @@
 			(uuid "205e8ff3-4ec5-4d46-aaf0-6010d794e254")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 0)
+			(at 2.5 0 90)
 			(layer "F.Fab")
 			(uuid "508318c5-ba4d-4584-9464-c5af9aa65597")
 			(effects
@@ -11525,7 +11525,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 180)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11536,7 +11536,7 @@
 			(uuid "710cc795-14c8-4439-bed0-e2b6b07d2669")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0 180)
+			(at 5 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

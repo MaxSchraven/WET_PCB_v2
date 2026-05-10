@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "Vin_12V"
-		(shape output)
-		(at 35.56 24.13 0)
+		(shape input)
+		(at 38.1 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)

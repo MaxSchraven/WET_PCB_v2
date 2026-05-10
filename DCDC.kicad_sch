@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e59f6863-4add-4f2a-88db-4a544d23fade")
+	(uuid "50273057-2277-47fc-9806-1e61aa40473a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -1218,7 +1218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1300,7 +1300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 116.84 40.64 0)
 			(hide yes)
 			(show_name no)

@@ -3137,6 +3137,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 57.15) (xy 294.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c27ad2-f65c-4a92-a475-c6cadf4b0210")
+	)
+	(wire
+		(pts
 			(xy 168.91 50.8) (xy 168.91 49.53)
 		)
 		(stroke
@@ -3935,16 +3945,6 @@
 		)
 		(uuid "2b1ecb71-72f1-4777-a341-b5933783a562")
 	)
-	(label "ADC1_IN1"
-		(at 138.43 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43672e46-2d6e-45d6-b81f-581ae4835de2")
-	)
 	(label "TIM3_CH1"
 		(at 209.55 58.42 270)
 		(effects
@@ -4104,6 +4104,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfcf18cc-130d-4696-94fa-0fe9f26fabb8")
+	)
+	(label "ADC1_IN1"
+		(at 297.18 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1e0e3f2-03b6-4f28-88a3-dba3c1d53b4a")
 	)
 	(label "TIM1_CH4"
 		(at 31.75 106.68 0)

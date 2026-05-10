@@ -751,6 +751,50 @@
 		)
 		(uuid "f552240a-4e85-4e6d-b963-058f9a29a1a6")
 	)
+	(hierarchical_label "UVLED2"
+		(shape input)
+		(at 123.19 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04721656-4c18-448f-8ac7-c2832a958bf7")
+	)
+	(hierarchical_label "UVLED4"
+		(shape input)
+		(at 123.19 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a973e41-d412-4188-b933-e9f93ed9203f")
+	)
+	(hierarchical_label "UVLED3"
+		(shape input)
+		(at 124.46 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61e986b5-8090-454c-98ad-22356d8da91b")
+	)
+	(hierarchical_label "UVLED1"
+		(shape input)
+		(at 123.19 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd52950-fd3f-49b2-8029-02220c4c10e1")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 119.38 87.63 90)

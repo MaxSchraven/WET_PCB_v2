@@ -1745,16 +1745,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8146c9-f325-41ab-ae6a-b90be360c6da")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 115.57 69.85)
 		)
 		(stroke
@@ -1762,16 +1752,6 @@
 			(type default)
 		)
 		(uuid "1931de34-5a3b-4f47-98b3-e5937150f471")
-	)
-	(wire
-		(pts
-			(xy 147.32 83.82) (xy 146.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d03bcd4-011c-444a-a821-2cecb31c055e")
 	)
 	(wire
 		(pts
@@ -2055,16 +2035,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 146.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae1a980-bbfa-46df-b99a-eca205d7c33d")
-	)
-	(wire
-		(pts
 			(xy 135.89 63.5) (xy 147.32 63.5)
 		)
 		(stroke
@@ -2165,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 81.28) (xy 147.32 81.28)
+			(xy 147.32 81.28) (xy 147.32 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +3944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 93.98 0)
+		(at 147.32 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3984,7 +3954,7 @@
 		(dnp no)
 		(uuid "bd31f5ff-4d3c-45d1-bfae-3780936f38cd")
 		(property "Reference" "#PWR027"
-			(at 147.32 100.33 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +3965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.066 100.838 0)
+			(at 147.066 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4005,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 93.98 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,7 +3986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 93.98 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,7 +3997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 93.98 0)
+			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

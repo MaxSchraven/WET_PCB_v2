@@ -379,7 +379,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "a17383a4-d27f-4c25-9e0c-b0df1856b8d8")
-		(property "Sheetname" "voltsense_inverter1"
+		(property "Sheetname" "voltsense_DCDC"
 			(at 20.32 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)

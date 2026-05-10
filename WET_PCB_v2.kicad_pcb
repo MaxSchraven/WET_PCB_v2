@@ -4651,7 +4651,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "32136224-a2e4-4acd-9fff-3cb5880d10df")
-		(at 236.5 125)
+		(at 241.38 137)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R12"
@@ -31417,7 +31417,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fd69c41f-9e33-46ed-988c-74a6dca261b5")
-		(at 269.69 130.6)
+		(at 253.31 127.5 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
@@ -31477,7 +31477,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31490,7 +31490,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31503,7 +31503,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31516,7 +31516,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31529,7 +31529,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31553,44 +31553,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c8b2b909-b89f-49ff-9364-0a05740dd577")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d10b4da8-9ca7-4a76-b081-4b2bbe02e19b")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c978249a-bcea-4524-8986-5b5b11b1bfad")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f36cc79-ecf6-46d2-93b1-5093e6ea4ba6")
+			(uuid "3629a892-f162-41c7-900a-ac910f3b8d17")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -31603,14 +31573,44 @@
 			(uuid "5c8e2542-027a-41f6-af31-66eb400869eb")
 		)
 		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3629a892-f162-41c7-900a-ac910f3b8d17")
+			(uuid "4f36cc79-ecf6-46d2-93b1-5093e6ea4ba6")
+		)
+		(fp_line
+			(start 0.54 1.04)
+			(end 0.54 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c978249a-bcea-4524-8986-5b5b11b1bfad")
+		)
+		(fp_line
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d10b4da8-9ca7-4a76-b081-4b2bbe02e19b")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8b2b909-b89f-49ff-9364-0a05740dd577")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -31624,16 +31624,6 @@
 			(uuid "20dd5018-8f1a-4872-b7d5-cef540b37b1e")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d05f6f7b-7820-4784-bb40-1dcc7ac56041")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -31642,6 +31632,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "a6dce3e2-0305-49e1-b39c-032ee03711dd")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d05f6f7b-7820-4784-bb40-1dcc7ac56041")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -31666,7 +31666,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -31677,7 +31677,7 @@
 			(uuid "07d45fcb-a01c-4cd4-bd39-d5dceec79e99")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

@@ -1880,7 +1880,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "192d33a1-f5d5-4ec8-ba13-6e4d27d312ba")
-		(at 228.5 142.75)
+		(at 246.5 147)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
@@ -23020,7 +23020,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "cc1ceb6e-a140-4156-b28f-efabab3a29f6")
-		(at 228.5 130)
+		(at 238.5 130.5)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
@@ -25659,7 +25659,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "dbcf7323-71ad-4d78-a5ac-bbbe8852f73b")
-		(at 228.5 134.25)
+		(at 238.5 134.75)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
@@ -31703,7 +31703,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ff813b31-a958-4537-a2b5-11b090d4b2dd")
-		(at 228.5 138.5)
+		(at 238.5 139)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"

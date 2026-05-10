@@ -1035,6 +1035,26 @@
 		)
 		(uuid "f9b80b59-0314-4722-9c6b-4ad8277d808f")
 	)
+	(label "VDD_OPAMP"
+		(at 128.27 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "022ff3a0-4bc0-482f-9fbb-20d69f011a36")
+	)
+	(label "VDD_OPAMP"
+		(at 87.63 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "491aca54-4c78-4b2b-972e-053368465be9")
+	)
 	(label "Vsense"
 		(at 133.35 50.8 0)
 		(effects

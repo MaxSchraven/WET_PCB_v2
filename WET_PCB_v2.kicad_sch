@@ -3197,7 +3197,7 @@
 		(uuid "1d7fd9a4-eb1b-43be-a284-25cd392c5997")
 	)
 	(junction
-		(at 49.53 60.96)
+		(at 49.53 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "231fad91-32bd-4dfa-af9a-a71d2d5da35b")
@@ -3227,7 +3227,7 @@
 		(uuid "47a68961-9e99-4459-8e26-ae78e2670592")
 	)
 	(junction
-		(at 49.53 73.66)
+		(at 49.53 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "505c5f46-5c1c-4960-a367-3551e8a2f39e")
@@ -3293,7 +3293,7 @@
 		(uuid "97a1813a-6996-4fc4-8701-6209c938fb12")
 	)
 	(junction
-		(at 62.23 60.96)
+		(at 62.23 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad04d154-e514-4ecb-8214-ac4b59b8a047")
@@ -3323,7 +3323,7 @@
 		(uuid "bac21c4a-ab9c-457a-8166-a157d2997418")
 	)
 	(junction
-		(at 62.23 73.66)
+		(at 62.23 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce190205-0128-4bd2-9ccd-4c0b3077028e")
@@ -3376,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 62.23 71.12)
+			(xy 62.23 69.85) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3393,16 +3393,6 @@
 			(type default)
 		)
 		(uuid "06f4a004-f6e4-4c66-a4b2-3525086281b5")
-	)
-	(wire
-		(pts
-			(xy 69.85 77.47) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ae5ac1-eb60-41b5-a593-d74876e58c4f")
 	)
 	(wire
 		(pts
@@ -3526,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 73.66) (xy 62.23 73.66)
+			(xy 49.53 69.85) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 49.53 73.66)
+			(xy 46.99 69.85) (xy 49.53 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 59.69) (xy 22.86 59.69)
+			(xy 19.05 55.88) (xy 22.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3716,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 49.53 60.96)
+			(xy 49.53 55.88) (xy 49.53 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3786,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 62.23 63.5)
+			(xy 62.23 57.15) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 62.23 60.96)
+			(xy 49.53 57.15) (xy 62.23 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 74.93) (xy 49.53 73.66)
+			(xy 49.53 71.12) (xy 49.53 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3896,7 +3886,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 80.01 73.66)
+			(xy 62.23 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3946,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 60.96) (xy 46.99 60.96)
+			(xy 43.18 57.15) (xy 46.99 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4096,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 80.01 71.12)
+			(xy 80.01 69.85) (xy 80.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4236,6 +4226,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 73.66) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de70edf0-9937-4e0b-96e2-4142e289dcf8")
+	)
+	(wire
+		(pts
 			(xy 180.34 85.09) (xy 177.8 85.09)
 		)
 		(stroke
@@ -4246,7 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 80.01 63.5)
+			(xy 80.01 57.15) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 80.01 60.96)
+			(xy 62.23 57.15) (xy 80.01 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5396,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 59.69 0)
+		(at 49.53 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5407,7 +5407,7 @@
 		(fields_autoplaced yes)
 		(uuid "3592c19e-ee53-4753-a6a2-9cd432de3bbd")
 		(property "Reference" "#PWR035"
-			(at 49.53 63.5 0)
+			(at 49.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5418,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 54.61 0)
+			(at 49.53 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5428,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 59.69 0)
+			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 59.69 0)
+			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 59.69 0)
+			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5575,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 80.01 67.31 0)
+		(at 80.01 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5585,7 +5585,7 @@
 		(dnp no)
 		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
 		(property "Reference" "C21"
-			(at 82.804 65.786 0)
+			(at 82.804 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +5596,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 82.55 67.564 0)
+			(at 82.55 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5607,7 +5607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.9752 71.12 0)
+			(at 80.9752 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +5618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 67.31 0)
+			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5629,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 80.01 67.31 0)
+			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5811,7 +5811,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 62.23 67.31 0)
+		(at 62.23 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5822,7 +5822,7 @@
 		(fields_autoplaced yes)
 		(uuid "54521ac1-f4ce-4394-91f6-a567c8cfe169")
 		(property "Reference" "C20"
-			(at 66.04 65.1509 0)
+			(at 66.04 61.3409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5833,7 +5833,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 66.04 67.6909 0)
+			(at 66.04 63.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5844,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.1952 71.12 0)
+			(at 63.1952 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +5855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 67.31 0)
+			(at 62.23 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 62.23 67.31 0)
+			(at 62.23 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6925,7 +6925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 74.93 0)
+		(at 49.53 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6936,7 +6936,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1af676f-cd8d-4b8e-a813-6c28654b0339")
 		(property "Reference" "#PWR036"
-			(at 49.53 81.28 0)
+			(at 49.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +6947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 80.01 0)
+			(at 49.53 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6957,7 +6957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 74.93 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 74.93 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 74.93 0)
+			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7485,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 46.99 68.58 90)
+		(at 46.99 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7496,7 +7496,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9f99bf2-c77a-47c2-9f9c-7742dc1c1848")
 		(property "Reference" "J8"
-			(at 52.07 66.0399 90)
+			(at 52.07 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7507,7 +7507,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 52.07 68.5799 90)
+			(at 52.07 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7518,7 +7518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 68.58 0)
+			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7529,7 +7529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 68.58 0)
+			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,7 +7540,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 68.58 0)
+			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +8517,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 19.05 59.69 0)
+		(at 19.05 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8528,7 +8528,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9606210-33e7-49d7-b880-3f36c9552ff5")
 		(property "Reference" "#PWR034"
-			(at 19.05 63.5 0)
+			(at 19.05 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8539,7 +8539,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 19.05 54.61 0)
+			(at 19.05 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8549,7 +8549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 59.69 0)
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8560,7 +8560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 59.69 0)
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,7 +8571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 19.05 59.69 0)
+			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8595,7 +8595,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 77.47 0)
+		(at 69.85 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8606,7 +8606,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc70918-7caa-406e-957b-41a1e1510d2c")
 		(property "Reference" "#PWR046"
-			(at 69.85 81.28 0)
+			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 72.39 0)
+			(at 69.85 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8627,7 +8627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 77.47 0)
+			(at 69.85 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8638,7 +8638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 77.47 0)
+			(at 69.85 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 77.47 0)
+			(at 69.85 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9199,7 +9199,7 @@
 		)
 	)
 	(sheet
-		(at 22.86 58.42)
+		(at 22.86 54.61)
 		(size 20.32 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9215,7 +9215,7 @@
 		)
 		(uuid "7293ed87-9a5c-4e01-a7da-6a6e465a8771")
 		(property "Sheetname" "12V_to5V"
-			(at 22.86 57.7084 0)
+			(at 22.86 53.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9226,7 +9226,7 @@
 			)
 		)
 		(property "Sheetfile" "12v5V.kicad_sch"
-			(at 22.86 62.8146 0)
+			(at 22.86 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9237,7 +9237,7 @@
 			)
 		)
 		(pin "Vin_12V" input
-			(at 22.86 59.69 180)
+			(at 22.86 55.88 180)
 			(uuid "ddc296b0-547e-48fe-bf50-c45d5326c616")
 			(effects
 				(font
@@ -9247,7 +9247,7 @@
 			)
 		)
 		(pin "Vout_5V" output
-			(at 43.18 60.96 0)
+			(at 43.18 57.15 0)
 			(uuid "71bd7c39-b815-4712-a059-97f5352bcd5d")
 			(effects
 				(font

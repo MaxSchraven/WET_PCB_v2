@@ -977,16 +977,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 20.32) (xy 71.12 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d01a604a-6ac4-40c1-8aa3-4a4fcf22ed3d")
-	)
-	(wire
-		(pts
 			(xy 128.27 49.53) (xy 128.27 50.8)
 		)
 		(stroke
@@ -1047,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 20.32) (xy 73.66 20.32)
+			(xy 76.2 20.32) (xy 73.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1087,7 @@
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape output)
-		(at 71.12 22.86 0)
+		(at 76.2 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)

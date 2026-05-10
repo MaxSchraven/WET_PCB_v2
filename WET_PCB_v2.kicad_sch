@@ -5498,8 +5498,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 250.19 26.67 0)
-		(mirror y)
+		(at 245.11 29.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5509,7 +5508,7 @@
 		(dnp no)
 		(uuid "276bb403-5788-4e36-bf77-20457db770c5")
 		(property "Reference" "J7"
-			(at 261.366 26.67 0)
+			(at 256.286 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5519,7 +5518,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 263.144 29.21 0)
+			(at 258.064 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5529,7 +5528,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
-			(at 250.19 26.67 0)
+			(at 245.11 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 26.67 0)
+			(at 245.11 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5551,7 +5550,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 250.19 26.67 0)
+			(at 245.11 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

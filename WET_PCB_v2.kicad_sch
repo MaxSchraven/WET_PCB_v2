@@ -5446,10 +5446,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3490fa02-be50-4a19-87d8-5039d867fe99")
 		(property "Reference" "C18"
-			(at 83.82 82.9309 0)
+			(at 82.55 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5460,7 +5459,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 83.82 85.4709 0)
+			(at 82.55 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

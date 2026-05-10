@@ -1475,85 +1475,16 @@
 		)
 		(uuid "fb18f777-eccd-4d7b-9314-66bccd4f89de")
 	)
-	(label "TIM17_CH1"
-		(at 104.14 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03cd335b-95c5-49e1-9a50-90d99851b580")
-	)
-	(label "GPIO_PC15"
-		(at 104.14 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15034b3a-988a-433c-a2e4-612c774b21fe")
-	)
-	(label "ADC1_IN1"
-		(at 104.14 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a96c364-fd1d-47cf-8489-8129c9a16c74")
-	)
-	(label "TIM17_CH1N"
-		(at 104.14 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6efca264-d23d-42b7-8fde-56ee696695a5")
-	)
-	(label "USART2_RX"
-		(at 104.14 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78126d43-8d0f-49e7-8ce7-286fd87affff")
-	)
-	(label "SYS_NRST"
+	(hierarchical_label "SYS_NRST"
+		(shape input)
 		(at 104.14 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "a3a35e48-fa57-46a6-8935-ccdfe7cc3c6f")
-	)
-	(label "USART2_TX"
-		(at 104.14 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be223da8-8bf6-4321-a80b-83b46a8df0a4")
-	)
-	(label "ADC1_IN0"
-		(at 104.14 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3d95831-895f-480e-b2d4-0ad45cf369b8")
+		(uuid "17182c39-251d-41a0-bb73-2798ef12a409")
 	)
 	(hierarchical_label "TIM1_CH1"
 		(shape input)
@@ -1565,6 +1496,17 @@
 			(justify right)
 		)
 		(uuid "1a94f3bf-3b51-411c-8430-759daed5bf30")
+	)
+	(hierarchical_label "GPIO_PC15"
+		(shape input)
+		(at 104.14 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "467a0ab6-4a6e-4b1b-8930-766f1476719d")
 	)
 	(hierarchical_label "ADC1_IN4"
 		(shape input)
@@ -1588,6 +1530,17 @@
 		)
 		(uuid "5685be10-b671-4847-9674-f8a8df297846")
 	)
+	(hierarchical_label "USART2_TX"
+		(shape input)
+		(at 104.14 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57003c2e-8805-48e2-aa09-6153342360c4")
+	)
 	(hierarchical_label "ADC1_IN5"
 		(shape input)
 		(at 33.02 43.18 180)
@@ -1598,6 +1551,28 @@
 			(justify right)
 		)
 		(uuid "85f77ebc-b1b6-4e19-9745-30a0ae08434e")
+	)
+	(hierarchical_label "ADC1_IN1"
+		(shape input)
+		(at 104.14 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d28a5f0-5562-423a-a0b3-c2e3921f25b4")
+	)
+	(hierarchical_label "TIM17_CH1"
+		(shape input)
+		(at 104.14 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b10e02c1-edfb-4919-baae-f2da9199aabc")
 	)
 	(hierarchical_label "GPIO_A11"
 		(shape input)
@@ -1621,6 +1596,17 @@
 		)
 		(uuid "c62256c7-33e7-46c1-ab63-fdbd34db0e2b")
 	)
+	(hierarchical_label "TIM17_CH1N"
+		(shape input)
+		(at 104.14 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5b2a675-3de5-4fa6-b927-0b32f2dc3686")
+	)
 	(hierarchical_label "GPIO_PB3"
 		(shape input)
 		(at 33.02 55.88 180)
@@ -1631,6 +1617,28 @@
 			(justify right)
 		)
 		(uuid "dad9f28d-6e16-4623-bd64-ca9c80593e23")
+	)
+	(hierarchical_label "ADC1_IN0"
+		(shape input)
+		(at 104.14 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df332e3f-810b-464f-ae6f-a45dbae01eac")
+	)
+	(hierarchical_label "USART2_RX"
+		(shape input)
+		(at 104.14 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4217e4e-f00a-424d-a007-ce2baf5a924f")
 	)
 	(symbol
 		(lib_id "power:GND")

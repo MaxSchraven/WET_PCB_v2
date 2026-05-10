@@ -2661,6 +2661,16 @@
 		)
 		(uuid "4809b86f-15f6-45d5-b2b7-7f498b20a4c8")
 	)
+	(text "do we need this voltage?"
+		(exclude_from_sim no)
+		(at 212.344 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acb39706-e71f-4a56-ae40-5bd31ca5e552")
+	)
 	(text "do we want an input protection diode? we can also place it and short it in the final PCB\n"
 		(exclude_from_sim no)
 		(at 40.386 33.274 0)
@@ -7041,6 +7051,92 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 46.99)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ecc05b2-84d4-404f-84e6-8cc19742ad68")
+		(property "Sheetname" "currsense_DCDC1"
+			(at 241.3 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "currsense_DCDC.kicad_sch"
+			(at 241.3 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "currsense_ADC" output
+			(at 279.4 64.77 0)
+			(uuid "0e8d2038-e443-4ea6-8888-04dcab139a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Shunt_from_source" input
+			(at 256.54 46.99 90)
+			(uuid "7e3d98ab-03d8-4fa1-b261-865a97e10b52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Shunt_to_load" output
+			(at 264.16 46.99 90)
+			(uuid "3131ea7e-5563-4d10-8d3f-71da3bdba8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_OPAMP" input
+			(at 241.3 64.77 180)
+			(uuid "6363342d-921c-4064-81ca-89489b9a7721")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(page "9")
 				)
 			)
 		)

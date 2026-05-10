@@ -2672,7 +2672,7 @@
 		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
 	)
 	(junction
-		(at 68.58 66.04)
+		(at 72.39 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d3246c7-82a6-4199-8b67-dea4f0a3e752")
@@ -2688,12 +2688,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
-	)
-	(junction
-		(at 68.58 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f30a30d-c754-443e-93f6-b0cb70d31a80")
 	)
 	(junction
 		(at 58.42 68.58)
@@ -2813,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 86.36 58.42)
+			(xy 72.39 58.42) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3103,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab27d09c-4cd6-4dc5-96c0-b778990c74e3")
-	)
-	(wire
-		(pts
 			(xy 267.97 69.85) (xy 267.97 68.58)
 		)
 		(stroke
@@ -3213,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 86.36 66.04)
+			(xy 72.39 66.04) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 58.42 66.04)
+			(xy 72.39 66.04) (xy 62.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 86.36 62.23 0)
+		(at 90.17 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4146,7 +4130,7 @@
 		(fields_autoplaced yes)
 		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
 		(property "Reference" "C21"
-			(at 90.17 60.0709 0)
+			(at 93.98 60.0709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4157,7 +4141,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 90.17 62.6109 0)
+			(at 93.98 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4168,7 +4152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.3252 66.04 0)
+			(at 91.1352 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 62.23 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4174,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 86.36 62.23 0)
+			(at 90.17 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4356,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 68.58 62.23 0)
+		(at 72.39 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4383,7 +4367,7 @@
 		(fields_autoplaced yes)
 		(uuid "54521ac1-f4ce-4394-91f6-a567c8cfe169")
 		(property "Reference" "C20"
-			(at 72.39 60.0709 0)
+			(at 76.2 60.0709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4394,7 +4378,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 72.39 62.6109 0)
+			(at 76.2 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4405,7 +4389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 66.04 0)
+			(at 73.3552 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 62.23 0)
+			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4411,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 68.58 62.23 0)
+			(at 72.39 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6582,7 +6582,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6603,7 +6602,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 130.81 50.1146 0)
+			(at 148.082 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

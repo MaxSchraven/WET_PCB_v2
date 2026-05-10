@@ -1229,6 +1229,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9301xDCK")
 		(at 64.77 57.15 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1238,7 +1239,7 @@
 		(dnp no)
 		(uuid "380d68f7-e2fb-44dc-a054-c0bc60efdf3a")
 		(property "Reference" "U5"
-			(at 80.01 50.7298 0)
+			(at 80.01 63.5702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1248,7 +1249,8 @@
 			)
 		)
 		(property "Value" "TLV9301xDCK"
-			(at 80.01 53.2698 0)
+			(at 80.01 61.0302 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

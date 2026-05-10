@@ -305,6 +305,36 @@
 				(justify left)
 			)
 		)
+		(pin "VDD_Driver_Inverter" input
+			(at 66.04 109.22 270)
+			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin_Inverter" input
+			(at 16.51 87.63 180)
+			(uuid "3b9601ae-9ad0-400f-91c1-3d38ac01bf78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout_Inverter_+" output
+			(at 76.2 87.63 0)
+			(uuid "3c8459f3-1a04-483f-a21f-9379766357a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"

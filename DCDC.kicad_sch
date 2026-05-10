@@ -899,7 +899,7 @@
 		)
 		(uuid "ca15df44-422c-4e41-aa86-d0f885c5aba9")
 	)
-	(hierarchical_label "Vin_DCDC"
+	(hierarchical_label "Vin_DCDC+"
 		(shape input)
 		(at 40.64 54.61 180)
 		(effects

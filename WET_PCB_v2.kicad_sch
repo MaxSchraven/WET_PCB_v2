@@ -1977,6 +1977,16 @@
 		)
 		(uuid "4809b86f-15f6-45d5-b2b7-7f498b20a4c8")
 	)
+	(text "do we want an input protection diode? we can also place it and short it in the final PCB\n"
+		(exclude_from_sim no)
+		(at 55.372 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
+	)
 	(text_box "Power input"
 		(exclude_from_sim no)
 		(at 17.78 20.32 0)

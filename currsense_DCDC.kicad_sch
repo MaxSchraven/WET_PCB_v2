@@ -1007,16 +1007,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 73.66) (xy 74.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daeb1ca9-abb8-47c5-8241-6a1019e0981a")
-	)
-	(wire
-		(pts
 			(xy 64.77 64.77) (xy 64.77 66.04)
 		)
 		(stroke
@@ -1107,7 +1097,7 @@
 		)
 		(uuid "a20b72b4-5829-4b9e-9c20-f02225a446a8")
 	)
-	(hierarchical_label "Vsense_ADC"
+	(hierarchical_label "currsense_ADC"
 		(shape output)
 		(at 110.49 57.15 0)
 		(effects

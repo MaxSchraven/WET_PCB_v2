@@ -7888,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
 			(at 160.02 19.05 0)
 			(hide yes)
 			(show_name no)

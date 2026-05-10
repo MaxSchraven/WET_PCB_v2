@@ -1343,8 +1343,8 @@
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
 	)
-	(hierarchical_label "Vin_DCDC_shunt_input side"
-		(shape output)
+	(hierarchical_label "Vin_DCDC_shunt_output_side"
+		(shape input)
 		(at 76.2 25.4 0)
 		(effects
 			(font

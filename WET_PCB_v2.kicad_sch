@@ -5863,7 +5863,7 @@
 		(dnp no)
 		(uuid "a0661bf8-b87e-483b-95ba-da8132394f4a")
 		(property "Reference" "J11"
-			(at 392.43 91.694 0)
+			(at 392.43 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

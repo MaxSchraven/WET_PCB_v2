@@ -208,8 +208,8 @@
 		)
 	)
 	(sheet
-		(at 22.86 48.26)
-		(size 35.56 27.94)
+		(at 20.32 48.26)
+		(size 38.1 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -224,7 +224,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 22.86 47.5484 0)
+			(at 20.32 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 22.86 76.7846 0)
+			(at 20.32 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -326,7 +326,7 @@
 			)
 		)
 		(pin "Vin_Inverter" input
-			(at 22.86 50.8 180)
+			(at 20.32 50.8 180)
 			(uuid "3b9601ae-9ad0-400f-91c1-3d38ac01bf78")
 			(effects
 				(font

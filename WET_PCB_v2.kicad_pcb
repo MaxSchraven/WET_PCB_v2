@@ -5103,7 +5103,7 @@
 			)
 		)
 		(property "Value" "MCGPR63V106M5X11"
-			(at -4.69 15.83 90)
+			(at 0 4.62 90)
 			(layer "F.Fab")
 			(uuid "d46b119d-192e-45d6-87b4-7cd7cdb317bd")
 			(effects
@@ -24651,7 +24651,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d524edf7-6bd7-40a1-8350-d8a895c58e72")
-		(at 309.095 135.375)
+		(at 266.5 155)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C3"

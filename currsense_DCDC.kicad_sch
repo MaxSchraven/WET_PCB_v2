@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "968cdb5b-c8ad-4bd3-a004-5a5871e7f166")
+	(uuid "053672ae-b2a5-4810-b101-49eb66188ba9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -1526,7 +1526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 77.47 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -1609,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 70.358 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -2030,7 +2030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.69 57.658 90)
 			(hide yes)
 			(show_name no)

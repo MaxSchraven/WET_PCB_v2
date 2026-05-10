@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "7e5abaec-907b-4db0-87d5-1ac79075b1ca")
+	(uuid "47aa9120-1f58-49e0-b826-a950322ac67c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
@@ -645,6 +645,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ill make a custom footprint for this\n"
+		(exclude_from_sim no)
+		(at 152.908 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c124de74-8ce2-4e98-9581-7d9294728427")
+	)
 	(junction
 		(at 105.41 109.22)
 		(diameter 0)
@@ -680,7 +690,7 @@
 		(uuid "89712f98-ad2f-4ffc-a463-8423363341c4")
 	)
 	(no_connect
-		(at 133.35 78.74)
+		(at 134.62 78.74)
 		(uuid "a63ef750-8cd6-4122-9411-6a91358b737b")
 	)
 	(no_connect
@@ -692,7 +702,7 @@
 		(uuid "e6dfad85-2597-4b2b-8c61-cc9b2604b3bc")
 	)
 	(no_connect
-		(at 133.35 76.2)
+		(at 134.62 76.2)
 		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
 	)
 	(wire
@@ -851,7 +861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 119.38 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -901,7 +911,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 138.43 76.2 0)
+		(at 139.7 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -912,7 +922,7 @@
 		(fields_autoplaced yes)
 		(uuid "29046909-95f8-4f0e-b0b4-f88402ebca64")
 		(property "Reference" "J12"
-			(at 139.7 76.1999 0)
+			(at 140.97 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -923,7 +933,7 @@
 			)
 		)
 		(property "Value" "Fuse holder or smth to hold tube"
-			(at 139.7 78.7399 0)
+			(at 140.97 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -934,7 +944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 76.2 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -945,7 +955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 76.2 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -956,7 +966,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 138.43 76.2 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,7 +1023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 119.38 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -1175,7 +1185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 119.38 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -1861,7 +1871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 119.38 99.568 90)
 			(hide yes)
 			(show_name no)

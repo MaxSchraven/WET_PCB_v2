@@ -1332,7 +1332,7 @@
 		)
 		(uuid "fcba1080-7c4b-492b-b4b5-1fe5271d3097")
 	)
-	(hierarchical_label "Vin_DCDC_shunt"
+	(hierarchical_label "Vin_DCDC_shunt_input side"
 		(shape output)
 		(at 67.31 27.94 0)
 		(effects
@@ -1342,6 +1342,17 @@
 			(justify left)
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
+	)
+	(hierarchical_label "Vin_DCDC_shunt_input side"
+		(shape output)
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8282836f-595e-49ee-885c-71b3e1111de3")
 	)
 	(hierarchical_label "VoutDCDC"
 		(shape input)

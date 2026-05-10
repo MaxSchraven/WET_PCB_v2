@@ -3793,16 +3793,6 @@
 		)
 		(uuid "81135cfd-a5f9-4307-9337-b5d0306d7b58")
 	)
-	(label "V+"
-		(at 140.97 87.63 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a19d6834-2d06-4539-b9b0-fd4130bae97e")
-	)
 	(label "Hin"
 		(at 262.89 59.69 180)
 		(effects

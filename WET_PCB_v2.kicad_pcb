@@ -18473,7 +18473,7 @@
 	(footprint "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "9f07ef65-6371-4755-90df-8a2a18b30cc8")
-		(at 200.92 99.75)
+		(at 206 91.5)
 		(descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D11"

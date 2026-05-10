@@ -13912,11 +13912,11 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "738c79b7-2f0e-4fb6-a634-82256a6ac395")
-		(at 201 101)
+		(at 203.5 97.5 -90)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 2.5 -7.5 0)
+			(at 2.5 -7.5 90)
 			(layer "F.SilkS")
 			(uuid "a70a6a70-fbd5-425b-a7e1-6492c95b63fb")
 			(effects
@@ -13927,7 +13927,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 2.5 7.5 0)
+			(at 2.5 7.5 90)
 			(layer "F.Fab")
 			(uuid "626bc2b3-d9ce-4941-b8d3-04fbffd17b40")
 			(effects
@@ -13938,7 +13938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9530b0ac-c75f-4c2a-b8bd-40547daa515e")
@@ -13949,7 +13949,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18791b05-3ba2-4de1-bf2b-d3e7007e0ccb")
@@ -13960,7 +13960,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "599da79d-2dd9-4738-8d4d-da559ec68279")
@@ -14017,7 +14017,7 @@
 			(uuid "408f4e20-86ef-4a10-9a66-2cf59e7af11d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 0)
+			(at 2.5 0 90)
 			(layer "F.Fab")
 			(uuid "6661a5d6-2beb-4771-8bc8-d05abf627e92")
 			(effects
@@ -14028,7 +14028,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -14038,7 +14038,7 @@
 			(uuid "bbed9402-808b-42c8-92e7-8867fe8acaa2")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0)
+			(at 5 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

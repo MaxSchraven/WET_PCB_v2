@@ -2629,7 +2629,7 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2657ff30-5373-47e7-b0d9-9a88b075b949")
-		(at 237 137 90)
+		(at 237 137 -90)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, diameter=5.0mm, height=10mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 5.00mm diameter 5.0mm height 10mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C8"
@@ -2701,16 +2701,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.054775 -1.725)
-			(end -0.054775 -1.225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "34b5a3dc-d50e-4576-b595-47fd75f83f60")
-		)
-		(fp_line
 			(start -0.304775 -1.475)
 			(end 0.195225 -1.475)
 			(stroke
@@ -2720,16 +2710,15 @@
 			(layer "F.SilkS")
 			(uuid "843f3c1b-7990-4068-b580-f87c11cf901f")
 		)
-		(fp_arc
-			(start 0.104003 -1.06)
-			(mid 2.5 -2.62)
-			(end 4.895997 -1.06)
+		(fp_line
+			(start -0.054775 -1.725)
+			(end -0.054775 -1.225)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8c73c033-5cb1-4daa-9d2a-2cf47aec0665")
+			(uuid "34b5a3dc-d50e-4576-b595-47fd75f83f60")
 		)
 		(fp_arc
 			(start 4.895997 1.06)
@@ -2741,6 +2730,17 @@
 			)
 			(layer "F.SilkS")
 			(uuid "612058c9-f324-4994-b9fb-7b520be52f43")
+		)
+		(fp_arc
+			(start 0.104003 -1.06)
+			(mid 2.5 -2.62)
+			(end 4.895997 -1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c73c033-5cb1-4daa-9d2a-2cf47aec0665")
 		)
 		(fp_circle
 			(center 2.5 0)
@@ -2754,16 +2754,6 @@
 			(uuid "7c777690-b6f9-4b1a-b988-4f553ea6c853")
 		)
 		(fp_line
-			(start 0.616395 -1.3375)
-			(end 0.616395 -0.8375)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e40fe838-564b-478a-af2e-3d65823eb02d")
-		)
-		(fp_line
 			(start 0.366395 -1.0875)
 			(end 0.866395 -1.0875)
 			(stroke
@@ -2772,6 +2762,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "d266519f-8813-4eb7-9fe8-81275a72ad3f")
+		)
+		(fp_line
+			(start 0.616395 -1.3375)
+			(end 0.616395 -0.8375)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e40fe838-564b-478a-af2e-3d65823eb02d")
 		)
 		(fp_circle
 			(center 2.5 0)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2807,7 +2807,7 @@
 			(uuid "3bb1a8c3-f7d7-4a32-b02d-aafad3c253b8")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0 90)
+			(at 5 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -24651,7 +24651,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d524edf7-6bd7-40a1-8350-d8a895c58e72")
-		(at 244.5 137.5 90)
+		(at 248 133 -90)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
@@ -24711,7 +24711,7 @@
 			)
 		)
 		(property "Height" "6.5"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24724,7 +24724,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24737,7 +24737,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24750,7 +24750,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24763,7 +24763,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24787,24 +24787,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 6.12 -1.37)
-			(end 6.12 1.37)
+			(start -1.12 1.37)
+			(end -1.12 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f56b2eeb-e38d-422e-b20d-236fc4ca4f5f")
-		)
-		(fp_line
-			(start -1.12 -1.37)
-			(end 6.12 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3b89c9ab-783b-463e-ac2c-5318660bc654")
+			(uuid "4b7473b0-ce26-4429-a68c-27ec6ec54de2")
 		)
 		(fp_line
 			(start 6.12 1.37)
@@ -24817,14 +24807,24 @@
 			(uuid "60488fd2-bc66-43f7-bbda-25c8645f69ad")
 		)
 		(fp_line
-			(start -1.12 1.37)
-			(end -1.12 -1.37)
+			(start -1.12 -1.37)
+			(end 6.12 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b7473b0-ce26-4429-a68c-27ec6ec54de2")
+			(uuid "3b89c9ab-783b-463e-ac2c-5318660bc654")
+		)
+		(fp_line
+			(start 6.12 -1.37)
+			(end 6.12 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f56b2eeb-e38d-422e-b20d-236fc4ca4f5f")
 		)
 		(fp_rect
 			(start -1.25 -1.5)
@@ -24860,7 +24860,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -24871,7 +24871,7 @@
 			(uuid "77c4cdd1-7b60-447b-a03b-021cdcfd3968")
 		)
 		(pad "2" thru_hole circle
-			(at 5 0 90)
+			(at 5 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")

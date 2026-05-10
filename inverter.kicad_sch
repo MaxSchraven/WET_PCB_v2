@@ -3774,26 +3774,6 @@
 		(uuid "175a8d85-5a6c-4a36-b96d-59253a1ac01f")
 	)
 	(label "Hin"
-		(at 31.75 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1984294c-43c1-4eab-82e2-24ffef1837ef")
-	)
-	(label "Lin"
-		(at 31.75 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81135cfd-a5f9-4307-9337-b5d0306d7b58")
-	)
-	(label "Hin"
 		(at 262.89 59.69 180)
 		(effects
 			(font
@@ -3822,16 +3802,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
-	)
-	(label "Off"
-		(at 31.75 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d97a49ae-7b36-4c1d-98fd-4ebf345e1b3e")
 	)
 	(hierarchical_label "Vout_Inverter_-"
 		(shape output)

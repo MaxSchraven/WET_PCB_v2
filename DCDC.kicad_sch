@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ea831853-4bd3-43a6-aade-be6aea498a4a")
+	(uuid "c0314097-a4d5-4ff4-8019-32de061380b8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -1048,7 +1048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 			(at 176.2252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1375,7 +1375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 			(at 55.5752 59.69 0)
 			(hide yes)
 			(show_name no)

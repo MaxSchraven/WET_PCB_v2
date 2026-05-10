@@ -2750,6 +2750,12 @@
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
 	)
 	(junction
+		(at 29.21 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38864eeb-4601-4992-9def-34d8a2e3d5c2")
+	)
+	(junction
 		(at 388.62 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3401,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 106.68) (xy 31.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840781a3-63bc-4943-ac13-97c069e337e5")
+	)
+	(wire
+		(pts
 			(xy 62.23 73.66) (xy 80.01 73.66)
 		)
 		(stroke
@@ -3641,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 106.68) (xy 30.48 109.22)
+			(xy 29.21 106.68) (xy 29.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3791,16 +3807,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 109.22) (xy 29.21 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0049d2-8d18-439f-9c33-01e12ae91312")
-	)
-	(wire
-		(pts
 			(xy 121.92 27.94) (xy 140.97 27.94)
 		)
 		(stroke
@@ -3821,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 106.68) (xy 30.48 106.68)
+			(xy 26.67 106.68) (xy 29.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3928,16 +3934,6 @@
 			(justify left bottom)
 		)
 		(uuid "43672e46-2d6e-45d6-b81f-581ae4835de2")
-	)
-	(label "TIM1_CH4"
-		(at 30.48 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "453609f9-7b27-440d-86e5-3aa3874bcf7c")
 	)
 	(label "TIM3_CH1"
 		(at 209.55 58.42 270)
@@ -4098,6 +4094,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfcf18cc-130d-4696-94fa-0fe9f26fabb8")
+	)
+	(label "TIM1_CH4"
+		(at 31.75 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3faffa5-4993-45c9-9092-3c2bdbbeb6ad")
 	)
 	(label "SYS_NRST"
 		(at 377.19 88.9 0)

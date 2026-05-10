@@ -1367,7 +1367,7 @@
 		)
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
 	)
-	(hierarchical_label "DCDC_SD"
+	(hierarchical_label "DCDC_Driver_SD"
 		(shape output)
 		(at 114.3 38.1 0)
 		(effects

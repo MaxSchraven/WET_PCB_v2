@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "3d93b0e4-656f-4b84-b511-48a24128f7bd")
+	(uuid "747bb992-29f4-421b-8d46-da1f003045bd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -599,6 +599,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "is one cap at in and out enough or do we want to add more (we can leave them empty anyway)"
+		(exclude_from_sim no)
+		(at 116.078 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df5628eb-b7f1-4a5e-a31e-aa7f5d9092aa")
+	)
 	(junction
 		(at 54.61 43.18)
 		(diameter 0)
@@ -906,7 +916,7 @@
 		)
 		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
 	)
-	(hierarchical_label "Vin_DCDC_coil_circuit_side"
+	(hierarchical_label "DCDC_coil_circuit_side"
 		(shape input)
 		(at 50.8 43.18 90)
 		(effects
@@ -972,7 +982,7 @@
 		)
 		(uuid "c7435d42-24df-41bc-a1fc-201fe4dc92e4")
 	)
-	(hierarchical_label "Vin_DCDC_coil_input_side"
+	(hierarchical_label "DCDC_coil_input_side"
 		(shape output)
 		(at 44.45 43.18 90)
 		(effects

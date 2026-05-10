@@ -795,6 +795,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Shouldnt these be Zener diodes??\n"
+		(exclude_from_sim no)
+		(at 148.59 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20854fac-5448-4d59-a66f-fe2a5f05bd90")
+	)
 	(text "Add decoupling caps for VSS VDD"
 		(exclude_from_sim no)
 		(at 67.056 71.882 0)

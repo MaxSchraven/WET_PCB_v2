@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 88.138 26.416 0)
+			(at 91.694 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

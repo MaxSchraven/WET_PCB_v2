@@ -2672,6 +2672,12 @@
 		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
 	)
 	(junction
+		(at 54.61 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3246c7-82a6-4199-8b67-dea4f0a3e752")
+	)
+	(junction
 		(at 41.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,6 +2688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
+	)
+	(junction
+		(at 54.61 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f30a30d-c754-443e-93f6-b0cb70d31a80")
 	)
 	(junction
 		(at 58.42 68.58)
@@ -2798,6 +2810,16 @@
 			(type default)
 		)
 		(uuid "475cd8eb-3dc0-4507-bb81-2012f89dc971")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476ee723-280a-4cfe-b42b-d8f6d8909826")
 	)
 	(wire
 		(pts
@@ -3081,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 78.74) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab27d09c-4cd6-4dc5-96c0-b778990c74e3")
+	)
+	(wire
+		(pts
 			(xy 267.97 69.85) (xy 267.97 68.58)
 		)
 		(stroke
@@ -3181,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e311022c-7ee0-47bb-bce3-2ebfe246f9e1")
+	)
+	(wire
+		(pts
 			(xy 140.97 85.09) (xy 138.43 85.09)
 		)
 		(stroke
@@ -3198,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "e7ff4b3b-7492-4099-97f4-95157572cf1e")
+	)
+	(wire
+		(pts
+			(xy 54.61 86.36) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeec4e69-ecd8-4c23-bd08-2c30cbaf9a10")
 	)
 	(wire
 		(pts
@@ -4082,6 +4134,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 72.39 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
+		(property "Reference" "C21"
+			(at 76.2 80.3909 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 76.2 82.9309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.3552 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 72.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44f0e0c9-c9dd-4cd6-b3f2-ed7748ab0ab1")
+		)
+		(pin "1"
+			(uuid "5d6ef9de-2907-4e7b-9508-5f89e81e1955")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 31.75 40.64 0)
 		(unit 1)
@@ -4231,6 +4365,88 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 54.61 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54521ac1-f4ce-4394-91f6-a567c8cfe169")
+		(property "Reference" "C20"
+			(at 58.42 80.3909 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 58.42 82.9309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.5752 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e9cccef-d3b4-40ef-bc78-c069daf099eb")
+		)
+		(pin "1"
+			(uuid "a525d03c-1041-4b40-9c30-3631b1b237cf")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "C20")
 					(unit 1)
 				)
 			)

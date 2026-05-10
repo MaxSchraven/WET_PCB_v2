@@ -132,8 +132,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 113.03)
-		(size 26.67 21.59)
+		(at 16.51 100.33)
+		(size 59.69 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +148,7 @@
 		)
 		(uuid "419c9796-b7e1-43c1-b033-dc2479750a67")
 		(property "Sheetname" "voltsense_inverter"
-			(at 33.02 112.3184 0)
+			(at 16.51 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -159,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "voltsense_inverter.kicad_sch"
-			(at 33.02 135.2046 0)
+			(at 16.51 117.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

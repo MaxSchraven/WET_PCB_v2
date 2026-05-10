@@ -5498,8 +5498,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 245.11 26.67 0)
-		(mirror y)
+		(at 245.11 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5519,7 +5518,7 @@
 			)
 		)
 		(property "Value" "Pluggable Terminal Block"
-			(at 258.064 29.21 0)
+			(at 258.064 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

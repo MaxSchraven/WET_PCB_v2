@@ -3281,6 +3281,12 @@
 		(uuid "76c5f23f-1068-4643-850b-a29b541dbd22")
 	)
 	(junction
+		(at 60.96 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bf1616-4a12-465c-b3f8-fa68bac7f7a3")
+	)
+	(junction
 		(at 388.62 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3746,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 60.96 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6838b8ee-b21a-4986-b560-381e116d9ddd")
-	)
-	(wire
-		(pts
 			(xy 110.49 27.94) (xy 114.3 27.94)
 		)
 		(stroke
@@ -3826,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 77.47 81.28)
+			(xy 77.47 77.47) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 78.74) (xy 77.47 78.74)
+			(xy 60.96 77.47) (xy 77.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8697,7 +8693,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 76.2 0)
+		(at 60.96 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8708,7 +8704,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc70918-7caa-406e-957b-41a1e1510d2c")
 		(property "Reference" "#PWR046"
-			(at 60.96 80.01 0)
+			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +8715,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.96 71.12 0)
+			(at 60.96 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8729,7 +8725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 76.2 0)
+			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 76.2 0)
+			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +8747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 76.2 0)
+			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

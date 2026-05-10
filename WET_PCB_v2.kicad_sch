@@ -2672,7 +2672,7 @@
 		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
 	)
 	(junction
-		(at 54.61 86.36)
+		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d3246c7-82a6-4199-8b67-dea4f0a3e752")
@@ -2690,7 +2690,7 @@
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
 	)
 	(junction
-		(at 54.61 78.74)
+		(at 68.58 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f30a30d-c754-443e-93f6-b0cb70d31a80")
@@ -2813,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 72.39 78.74)
+			(xy 68.58 58.42) (xy 86.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3103,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 54.61 78.74)
+			(xy 58.42 58.42) (xy 68.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 72.39 86.36)
+			(xy 68.58 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 44.45 86.36)
+			(xy 68.58 66.04) (xy 58.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4135,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 72.39 82.55 0)
+		(at 86.36 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4146,7 +4146,7 @@
 		(fields_autoplaced yes)
 		(uuid "44be461e-4e05-4740-997c-c4be28accb06")
 		(property "Reference" "C21"
-			(at 76.2 80.3909 0)
+			(at 90.17 60.0709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 76.2 82.9309 0)
+			(at 90.17 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4168,7 +4168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.3552 86.36 0)
+			(at 87.3252 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 82.55 0)
+			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4190,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 72.39 82.55 0)
+			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 54.61 82.55 0)
+		(at 68.58 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4383,7 +4383,7 @@
 		(fields_autoplaced yes)
 		(uuid "54521ac1-f4ce-4394-91f6-a567c8cfe169")
 		(property "Reference" "C20"
-			(at 58.42 80.3909 0)
+			(at 72.39 60.0709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 58.42 82.9309 0)
+			(at 72.39 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4405,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.5752 86.36 0)
+			(at 69.5452 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 82.55 0)
+			(at 68.58 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4427,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 54.61 82.55 0)
+			(at 68.58 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,84 +5878,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba9ddda1-b6a0-4230-bbd6-394e8e652644")
-		(property "Reference" "#PWR039"
-			(at 44.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 44.45 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a663896a-ad60-463b-9328-edf37c83abed")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 120.65 19.05 90)
 		(mirror x)
@@ -6107,84 +6029,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d19a494e-22fd-4ec5-9733-dcb5dd9373c1")
-		(property "Reference" "#PWR040"
-			(at 44.45 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4987ccd5-895e-49bf-a7a7-a95b71d4f822")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

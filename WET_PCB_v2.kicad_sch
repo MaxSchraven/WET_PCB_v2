@@ -2739,7 +2739,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "voltsense_inverter.kicad_sch"
+		(property "Sheetfile" "voltsense_DCDC.kicad_sch"
 			(at 20.32 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)

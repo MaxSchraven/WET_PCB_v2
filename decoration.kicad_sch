@@ -530,6 +530,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 105.41 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dad7ab3-7be5-42f1-87f4-f47cdd37f55c")
+	)
+	(junction
+		(at 105.41 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccf5b061-c03c-4372-a77c-7411f4be7302")
+	)
 	(no_connect
 		(at 87.63 60.96)
 		(uuid "a63ef750-8cd6-4122-9411-6a91358b737b")
@@ -537,6 +549,36 @@
 	(no_connect
 		(at 87.63 58.42)
 		(uuid "e7c24e08-24ae-44a7-b697-d9c3cabacbbb")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 105.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a766472-2192-4a0e-9b17-c903e69f55ba")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fa011e-237b-4bfb-bd16-cea88fec47bd")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2c781a-66e6-4e96-9cf6-3e3247aae740")
 	)
 	(symbol
 		(lib_id "Device:R")

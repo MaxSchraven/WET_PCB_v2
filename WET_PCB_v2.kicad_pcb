@@ -10100,7 +10100,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4e5d0518-c0fd-421c-af8e-e35955ca2d5a")
-		(at 261.19 153)
+		(at 245.19 160.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R16"
@@ -10115,7 +10115,7 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 3.81 2.37 0)
+			(at 3.81 3 0)
 			(layer "F.Fab")
 			(uuid "a0e02b4a-251f-4142-89c8-5eff550c64de")
 			(effects

@@ -2029,7 +2029,7 @@
 	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 83.82 63.5 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2038,7 +2038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5aceadd-92c4-4db1-abf3-1a3764c3d373")
-		(property "Reference" "U5"
+		(property "Reference" "U53"
 			(at 83.82 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,8 +2180,8 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
-					(reference "U5")
-					(unit 2)
+					(reference "U53")
+					(unit 1)
 				)
 			)
 		)

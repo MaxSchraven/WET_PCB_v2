@@ -1553,16 +1553,10 @@
 		(uuid "680b4aca-2c32-44ab-96e8-f0d2454e96a0")
 	)
 	(junction
-		(at 104.14 48.26)
+		(at 128.27 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3fb944b-b3db-4aa3-8b63-f8b2b8094c5f")
-	)
-	(junction
-		(at 125.73 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9c920d8-b2f3-4933-898d-e83af93cb7c6")
+		(uuid "7930a203-adc1-46ce-bae3-36edeb0a1163")
 	)
 	(junction
 		(at 82.55 38.1)
@@ -1593,6 +1587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa613e7c-365e-4417-906f-8855c375a93f")
+	)
+	(junction
+		(at 104.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad590d0-66c3-4c26-933b-b489245eb929")
 	)
 	(junction
 		(at 124.46 38.1)
@@ -1902,13 +1902,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 125.73 48.26)
+			(xy 104.14 48.26) (xy 128.27 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99f3c144-2143-43db-8c71-4deb1a8164f6")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a901d87-c988-4d8a-9e97-bb362ccf32dd")
 	)
 	(wire
 		(pts
@@ -1949,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "a93ca7b0-86af-4bb8-8d15-d5d8b215d761")
-	)
-	(wire
-		(pts
-			(xy 125.73 60.96) (xy 153.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b072b918-e076-4c5a-9916-ef268f6f8070")
 	)
 	(wire
 		(pts
@@ -2162,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 125.73 60.96)
+			(xy 104.14 60.96) (xy 128.27 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2553,7 @@
 		(dnp no)
 		(uuid "27e2b4d7-38cb-4402-b356-7636cdb17e40")
 		(property "Reference" "C14"
-			(at 106.934 52.324 90)
+			(at 106.934 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3412,7 +3412,7 @@
 	)
 	(symbol
 		(lib_id "MCGPR63V106M5X11:MCGPR63V106M5X11")
-		(at 125.73 60.96 90)
+		(at 128.27 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3422,7 +3422,7 @@
 		(dnp no)
 		(uuid "bcc6b921-b05a-4c6d-9c71-bc4a549eeb52")
 		(property "Reference" "C15"
-			(at 129.032 50.038 90)
+			(at 131.572 50.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3433,7 +3433,7 @@
 			)
 		)
 		(property "Value" "MCGPR63V106M5X11"
-			(at 129.54 54.102 90)
+			(at 132.08 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3444,7 +3444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 221.92 52.07 0)
+			(at 224.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.92 52.07 0)
+			(at 324.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3468,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP PRO MCGPR63V106M5X11Electrolytic Capacitor, 10 F, 63 V, +/- 20%, Radial Leaded, 2000 hours @ 85C, Polar"
-			(at 125.73 60.96 0)
+			(at 128.27 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,7 +3479,7 @@
 			)
 		)
 		(property "Height" "12"
-			(at 521.92 52.07 0)
+			(at 524.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3491,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 621.92 52.07 0)
+			(at 624.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,7 +3503,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 721.92 52.07 0)
+			(at 724.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,7 +3515,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 821.92 52.07 0)
+			(at 824.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3527,7 +3527,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
-			(at 921.92 52.07 0)
+			(at 924.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

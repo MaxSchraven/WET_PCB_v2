@@ -20352,7 +20352,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 129 25.899 0)
+			(at 1.61 0 0)
 			(layer "F.Fab")
 			(uuid "b7200676-5289-468f-b210-a379e30976b2")
 			(effects

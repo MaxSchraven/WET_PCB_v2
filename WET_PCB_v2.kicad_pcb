@@ -4304,7 +4304,7 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "2d342a03-929d-4fc5-b931-1bd9ecca4a8f")
-		(at 200 36)
+		(at 175.5 110.5)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C15"
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Value" "MCGPR63V106M5X11"
-			(at 72.54 67.44 0)
+			(at 4.5 3.5 0)
 			(layer "F.Fab")
 			(uuid "e7a86d4e-7e95-4097-8b49-261f12aac79b")
 			(effects

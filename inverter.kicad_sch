@@ -3833,16 +3833,6 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
-	(label "V-"
-		(at 153.67 87.63 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb01f1ca-5dd1-4374-a3ae-ca2e3515241c")
-	)
 	(label "Off"
 		(at 31.75 64.77 0)
 		(effects
@@ -3853,9 +3843,9 @@
 		)
 		(uuid "d97a49ae-7b36-4c1d-98fd-4ebf345e1b3e")
 	)
-	(hierarchical_label "Vout_Inverter_+"
+	(hierarchical_label "Vout_Inverter_-"
 		(shape output)
-		(at 147.32 90.17 270)
+		(at 153.67 87.63 270)
 		(effects
 			(font
 				(size 1.27 1.27)

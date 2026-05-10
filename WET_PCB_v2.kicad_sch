@@ -7972,6 +7972,52 @@
 		)
 	)
 	(sheet
+		(at 13.97 104.14)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "79e5e86e-dc26-4d0b-a087-2027a5880c08")
+		(property "Sheetname" "decoration"
+			(at 13.97 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decoration.kicad_sch"
+			(at 13.97 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 201.93 25.4)
 		(size 38.1 30.48)
 		(exclude_from_sim no)

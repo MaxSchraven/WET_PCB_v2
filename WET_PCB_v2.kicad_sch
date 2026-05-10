@@ -1817,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 25.4 31.75)
+			(xy 36.83 33.02) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 29.21) (xy 34.29 29.21)
+			(xy 25.4 30.48) (xy 34.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +2445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 31.75 0)
+		(at 36.83 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2456,7 +2456,7 @@
 		(fields_autoplaced yes)
 		(uuid "83c8b4ac-5279-4c2a-84be-b6dfaebe6bff")
 		(property "Reference" "#PWR019"
-			(at 36.83 38.1 0)
+			(at 36.83 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 36.83 0)
+			(at 36.83 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 31.75 0)
+			(at 36.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 31.75 0)
+			(at 36.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 31.75 0)
+			(at 36.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +2624,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 29.21 0)
+		(at 20.32 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2635,7 +2635,7 @@
 		(fields_autoplaced yes)
 		(uuid "88bf7854-213e-4ac7-af62-8cf31740bf29")
 		(property "Reference" "J4"
-			(at 20.955 24.13 0)
+			(at 20.955 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2645,7 +2645,7 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 20.955 26.67 0)
+			(at 20.955 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 29.21 0)
+			(at 20.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 29.21 0)
+			(at 20.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2677,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 29.21 0)
+			(at 20.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2860,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR1020VL")
-		(at 38.1 29.21 180)
+		(at 38.1 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2871,7 +2871,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe12ec07-e6d2-4ea8-a9e0-3a82739c906a")
 		(property "Reference" "D12"
-			(at 38.4175 22.86 0)
+			(at 38.4175 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Value" "MBR1020VL"
-			(at 38.4175 25.4 0)
+			(at 38.4175 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2891,7 +2891,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 38.1 24.765 0)
+			(at 38.1 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2902,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
-			(at 38.1 29.21 0)
+			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
-			(at 38.1 29.21 0)
+			(at 38.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

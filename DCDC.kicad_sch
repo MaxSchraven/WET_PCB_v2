@@ -182,146 +182,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:Q_NMOS_GDS"
 			(pin_names
 				(offset 0)
@@ -766,12 +626,6 @@
 		(uuid "275224d7-e489-4cd0-83d4-2fbedadf268c")
 	)
 	(junction
-		(at 142.24 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50262add-5618-45fe-bce9-4dac65ea7d6b")
-	)
-	(junction
 		(at 175.26 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -893,7 +747,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 142.24 43.18)
+			(xy 124.46 43.18) (xy 175.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -950,16 +804,6 @@
 			(type default)
 		)
 		(uuid "87095e4a-9772-484c-a4a8-5d3899baa481")
-	)
-	(wire
-		(pts
-			(xy 142.24 36.83) (xy 142.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c0ab0cf-3300-4221-91db-4cfecab4cee0")
 	)
 	(wire
 		(pts
@@ -1061,26 +905,6 @@
 		)
 		(uuid "f2dad19a-62b0-4bd1-a991-350ea72d056a")
 	)
-	(wire
-		(pts
-			(xy 142.24 43.18) (xy 175.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91d4f59-c1f8-4559-82e0-48da527c9a6d")
-	)
-	(wire
-		(pts
-			(xy 142.24 27.94) (xy 142.24 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd744b9e-7e01-4581-8506-6fcd46186f78")
-	)
 	(hierarchical_label "DCDC_coil_circuit_side"
 		(shape input)
 		(at 50.8 43.18 90)
@@ -1091,17 +915,6 @@
 			(justify left)
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
-	)
-	(hierarchical_label "DCDC_LED1"
-		(shape input)
-		(at 142.24 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "659ea64c-f7e0-40bd-9eca-d8bcba3e9f44")
 	)
 	(hierarchical_label "VCC_Driver_DCDC"
 		(shape input)
@@ -1502,88 +1315,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c56ef01-9904-4755-b6a8-762124ff7d99")
-		(property "Reference" "R5"
-			(at 144.78 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 144.78 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.462 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "699f0e50-7775-4282-b0d9-c14baf54bd95")
-		)
-		(pin "1"
-			(uuid "a4534e01-49be-4876-98fe-2fe03970dcad")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "R5")
 					(unit 1)
 				)
 			)

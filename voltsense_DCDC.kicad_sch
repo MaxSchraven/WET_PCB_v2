@@ -1193,6 +1193,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "R1")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "R1")
 					(unit 1)
@@ -1298,6 +1302,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "D8")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "D8")
 					(unit 1)
@@ -1380,6 +1388,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "C10")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "C10")
 					(unit 1)
@@ -1458,6 +1470,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR017")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR017")
 					(unit 1)
@@ -1547,6 +1563,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "U3")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "U3")
 					(unit 1)
@@ -1625,6 +1645,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR018")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR018")
 					(unit 1)
@@ -1705,6 +1729,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "R3")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "R3")
 					(unit 1)
@@ -1787,6 +1815,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "C9")
 					(unit 1)
@@ -1864,6 +1896,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR022")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR022")
 					(unit 1)
@@ -1942,6 +1978,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR020")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR020")
 					(unit 1)
@@ -2022,6 +2062,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "R4")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "R4")
 					(unit 1)
@@ -2099,6 +2143,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "#PWR021")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "#PWR021")
 					(unit 1)
@@ -2204,6 +2252,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "D7")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "D7")
 					(unit 1)
@@ -2286,6 +2338,10 @@
 		)
 		(instances
 			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "R2")
+					(unit 1)
+				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
 					(reference "R2")
 					(unit 1)

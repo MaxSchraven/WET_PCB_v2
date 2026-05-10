@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e9a654b0-4587-4c7e-89ba-2ccb1876f7e7")
+	(uuid "dddbc61b-94b8-481c-be1c-63a38f8ad906")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -747,16 +747,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 175.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697a6be3-68db-4bbc-b6f8-f5fee29a169a")
-	)
-	(wire
-		(pts
 			(xy 40.64 68.58) (xy 54.61 68.58)
 		)
 		(stroke
@@ -904,6 +894,16 @@
 			(type default)
 		)
 		(uuid "f2dad19a-62b0-4bd1-a991-350ea72d056a")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 175.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91d4f59-c1f8-4559-82e0-48da527c9a6d")
 	)
 	(hierarchical_label "DCDC_coil_circuit_side"
 		(shape input)

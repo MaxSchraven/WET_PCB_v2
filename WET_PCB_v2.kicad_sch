@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 33.02 43.18)
-		(size 73.66 40.64)
+		(size 60.96 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -126,6 +126,16 @@
 		(pin "Vin_DCDC_shunt_output_side" input
 			(at 80.01 43.18 90)
 			(uuid "7bdbca7e-2b16-47fd-922e-35b0c4b22b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VoutDCDC" input
+			(at 93.98 62.23 0)
+			(uuid "8f6e8858-43f6-47bc-a75b-ddd954246eeb")
 			(effects
 				(font
 					(size 1.27 1.27)

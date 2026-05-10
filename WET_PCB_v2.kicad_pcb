@@ -90,7 +90,7 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "00aac3fd-9cd0-4074-bc83-8b53ddc2ce3b")
-		(at 236.08 134.19)
+		(at 236.08 134.69)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C4"
@@ -313,7 +313,7 @@
 		(property "Reference" "D4"
 			(at 2.54 -4.1 90)
 			(layer "F.SilkS")
-			(uuid "02987ccb-1620-42c1-994b-5406500a76ef")
+			(uuid "d5bc4052-d615-48e2-aaef-810198dfbaaf")
 			(effects
 				(font
 					(size 1 1)
@@ -324,7 +324,7 @@
 		(property "Value" "STPS8H100D"
 			(at 2.54 2.2 90)
 			(layer "F.Fab")
-			(uuid "3bddec1c-33a2-4928-9de2-2f27ea517a21")
+			(uuid "f41dc582-5aa4-435e-b43e-8848fbab4f4b")
 			(effects
 				(font
 					(size 1 1)
@@ -336,7 +336,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e68aa30-7307-4639-83d4-1ebee39d3144")
+			(uuid "234d9d9e-6e8e-49aa-90d5-96dbac45b16d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +347,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55e49995-3057-4a15-adf8-83c911a6b972")
+			(uuid "04cb3814-bd3d-456d-9538-8fa1dec4ef89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5094,7 @@
 		(property "Reference" "C7"
 			(at 1 -3.75 90)
 			(layer "F.SilkS")
-			(uuid "8a280ee3-3572-4a38-b4bb-9c0c8d9eefb5")
+			(uuid "f29c442d-afaa-4af4-af35-d0678a9e93f6")
 			(effects
 				(font
 					(size 1 1)
@@ -5103,9 +5103,9 @@
 			)
 		)
 		(property "Value" "MCGPR63V106M5X11"
-			(at -4.19 15.83 90)
+			(at -4.69 15.83 90)
 			(layer "F.Fab")
-			(uuid "494ebed5-54ac-4568-9976-269378d31d2d")
+			(uuid "f9aabf2f-2b7a-47a7-907c-41ffff82b776")
 			(effects
 				(font
 					(size 1 1)
@@ -5117,7 +5117,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "491fd18b-73cd-448c-ab07-15b33d30169c")
+			(uuid "14762131-c667-4bd2-b9f9-71f69d417992")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f4323d0-2f0b-4e9f-87a7-1fb5453ff2cc")
+			(uuid "4c731b52-f297-49c8-b4cb-975c7a36359e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14845,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "7aa2ee54-0dcf-447c-ad1a-8bb24dfa13ab")
-		(at 234.58 127.19)
+		(at 234.58 127.69)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2"
@@ -16997,7 +16997,7 @@
 		(property "Reference" "C6"
 			(at 2.5 -2.2 90)
 			(layer "F.SilkS")
-			(uuid "8a65829a-6d42-49f5-8347-1ca57ed11ee5")
+			(uuid "3c90df2e-b77a-4ece-a9d1-6d07c7fe1fd0")
 			(effects
 				(font
 					(size 1 1)
@@ -17008,7 +17008,7 @@
 		(property "Value" "C322C104K5R5TA"
 			(at 2.5 2.2 90)
 			(layer "F.Fab")
-			(uuid "b2c40410-5739-47a3-9b83-f715a00becbe")
+			(uuid "4b0dad73-3ae5-4e9f-b247-0ddcc2ab3c64")
 			(effects
 				(font
 					(size 1 1)
@@ -17020,7 +17020,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd60f943-52c5-49a7-9934-fd38c011e2ca")
+			(uuid "fb84adca-3b18-4575-810b-afb9f763280a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17031,7 +17031,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a82c239a-149a-4add-8bde-409e615a870d")
+			(uuid "db438433-5069-4b9c-a9e0-7229df8fcf70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19398,7 +19398,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "ab54fa5d-8357-40dc-bc24-c361707e9173")
-		(at 234.58 124.69)
+		(at 234.58 125.19)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C1"
@@ -21019,7 +21019,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "bd04478e-43f3-408b-b91b-33e05711f3fc")
-		(at 231.62 132.74 180)
+		(at 231.62 133.24 180)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D1"
@@ -24903,7 +24903,7 @@
 		(property "Reference" "U2"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "f1b7a155-ce7a-41e0-9ceb-79a8cc739071")
+			(uuid "604c8939-113f-4a52-9555-6f2db7daa820")
 			(effects
 				(font
 					(size 1 1)
@@ -24914,7 +24914,7 @@
 		(property "Value" "IR2110"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "424c2056-80e8-4e73-a892-663c2eee8dc2")
+			(uuid "60000efc-4786-4f81-83bb-c809233ff96e")
 			(effects
 				(font
 					(size 1 1)
@@ -24926,7 +24926,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f6a6f4a-a594-4691-ac5e-a138f1192643")
+			(uuid "afb03847-b6fd-46df-a2cb-c2230f5a80d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24937,7 +24937,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "255f2a14-3c88-4043-9a2a-dfbe0549bf44")
+			(uuid "866f0cbe-6640-486c-abd4-5bbad3e15baa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25278,7 +25278,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d9ceed1f-388d-46bf-81de-99f7853ca1f8")
-		(at 225.46 130 90)
+		(at 225.46 130.5 90)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
@@ -25483,7 +25483,7 @@
 			)
 		)
 		(point
-			(at 233.08 126.19)
+			(at 233.08 126.69)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "ac49116a-8180-4b23-8f29-33b62a1c6691")
@@ -31177,7 +31177,7 @@
 		(property "Reference" "C5"
 			(at 2.5 -2.2 90)
 			(layer "F.SilkS")
-			(uuid "52874c91-d6e1-442a-ad36-c80a21d309ad")
+			(uuid "42af2777-7e83-4c63-9fe7-c6667a224221")
 			(effects
 				(font
 					(size 1 1)
@@ -31188,7 +31188,7 @@
 		(property "Value" "C322C104K5R5TA"
 			(at 2.5 2.2 90)
 			(layer "F.Fab")
-			(uuid "1fece3ad-d4d1-4e0d-a144-d960c099e1ca")
+			(uuid "6ddf1dfd-0ea6-4ef0-a4bc-d019ce83a5ee")
 			(effects
 				(font
 					(size 1 1)
@@ -31200,7 +31200,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "888587b9-90aa-41fc-ae25-e87c26506bb4")
+			(uuid "c947e7f2-d787-4cf8-901e-d1ac60eb9ab5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31211,7 +31211,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9331b6aa-5aeb-4206-8adb-c705f776d9ff")
+			(uuid "a1ddfefa-f045-4129-a140-eeebf5109cd7")
 			(effects
 				(font
 					(size 1.27 1.27)

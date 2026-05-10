@@ -3761,6 +3761,17 @@
 		)
 		(uuid "a6b5e33f-a715-4409-b080-f42856521262")
 	)
+	(hierarchical_label "VDD_Inverter"
+		(shape input)
+		(at 30.48 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b906c51a-0c44-454a-8045-fb5da35953f0")
+	)
 	(hierarchical_label "Inv_Driver_Left_SD"
 		(shape input)
 		(at 31.75 64.77 180)

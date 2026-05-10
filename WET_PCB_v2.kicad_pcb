@@ -307,7 +307,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "02f2cc05-9ac9-4645-8164-f1a2c413ed92")
-		(at 287.55 127.46 -90)
+		(at 220.95 148.54 90)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D4"
@@ -367,7 +367,7 @@
 			)
 		)
 		(property "Height" "4.6"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -380,7 +380,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -393,7 +393,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -419,7 +419,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STPS8H100D"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -443,54 +443,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.57 1.36)
-			(end -2.57 -3.26)
+			(start 7.65 -3.26)
+			(end 7.65 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05a3f4e8-873a-4611-8788-7d39e0240bba")
-		)
-		(fp_line
-			(start 7.65 1.36)
-			(end -2.57 1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfe874a1-2c6f-4234-846c-23d8207e1fc8")
-		)
-		(fp_line
-			(start -2.57 -1.88)
-			(end 7.65 -1.88)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5bec8dd4-7231-45ae-a9f1-626221e5516b")
-		)
-		(fp_line
-			(start -2.57 -3.26)
-			(end 7.65 -3.26)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7052934b-eea2-4dfa-b6ff-414a1cbc2364")
-		)
-		(fp_line
-			(start 0.69 -3.26)
-			(end 0.69 -1.88)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4adfc80c-9c51-4607-83c0-9b0342d949cf")
+			(uuid "8130627b-5e6f-4a63-bf58-f1f371addfb0")
 		)
 		(fp_line
 			(start 4.39 -3.26)
@@ -503,14 +463,54 @@
 			(uuid "47d443db-1bff-4862-bae7-e45e2b4246cf")
 		)
 		(fp_line
-			(start 7.65 -3.26)
-			(end 7.65 1.36)
+			(start 0.69 -3.26)
+			(end 0.69 -1.88)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8130627b-5e6f-4a63-bf58-f1f371addfb0")
+			(uuid "4adfc80c-9c51-4607-83c0-9b0342d949cf")
+		)
+		(fp_line
+			(start -2.57 -3.26)
+			(end 7.65 -3.26)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7052934b-eea2-4dfa-b6ff-414a1cbc2364")
+		)
+		(fp_line
+			(start -2.57 -1.88)
+			(end 7.65 -1.88)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5bec8dd4-7231-45ae-a9f1-626221e5516b")
+		)
+		(fp_line
+			(start 7.65 1.36)
+			(end -2.57 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cfe874a1-2c6f-4234-846c-23d8207e1fc8")
+		)
+		(fp_line
+			(start -2.57 1.36)
+			(end -2.57 -3.26)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "05a3f4e8-873a-4611-8788-7d39e0240bba")
 		)
 		(fp_rect
 			(start -2.71 -3.4)
@@ -524,14 +524,14 @@
 			(uuid "09d5e417-b449-40cf-ac47-2c8c51fd2427")
 		)
 		(fp_line
-			(start -2.46 -1.88)
-			(end 7.54 -1.88)
+			(start 4.39 -3.15)
+			(end 4.39 -1.88)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a172b989-cb7c-4754-8af5-4a74648d4d7f")
+			(uuid "e21603fd-257b-467a-bb90-11f712ca34bc")
 		)
 		(fp_line
 			(start 0.69 -3.15)
@@ -544,14 +544,14 @@
 			(uuid "46f88bf7-280c-4a71-b65f-a8652c2dc7b0")
 		)
 		(fp_line
-			(start 4.39 -3.15)
-			(end 4.39 -1.88)
+			(start -2.46 -1.88)
+			(end 7.54 -1.88)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e21603fd-257b-467a-bb90-11f712ca34bc")
+			(uuid "a172b989-cb7c-4754-8af5-4a74648d4d7f")
 		)
 		(fp_rect
 			(start -2.46 -3.15)
@@ -576,7 +576,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -587,7 +587,7 @@
 			(uuid "2f3c8244-2938-4fe4-9195-8e5dfa2d4e9b")
 		)
 		(pad "2" thru_hole circle
-			(at 5.08 0 270)
+			(at 5.08 0 90)
 			(size 2 2)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -21019,7 +21019,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-2_Vertical"
 		(layer "F.Cu")
 		(uuid "bd04478e-43f3-408b-b91b-33e05711f3fc")
-		(at 288.05 113.96 -90)
+		(at 224.05 126.46 -90)
 		(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
 		(tags "TO-220-2 Vertical RM 5.08mm")
 		(property "Reference" "D1"

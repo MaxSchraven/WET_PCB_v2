@@ -10784,7 +10784,7 @@
 		(property "Reference" "Q6"
 			(at 2.54 -4.1 0)
 			(layer "F.SilkS")
-			(uuid "f0038321-740b-4feb-b62a-d78548b5b057")
+			(uuid "17c8d40f-6036-4d04-b683-afe584605374")
 			(effects
 				(font
 					(size 1 1)
@@ -10795,7 +10795,7 @@
 		(property "Value" "Q_NMOS_GDS"
 			(at 2.54 2.2 0)
 			(layer "F.Fab")
-			(uuid "033330ed-ae86-47ce-9ed5-28d267cc8125")
+			(uuid "20c89603-5035-435c-9a25-b731c0cc6658")
 			(effects
 				(font
 					(size 1 1)
@@ -10807,7 +10807,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f2fe020-3717-4d81-a96b-09d266e0ca2d")
+			(uuid "09583565-a23d-4600-bdae-e6452622fa20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10818,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4a19752-0dff-40ae-8394-d3e914e09cdb")
+			(uuid "48f6d537-033b-4fed-bd6b-410b0b7117e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11036,7 @@
 		(property "Reference" "R17"
 			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
-			(uuid "6e909a9f-76d9-4daa-8f32-b8c4631b6fea")
+			(uuid "fc20806d-a6a7-4235-8900-2a7e08ec607a")
 			(effects
 				(font
 					(size 1 1)
@@ -11047,7 +11047,7 @@
 		(property "Value" "MF25_10K"
 			(at 3.81 2.37 90)
 			(layer "F.Fab")
-			(uuid "5b913e5e-7a0b-415f-bf33-9e67edeec37f")
+			(uuid "112e99b9-5bdd-40f7-8e51-92c2ae5ad2e3")
 			(effects
 				(font
 					(size 1 1)
@@ -11059,7 +11059,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc479960-fb86-4c33-a793-c6d46bee8ee1")
+			(uuid "524a5c66-4cbf-4434-bda3-d1ca845cc63a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11070,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "608f980b-fe08-4e65-b9d9-7245611989c9")
+			(uuid "8da9b2eb-ff75-4b76-b406-f2ba71d860cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21601,7 +21601,7 @@
 		(property "Reference" "R19"
 			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
-			(uuid "9cedc3d8-e7a8-4c59-a161-580255288500")
+			(uuid "f10a87a1-1903-4845-a51d-e573918965b2")
 			(effects
 				(font
 					(size 1 1)
@@ -21612,7 +21612,7 @@
 		(property "Value" "MF25_10K"
 			(at 3.81 2.37 90)
 			(layer "F.Fab")
-			(uuid "b88903c2-e6b1-4ce6-be24-2956d04c0de7")
+			(uuid "98cbc5c3-0f31-4345-8ba0-cb5c8b47d86f")
 			(effects
 				(font
 					(size 1 1)
@@ -21624,7 +21624,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d52aba9-c935-4f2b-b8b1-5ca0d0e4f32f")
+			(uuid "d54f6df0-ca53-40f7-9fee-323587b1d567")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21635,7 +21635,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02134ee4-2e12-44bd-b809-55a835450c71")
+			(uuid "e688df37-1bb6-4d81-8411-c9faca1be4b4")
 			(effects
 				(font
 					(size 1.27 1.27)

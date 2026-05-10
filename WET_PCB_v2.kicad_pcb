@@ -5015,7 +5015,7 @@
 	(footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "33a9d013-7dc9-4222-b908-4dbcc2a9c3f2")
-		(at 185.5 44.55)
+		(at 185.5 47.5)
 		(descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C12"

@@ -23469,7 +23469,7 @@
 	(footprint "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
 		(layer "F.Cu")
 		(uuid "ca313c37-013d-448c-abcc-4cc3d9b8c925")
-		(at 55.89 36.5)
+		(at 171.5 102.5)
 		(descr "Diode, DO-15 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=7.6*3.6mm^2, http://www.diodes.com/_files/packages/DO-15.pdf")
 		(tags "Diode DO-15 series Axial Vertical pin pitch 2.54mm  length 7.6mm diameter 3.6mm")
 		(property "Reference" "D12"

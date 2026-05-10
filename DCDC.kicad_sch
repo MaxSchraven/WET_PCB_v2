@@ -927,7 +927,7 @@
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
 	)
-	(hierarchical_label "VCC_Driver_DCDC"
+	(hierarchical_label "VCC_Driver"
 		(shape passive)
 		(at 142.24 53.34 0)
 		(effects
@@ -938,7 +938,7 @@
 		)
 		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
 	)
-	(hierarchical_label "DCDC_Driver_Lin"
+	(hierarchical_label "CDC_Driver_Lin"
 		(shape output)
 		(at 142.24 58.42 0)
 		(effects

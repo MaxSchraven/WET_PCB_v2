@@ -5986,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "Shunt"
 			(at 107.95 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1932,7 +1932,7 @@
 		(dnp no)
 		(uuid "81038cb3-66f0-451b-bc55-178008a0bf9e")
 		(property "Reference" "J3"
-			(at 260.35 46.9899 0)
+			(at 273.812 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1944,6 +1944,7 @@
 		)
 		(property "Value" "Conn_01x09_Pin"
 			(at 266.954 32.512 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1312,36 +1312,6 @@
 		)
 		(uuid "f8e7e3a7-0e86-4aa3-a3ad-0fe914dd7166")
 	)
-	(label "Off"
-		(at 114.3 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b4ec36d-c3c5-41e9-9f88-29102d8c42d3")
-	)
-	(label "Hin"
-		(at 114.3 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5672c767-423a-48c4-863e-d44a32ff1be1")
-	)
-	(label "Lin"
-		(at 114.3 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcba1080-7c4b-492b-b4b5-1fe5271d3097")
-	)
 	(hierarchical_label "Vin_DCDC_shunt_input_side"
 		(shape output)
 		(at 58.42 27.94 0)

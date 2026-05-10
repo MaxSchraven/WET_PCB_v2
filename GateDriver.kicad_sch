@@ -2215,7 +2215,7 @@
 		)
 		(uuid "734ebf5c-180d-40c3-9f29-6dd3dce6078c")
 	)
-	(hierarchical_label "VDD_Driver"
+	(hierarchical_label "VDD_Driver_DCDC"
 		(shape input)
 		(at 82.55 24.13 90)
 		(effects
@@ -2237,7 +2237,7 @@
 		)
 		(uuid "c682f22a-960c-41cf-a95b-eef96a882dfa")
 	)
-	(hierarchical_label "VCC_Driver"
+	(hierarchical_label "VCC_Driver_DCDC"
 		(shape input)
 		(at 92.71 24.13 90)
 		(effects

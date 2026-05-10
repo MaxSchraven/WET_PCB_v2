@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "62fe946d-a3d3-4005-8b4b-043d4de034df")
+	(uuid "f9a4dc16-9dc5-4210-b44a-c0dd9e4a39a0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -599,6 +599,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "check if this is even the right driver\n\n"
+		(exclude_from_sim no)
+		(at 91.186 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d41edfc-f2ae-4245-824c-834705654245")
+	)
 	(text "is one cap at in and out enough or do we want to add more (we can leave them empty anyway)"
 		(exclude_from_sim no)
 		(at 116.078 75.692 0)
@@ -927,7 +937,7 @@
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
 	)
-	(hierarchical_label "VCC_Driver"
+	(hierarchical_label "VCC_Driver_DCDC"
 		(shape passive)
 		(at 142.24 53.34 0)
 		(effects
@@ -938,7 +948,7 @@
 		)
 		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
 	)
-	(hierarchical_label "CDC_Driver_Lin"
+	(hierarchical_label "DCDC_Driver_Lin"
 		(shape output)
 		(at 142.24 58.42 0)
 		(effects

@@ -2154,16 +2154,6 @@
 		)
 		(uuid "f9a17c02-69ed-4169-b44a-a385cc1b56ba")
 	)
-	(wire
-		(pts
-			(xy 48.26 46.99) (xy 41.91 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5629fb-ae43-4391-b404-235d35943ca2")
-	)
 	(label "GPIO_A11"
 		(at 297.18 81.28 180)
 		(effects
@@ -2333,84 +2323,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0e628b1-5f09-462e-984d-1b03daef1f73")
-	)
-	(symbol
-		(lib_id "power:VPP")
-		(at 48.26 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bb774d8-b321-4eba-9ec6-f0a4cda78e42")
-		(property "Reference" "#PWR030"
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VPP"
-			(at 48.26 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 48.26 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07c781ad-0795-4d49-885d-c494d90cae3a")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "WET:WET_Token_10")
@@ -2774,86 +2686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR1020VL")
-		(at 38.1 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4298277b-b081-4109-9293-4fe762232f12")
-		(property "Reference" "D13"
-			(at 38.4175 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR1020VL"
-			(at 38.4175 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 38.1 42.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "901fe68a-b5d5-4dfd-8ca1-6db8658e495c")
-		)
-		(pin "1"
-			(uuid "5665b477-d3bc-428e-a24b-d1f9d0b86567")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 20.32 46.99 0)
 		(unit 1)
@@ -2875,7 +2707,7 @@
 				)
 			)
 		)
-		(property "Value" "XT60"
+		(property "Value" "Barrel jack"
 			(at 20.955 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)

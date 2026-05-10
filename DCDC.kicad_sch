@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "dd65c81d-30f3-4f93-a2ca-3d65f5b4880c")
+	(uuid "b782af11-17b9-461f-bb18-1ad22ebdb0f7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -777,7 +777,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 72.39 43.18)
+			(xy 54.61 43.18) (xy 91.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -824,16 +824,6 @@
 			(type default)
 		)
 		(uuid "918c7d1e-082b-4756-ad22-a43777205053")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 78.74 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b1a112-438c-4ec9-a144-32482cfbdab0")
 	)
 	(wire
 		(pts
@@ -915,17 +905,6 @@
 		)
 		(uuid "f2dad19a-62b0-4bd1-a991-350ea72d056a")
 	)
-	(hierarchical_label "Vin_DCDC_shunt_input_side"
-		(shape output)
-		(at 72.39 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04f04ce9-6cea-4f27-8a70-ffa427d965bc")
-	)
 	(hierarchical_label "DCDC_coil_circuit_side"
 		(shape input)
 		(at 50.8 43.18 90)
@@ -958,17 +937,6 @@
 			(justify left)
 		)
 		(uuid "75ed4b46-76f5-4020-8ea3-2c8e5cb13544")
-	)
-	(hierarchical_label "Vin_DCDC_shunt_output_side"
-		(shape input)
-		(at 78.74 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8282836f-595e-49ee-885c-71b3e1111de3")
 	)
 	(hierarchical_label "DCDC_Driver_Hin"
 		(shape output)

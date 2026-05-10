@@ -3743,6 +3743,17 @@
 		)
 		(uuid "ca5f3803-deb7-4405-a2e1-6e9d1e88e651")
 	)
+	(hierarchical_label "Inv_Driver_Right_Hin"
+		(shape input)
+		(at 257.81 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167b568a-8902-49a2-9f8f-de90144137cb")
+	)
 	(hierarchical_label "Inv_Driver_Left_Hin"
 		(shape input)
 		(at 31.75 59.69 180)
@@ -3776,7 +3787,7 @@
 		)
 		(uuid "2a86bd85-02d9-4412-b00e-b55ec376b297")
 	)
-	(hierarchical_label "Inv_Driver_Left_Hin"
+	(hierarchical_label "Inv_Driver_Right_Hin"
 		(shape input)
 		(at 257.81 59.69 0)
 		(effects

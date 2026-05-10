@@ -3354,6 +3354,16 @@
 		)
 		(uuid "6091b912-d244-42fb-9f1d-53215e3cd13a")
 	)
+	(text "it feels kinda odd to not have ugeass caps, i think were missing something"
+		(exclude_from_sim no)
+		(at 171.45 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "743cd39e-3dea-4929-a315-9741801b0cae")
+	)
 	(text "the caps have random footprints \nso they appear in the layout designer"
 		(exclude_from_sim no)
 		(at 68.834 51.562 0)

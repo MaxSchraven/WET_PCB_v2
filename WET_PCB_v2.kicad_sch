@@ -2683,7 +2683,7 @@
 	)
 	(text "theres no PWM ch left so might be fun to \nso it adjusting its dutycycle for the DCDC\n"
 		(exclude_from_sim no)
-		(at 49.784 110.49 0)
+		(at 50.8 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)

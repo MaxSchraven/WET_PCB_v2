@@ -916,6 +916,17 @@
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
 	)
+	(hierarchical_label "VoutDCDC"
+		(shape input)
+		(at 179.07 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "659ea64c-f7e0-40bd-9eca-d8bcba3e9f44")
+	)
 	(hierarchical_label "VCC_Driver_DCDC"
 		(shape input)
 		(at 142.24 53.34 0)

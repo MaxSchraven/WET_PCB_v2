@@ -1505,6 +1505,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e547f70c-7bec-4117-9e0a-e594b69335eb")
+	)
+	(wire
+		(pts
 			(xy 154.94 38.1) (xy 165.1 38.1)
 		)
 		(stroke
@@ -1604,12 +1614,12 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 58.42 116.84 180)
+		(at 60.96 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
 	)

@@ -3050,7 +3050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 191.44 40.64 0)
 			(hide yes)
 			(show_name no)

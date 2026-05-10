@@ -2436,16 +2436,16 @@
 		(uuid "5ae540a0-8dd2-4713-aa5e-12a4408be37f")
 	)
 	(junction
-		(at 44.45 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6251718e-87b7-42bb-a0a8-80de8f7cac00")
-	)
-	(junction
 		(at 54.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a22e40-c060-4f7c-9537-9c46c4164437")
+	)
+	(junction
+		(at 44.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68464ba4-f22b-4c65-b11b-59681660c248")
 	)
 	(junction
 		(at 153.67 53.34)
@@ -3475,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 54.61 29.21)
+			(xy 54.61 27.94) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3744,7 @@
 		(uuid "434f2d53-6c63-4f0c-8007-e468b24d15bb")
 	)
 	(label "VCC_Inverter"
-		(at 54.61 25.4 0)
+		(at 54.61 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)

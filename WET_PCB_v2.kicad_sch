@@ -1896,7 +1896,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 96.52 35.56 0)
+		(at 259.08 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1907,27 +1907,29 @@
 		(fields_autoplaced yes)
 		(uuid "81038cb3-66f0-451b-bc55-178008a0bf9e")
 		(property "Reference" "J3"
-			(at 97.155 20.32 0)
+			(at 260.35 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 97.155 22.86 0)
+			(at 260.35 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 35.56 0)
+			(at 259.08 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1938,7 +1940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 35.56 0)
+			(at 259.08 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,7 +1951,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 96.52 35.56 0)
+			(at 259.08 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -22077,7 +22077,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "c17439c9-45a8-4bbc-85e4-6bc50c8c2e75")
-		(at 256.55 136.46 -90)
+		(at 256.05 136.46 -90)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"

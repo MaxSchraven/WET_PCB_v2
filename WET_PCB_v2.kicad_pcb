@@ -31923,5 +31923,25 @@
 		(layer "Edge.Cuts")
 		(uuid "0b57cc6d-90d3-494d-800a-03d1d48ccc25")
 	)
+	(zone
+		(net "GND")
+		(layer "B.Cu")
+		(uuid "b81ed0a2-4033-45f8-a7c3-46aeb15c9ef7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 158 80.5) (xy 258.5 80.5) (xy 257.5 160.5) (xy 157.5 160.5) (xy 141 162) (xy 160.5 154.5) (xy 160.5 159.5)
+			)
+		)
+	)
 	(embedded_fonts no)
 )

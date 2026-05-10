@@ -6902,17 +6902,17 @@
 			)
 		)
 		(pin "Shunt_from_source" input
-			(at 102.87 54.61 270)
+			(at 104.14 34.29 90)
 			(uuid "53049973-aa7b-4eae-bad0-6287628ba096")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "Shunt_to_load" input
-			(at 111.76 34.29 90)
+			(at 109.22 34.29 90)
 			(uuid "20a45f4a-ae3f-4743-b935-ae0ee6564c4b")
 			(effects
 				(font

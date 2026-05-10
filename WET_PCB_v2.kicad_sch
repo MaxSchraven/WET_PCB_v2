@@ -93,7 +93,7 @@
 				(justify left)
 			)
 		)
-		(pin "VCC_Driver_DCDC" passive
+		(pin "VCC_Driver_DCDC" input
 			(at 20.32 24.13 180)
 			(uuid "095b3bc5-1cd9-4fe0-97cc-958f047f2c5f")
 			(effects

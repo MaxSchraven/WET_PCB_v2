@@ -2185,7 +2185,7 @@
 		(uuid "889984a8-9f34-40e4-bf0a-940d92d09775")
 	)
 	(junction
-		(at 43.18 52.07)
+		(at 41.91 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d7fd9a4-eb1b-43be-a284-25cd392c5997")
@@ -2197,7 +2197,7 @@
 		(uuid "285a725a-099c-429f-b56e-18eb42bab4ce")
 	)
 	(junction
-		(at 33.02 44.45)
+		(at 31.75 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58f35748-0572-4720-9641-8f9db3e72e1e")
@@ -2209,7 +2209,7 @@
 		(uuid "6b6b8885-4129-40c7-8544-d3cefefdd700")
 	)
 	(junction
-		(at 43.18 44.45)
+		(at 41.91 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7526a40a-df6e-4cbe-8567-23d757262a3a")
@@ -2221,7 +2221,7 @@
 		(uuid "8c5eea9a-7963-4746-9016-496e7cc2edbf")
 	)
 	(junction
-		(at 33.02 52.07)
+		(at 31.75 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97a1813a-6996-4fc4-8701-6209c938fb12")
@@ -2308,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 44.45) (xy 33.02 46.99)
+			(xy 31.75 45.72) (xy 31.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 49.53) (xy 33.02 52.07)
+			(xy 31.75 50.8) (xy 31.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 60.96 44.45)
+			(xy 41.91 45.72) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 46.99) (xy 25.4 46.99)
+			(xy 31.75 48.26) (xy 24.13 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2438,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 60.96 52.07)
+			(xy 41.91 53.34) (xy 59.69 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 44.45) (xy 43.18 44.45)
+			(xy 31.75 45.72) (xy 41.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 49.53) (xy 25.4 49.53)
+			(xy 31.75 50.8) (xy 24.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 33.02 52.07)
+			(xy 41.91 53.34) (xy 31.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 52.07 0)
+		(at 31.75 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2936,7 +2936,7 @@
 		(fields_autoplaced yes)
 		(uuid "166bb19d-7c0b-4715-979a-e5a8ffa0a8bb")
 		(property "Reference" "#PWR029"
-			(at 33.02 58.42 0)
+			(at 31.75 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +2947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 57.15 0)
+			(at 31.75 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2957,7 +2957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 52.07 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 52.07 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 52.07 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3159,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 60.96 48.26 0)
+		(at 59.69 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3170,7 +3170,7 @@
 		(fields_autoplaced yes)
 		(uuid "3043011d-a9ee-4716-b6e4-6aa62901e4b4")
 		(property "Reference" "C17"
-			(at 64.77 46.1009 0)
+			(at 63.5 47.3709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3181,7 +3181,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 64.77 48.6409 0)
+			(at 63.5 49.9109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.9252 52.07 0)
+			(at 60.6552 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 48.26 0)
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 60.96 48.26 0)
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,7 +3241,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 33.02 44.45 0)
+		(at 31.75 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3252,7 +3252,7 @@
 		(fields_autoplaced yes)
 		(uuid "4935b149-eaeb-49ef-a990-7a90aeadf889")
 		(property "Reference" "#PWR030"
-			(at 33.02 48.26 0)
+			(at 31.75 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 33.02 39.37 0)
+			(at 31.75 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3273,7 +3273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 44.45 0)
+			(at 31.75 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 44.45 0)
+			(at 31.75 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3295,7 +3295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 33.02 44.45 0)
+			(at 31.75 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +3319,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 46.99 0)
+		(at 19.05 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3330,7 +3330,7 @@
 		(fields_autoplaced yes)
 		(uuid "7750c551-8890-46c8-91d8-1921bb3ce235")
 		(property "Reference" "J5"
-			(at 20.955 41.91 0)
+			(at 19.685 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Value" "Barrel jack"
-			(at 20.955 44.45 0)
+			(at 19.685 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3350,7 +3350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 46.99 0)
+			(at 19.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 46.99 0)
+			(at 19.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,7 +3372,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 46.99 0)
+			(at 19.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3681,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 43.18 48.26 0)
+		(at 41.91 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3692,7 +3692,7 @@
 		(fields_autoplaced yes)
 		(uuid "868bec7a-801b-477e-8d31-0f0c26eb656e")
 		(property "Reference" "C16"
-			(at 46.99 46.1009 0)
+			(at 45.72 47.3709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3703,7 +3703,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 46.99 48.6409 0)
+			(at 45.72 49.9109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.1452 52.07 0)
+			(at 42.8752 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 48.26 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 43.18 48.26 0)
+			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4233,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 27.94 72.39 0)
+		(at 30.48 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4244,7 +4244,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbb7d28f-3d45-44a9-8677-18a22e637cb3")
 		(property "Reference" "D13"
-			(at 26.3525 66.04 0)
+			(at 28.8925 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4254,7 +4254,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 26.3525 68.58 0)
+			(at 28.8925 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4264,7 +4264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 72.39 0)
+			(at 30.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 72.39 0)
+			(at 30.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4286,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 27.94 72.39 0)
+			(at 30.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,7 +4297,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 27.94 72.39 0)
+			(at 30.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

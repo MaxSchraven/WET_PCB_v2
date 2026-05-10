@@ -721,6 +721,10 @@
     [
       "7293ed87-9a5c-4e01-a7da-6a6e465a8771",
       "12V_to5V"
+    ],
+    [
+      "6ecc05b2-84d4-404f-84e6-8cc19742ad68",
+      "currsense_DCDC1"
     ]
   ],
   "text_variables": {},

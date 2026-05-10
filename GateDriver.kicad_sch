@@ -1508,7 +1508,7 @@
 	)
 	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
 		(exclude_from_sim no)
-		(at 36.576 70.358 0)
+		(at 35.814 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2160,7 +2160,7 @@
 		)
 		(uuid "412583e1-faae-4f07-8942-4d4f6a38c0b3")
 	)
-	(hierarchical_label "DCDC_Driver_Lin"
+	(hierarchical_label "Lin"
 		(shape input)
 		(at 60.96 60.96 180)
 		(effects
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "56488b57-ba42-43b1-91c5-97228e2c6a81")
 	)
-	(hierarchical_label "DCDC_Driver_SD"
+	(hierarchical_label "SD"
 		(shape input)
 		(at 60.96 63.5 180)
 		(effects
@@ -2226,7 +2226,7 @@
 		)
 		(uuid "8b24747a-b55e-4a5f-86b5-c80b125476a4")
 	)
-	(hierarchical_label "DCDC_Driver_Hin"
+	(hierarchical_label "Hin"
 		(shape input)
 		(at 60.96 58.42 180)
 		(effects

@@ -1236,7 +1236,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "380d68f7-e2fb-44dc-a054-c0bc60efdf3a")
 		(property "Reference" "U5"
 			(at 80.01 50.7298 0)

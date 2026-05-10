@@ -3778,12 +3778,12 @@
 	)
 	(hierarchical_label "Inv_Driver_Left_Hin"
 		(shape input)
-		(at 256.54 59.69 270)
+		(at 257.81 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3ab3c9d0-8e5a-466f-966f-e7b0a03b5ff4")
 	)

@@ -928,7 +928,7 @@
 		(uuid "65dd3598-eb7c-4693-a9ec-3b3453af5533")
 	)
 	(hierarchical_label "DCDC_Driver_Lin"
-		(shape output)
+		(shape input)
 		(at 142.24 58.42 0)
 		(effects
 			(font
@@ -939,7 +939,7 @@
 		(uuid "75ed4b46-76f5-4020-8ea3-2c8e5cb13544")
 	)
 	(hierarchical_label "DCDC_Driver_Hin"
-		(shape output)
+		(shape input)
 		(at 142.24 60.96 0)
 		(effects
 			(font

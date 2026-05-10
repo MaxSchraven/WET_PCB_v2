@@ -4233,7 +4233,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 30.48 66.04 0)
+		(at 39.37 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4244,27 +4244,29 @@
 		(fields_autoplaced yes)
 		(uuid "fbb7d28f-3d45-44a9-8677-18a22e637cb3")
 		(property "Reference" "D13"
-			(at 28.8925 59.69 0)
+			(at 43.18 62.5474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 28.8925 62.23 0)
+			(at 43.18 65.0874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 66.04 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 66.04 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4288,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 30.48 66.04 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,7 +4299,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 66.04 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

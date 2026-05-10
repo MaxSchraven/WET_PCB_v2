@@ -1144,8 +1144,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Capacitor"
-			(at 85.09 63.5 0)
+		(property "Value" "Capacitor connector"
+			(at 84.836 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

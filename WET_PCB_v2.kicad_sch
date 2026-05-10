@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 76.2 68.58)
-		(size 29.21 33.02)
+		(at 33.02 71.12)
+		(size 26.67 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "04007180-46fe-4cf0-9e6f-a7d321798318")
 		(property "Sheetname" "DCDC"
-			(at 75.4884 101.6 90)
+			(at 33.02 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 105.9946 101.6 90)
+			(at 33.02 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,106 +41,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "VoutDCDC" input
-			(at 76.2 68.58 90)
-			(uuid "eb85be93-2af1-43ce-9175-3a10311d1d82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC_Driver_DCDC" passive
-			(at 77.8193 68.58 90)
-			(uuid "ec8112e8-0727-43df-9aa4-e65dc9d2e190")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DCDC_Driver_SD" output
-			(at 79.4386 68.58 90)
-			(uuid "fb4e2d33-5bbc-41a9-ac48-574fe20acde6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DCDC_Driver_Hin" output
-			(at 81.0579 68.58 90)
-			(uuid "d0a34c24-76d4-4d37-99e0-2d6ba7dbdfba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DCDC_Driver_Lin" output
-			(at 82.6772 68.58 90)
-			(uuid "5deaeb2d-a7d3-4ce9-891b-e690385ae615")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin_DCDC_shunt_output_side" input
-			(at 84.2965 68.58 90)
-			(uuid "d16a6fb9-2774-489b-ae72-6eba5b2dfe9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin_DCDC_shunt_input_side" output
-			(at 85.9158 68.58 90)
-			(uuid "72f08a4a-7ec1-4068-91d2-b9668be1ef2c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin_DCDC+" input
-			(at 87.5351 68.58 90)
-			(uuid "6b0ad76b-eb57-44ad-88b0-48c78d0228d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DCDC_coil_input_side" output
-			(at 89.1544 68.58 90)
-			(uuid "65350970-c791-49a5-a94a-dbbd69c885c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DCDC_coil_circuit_side" input
-			(at 90.7737 68.58 90)
-			(uuid "72a422e3-a417-43c9-9580-ec1850a75054")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -189,36 +89,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vsense_ADC" output
-			(at 33.02 113.03 90)
-			(uuid "38226453-c087-4a42-8b65-0f48d6647f5c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vsense_in" input
-			(at 34.6393 113.03 90)
-			(uuid "fd9b0d8b-9b27-4505-896e-cd5d49e6f43c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_OPAMP" output
-			(at 36.2586 113.03 90)
-			(uuid "65959f79-82ca-4d7e-b096-143de9cfd32b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
@@ -228,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 66.04 41.91)
+		(at 33.02 88.9)
 		(size 26.67 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -244,7 +114,7 @@
 		)
 		(uuid "a035cbd1-b4bf-441e-99d9-9f1401ee5bfe")
 		(property "Sheetname" "inverter"
-			(at 66.04 41.1984 0)
+			(at 33.02 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -255,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 66.04 56.4646 0)
+			(at 33.02 103.4546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,116 +133,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "Vout_Inverter_+" output
-			(at 66.04 41.91 90)
-			(uuid "bf56b259-6a89-462e-b738-476e7e9b61a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vout_Inverter_-" output
-			(at 67.6593 41.91 90)
-			(uuid "343d30e6-5b62-46c8-af8c-5863d94b67d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin_Inverter" input
-			(at 69.2786 41.91 90)
-			(uuid "1541bf2b-3b2f-4207-8676-038d01574a88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Right_SD" input
-			(at 70.8979 41.91 90)
-			(uuid "5606a807-8dcf-4f0c-8011-6fac885d815b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Right_Lin" input
-			(at 70.8979 41.91 90)
-			(uuid "e105ac1f-b024-46ed-a1d6-8d1969a79691")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Right_Hin" input
-			(at 70.8979 41.91 90)
-			(uuid "1a99f8e6-c487-49fe-9ecc-9695fd3da34f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Left_SD" input
-			(at 72.5172 41.91 90)
-			(uuid "616be9b7-2f90-44de-b216-299a9f02a140")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Left_Lin" input
-			(at 72.5172 41.91 90)
-			(uuid "0e6d1910-ff05-4e6a-b7f1-0a44f87bf770")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Inv_Driver_Left_Hin" input
-			(at 72.5172 41.91 90)
-			(uuid "4c1fef8d-dfd0-46ee-aa32-b0e3b083e6e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_Driver_Inverter" input
-			(at 72.5172 41.91 90)
-			(uuid "8e3c75a1-8bc4-4fe2-9e02-ea4107f10535")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC_Driver_Inverter" input
-			(at 72.5172 41.91 90)
-			(uuid "da2cea7b-9717-448d-b02b-82be658fb3b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

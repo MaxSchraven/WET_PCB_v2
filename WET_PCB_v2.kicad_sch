@@ -4226,16 +4226,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de70edf0-9937-4e0b-96e2-4142e289dcf8")
-	)
-	(wire
-		(pts
 			(xy 180.34 85.09) (xy 177.8 85.09)
 		)
 		(stroke
@@ -5389,6 +5379,88 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 62.23 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3490fa02-be50-4a19-87d8-5039d867fe99")
+		(property "Reference" "C18"
+			(at 66.04 82.9309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 66.04 85.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.1952 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7458afc-2d2a-401a-a1b9-e6dd28946f55")
+		)
+		(pin "1"
+			(uuid "09a61e70-6052-4aa4-824e-9fc2480cbb7f")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8595,7 +8667,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 73.66 0)
+		(at 69.85 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8606,7 +8678,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc70918-7caa-406e-957b-41a1e1510d2c")
 		(property "Reference" "#PWR046"
-			(at 69.85 77.47 0)
+			(at 69.85 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,7 +8689,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 68.58 0)
+			(at 69.85 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8627,7 +8699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 73.66 0)
+			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8638,7 +8710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 73.66 0)
+			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 73.66 0)
+			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1055,6 +1055,16 @@
 		)
 		(uuid "fde1af37-d331-4192-a6c9-12211e5b69b6")
 	)
+	(label "ADC1_IN5"
+		(at 0.1588 2.0957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08b50a82-8919-4f26-a1d6-c6c579fb6e15")
+	)
 	(label "VDD_OPAMP"
 		(at 128.27 38.1 0)
 		(effects

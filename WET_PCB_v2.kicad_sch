@@ -7549,7 +7549,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 158.242 50.546 0)
+			(at 180.34 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8064,7 +8064,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8085,7 +8084,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 201.93 56.4646 0)
+			(at 199.39 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

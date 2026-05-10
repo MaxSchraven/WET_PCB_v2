@@ -43,6 +43,106 @@
 				(justify left top)
 			)
 		)
+		(pin "VoutDCDC" input
+			(at 33.02 71.12 90)
+			(uuid "eb85be93-2af1-43ce-9175-3a10311d1d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_Driver_DCDC" passive
+			(at 34.6393 71.12 90)
+			(uuid "ec8112e8-0727-43df-9aa4-e65dc9d2e190")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_SD" output
+			(at 36.2586 71.12 90)
+			(uuid "fb4e2d33-5bbc-41a9-ac48-574fe20acde6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_Hin" output
+			(at 37.8779 71.12 90)
+			(uuid "d0a34c24-76d4-4d37-99e0-2d6ba7dbdfba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_Driver_Lin" output
+			(at 39.4972 71.12 90)
+			(uuid "5deaeb2d-a7d3-4ce9-891b-e690385ae615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC_shunt_output_side" input
+			(at 41.1165 71.12 90)
+			(uuid "d16a6fb9-2774-489b-ae72-6eba5b2dfe9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC_shunt_input_side" output
+			(at 42.7358 71.12 90)
+			(uuid "72f08a4a-7ec1-4068-91d2-b9668be1ef2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_DCDC+" input
+			(at 44.3551 71.12 90)
+			(uuid "6b0ad76b-eb57-44ad-88b0-48c78d0228d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_coil_input_side" output
+			(at 45.9744 71.12 90)
+			(uuid "65350970-c791-49a5-a94a-dbbd69c885c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCDC_coil_circuit_side" input
+			(at 47.5937 71.12 90)
+			(uuid "72a422e3-a417-43c9-9580-ec1850a75054")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
